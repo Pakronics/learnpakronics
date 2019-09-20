@@ -9,7 +9,7 @@ sku: 113060000
 category: Communication
 ---
 
-# Grove 433MHz\_Simple\_RF\_Link\_Kit
+# Grove 433MHz Simple RF Link Kit
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-433MHz_Simple_RF_Link_Kit/master/img/433MHz_Simple_RF.jpg)
 

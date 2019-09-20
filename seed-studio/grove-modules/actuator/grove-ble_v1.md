@@ -10,7 +10,7 @@ sku: 113020007
 category: Communication
 ---
 
-# Grove BLE\_v1
+# Grove BLE v1
 
  !\[\]\(https://raw.githubusercontent.com/SeeedDocument/Grove-BLE\_v1/master/img/Grove-BLE\_front.png\)!\[\]\(https://raw.githubusercontent.com/SeeedDocument/Grove-BLE\_v1/master/img/Grove-BLE\_Back.png\)
 

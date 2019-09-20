@@ -10,7 +10,7 @@ sku: 103020013
 category: Communication
 ---
 
-# Grove I2C\_ADC
+# Grove I2C ADC
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_ADC/master/img/I2C_ADC_01.jpg)
 

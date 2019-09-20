@@ -10,7 +10,7 @@ sku: 113020001
 category: Communication
 ---
 
-# Grove 315MHz\_RF\_Kit
+# Grove 315MHz RF Kit
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/img/315MHz-Simple-RF-Link-Kit.jpg)
 

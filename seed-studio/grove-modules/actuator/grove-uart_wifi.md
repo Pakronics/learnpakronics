@@ -8,7 +8,7 @@ surveyurl: 'https://www.surveymonkey.com/r/grove_uart_wifi'
 sku: 113020010
 ---
 
-# Grove UART\_Wifi
+# Grove UART Wifi
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove-uart-wifi-01.jpg)
 

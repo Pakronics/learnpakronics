@@ -8,7 +8,7 @@ surveyurl: 'https://www.research.net/r/Grove_Serial_RF_Pro'
 sku: 113020000
 ---
 
-# Grove Serial\_RF\_Pro
+# Grove Serial RF Pro
 
 ![](https://github.com/SeeedDocument/Grove-Serial_RF_Pro/raw/master/img/Twigrf.jpg)
 

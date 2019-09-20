@@ -10,7 +10,7 @@ sku: 113020002
 category: Communication
 ---
 
-# Grove 125KHz\_RFID\_Reader
+# Grove 125KHz RFID Reader
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz_RFID_Reader/master/img/Grove-125KHz_RFID_Reader.jpg)
 

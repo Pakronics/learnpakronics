@@ -8,7 +8,7 @@ surveyurl: 'https://www.research.net/r/Grove_RJ45_Adapter'
 sku: 103020011
 ---
 
-# Grove RJ45\_Adapter
+# Grove RJ45 Adapter
 
 ![](https://github.com/SeeedDocument/Grove-RJ45_Adapter/raw/master/img/RJ45_Adapter_01.jpg)
 

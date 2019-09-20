@@ -8,7 +8,7 @@ surveyurl: 'https://www.research.net/r/Grove_Screw_Terminal'
 sku: 103020007
 ---
 
-# Grove Screw\_Terminal
+# Grove Screw Terminal
 
 ![](https://github.com/SeeedDocument/Grove-Screw_Terminal/raw/master/img/Grove-screw_terminal.jpg).
 

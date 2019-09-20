@@ -9,7 +9,7 @@ sku: 113060006/113060007
 category: Communication
 ---
 
-# Grove\_LoRa\_Radio
+# Grove LoRa Radio
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/cover.jpg)
 

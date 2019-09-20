@@ -10,7 +10,7 @@ sku: 107020006
 category: Communication
 ---
 
-# Grove I2C\_FM\_Receiver
+# Grove I2C FM Receiver
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_FM_Receiver/master/img/Grove-I2C_FM_Receiver_Photo.jpg)
 

@@ -9,7 +9,7 @@ sku: 102020083
 category: Communication
 ---
 
-# Grove\_High\_Precision\_RTC
+# Grove High Precision RTC
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-High_Precision_RTC/master/img/Grove-High_Precision_RTC.jpg)
 

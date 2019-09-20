@@ -8,7 +8,7 @@ surveyurl: 'https://www.research.net/r/Grove_Bee_Socket'
 sku: 103020002
 ---
 
-# Grove Bee\_Socket
+# Grove Bee Socket
 
 ![](https://github.com/SeeedDocument/Grove-Bee_Socket/raw/master/img/Bee_Socket_01.jpg)
 

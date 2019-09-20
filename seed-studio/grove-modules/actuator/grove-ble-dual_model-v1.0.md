@@ -10,7 +10,7 @@ sku: 113020009
 category: Communication
 ---
 
-# Grove BLE dual\_model v1.0
+# Grove BLE dual model v1.0
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-BLE-dual_model-v1.0/master/img/Grove-BLE-dual_model-v1.0.jpg)
 

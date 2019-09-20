@@ -9,7 +9,7 @@ sku: 113020008
 category: Communication
 ---
 
-# Grove Serial\_Bluetooth\_v3.0
+# Grove Serial Bluetooth v3.0
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Bluetooth_v3.0/master/img/Grove-Serial_Bluetooth_v3.0.jpg)
 
