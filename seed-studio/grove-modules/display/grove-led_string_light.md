@@ -8,13 +8,11 @@ surveyurl: 'https://www.research.net/r/Grove_LED_String_Light'
 sku: 104020005
 ---
 
-# Grove-LED\_String\_Light
+# Grove LED String Light
 
 ![](https://github.com/SeeedDocument/Grove-LED_String_Light/raw/master/img/Grove-led-string-light.jpg)
 
 The Grove - LED String Light module is essentially an LED driver for the LED string lights included in the pack. Working voltage of the module is 3.3V/5V. However, the LED string lights require a working voltage of 12V. Therefore, this module uses a AIC1896 current mode step up DC-DC Converter to provide the requisite voltage to the LED string lights. The LED string light is 5 meters in length and has 50 RGB LEDs on it connected equidistant to one another. You can use these to dress a Christmas tree, light your party or to decorate your room.
-
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-LED-String-Light-p-2324.html)
 
 ## Features
 

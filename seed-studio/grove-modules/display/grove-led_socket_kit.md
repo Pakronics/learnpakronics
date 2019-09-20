@@ -8,7 +8,7 @@ surveyurl: 'https://www.research.net/r/Grove_LED_Socket_Kit'
 sku: 104030009
 ---
 
-# Grove-LED\_Socket\_Kit
+# Grove LED Socket Kit
 
 ![](https://github.com/SeeedDocument/Grove-LED_Socket_Kit/raw/master/img/Grove-White-LED-p-2016.jpeg)
 

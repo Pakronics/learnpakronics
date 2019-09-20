@@ -8,11 +8,9 @@ surveyurl: 'https://www.surveymonkey.com/r/LCD_Backlight'
 sku: 104030001
 ---
 
-# Grove-LCD\_RGB\_Backlight
+# Grove LCD RGB Backlight
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/intro.jpg) Done with tedious mono color backlight? This Grove enables you to set the color to whatever you like via the simple and concise Grove interface. It takes I2C as communication method with your microcontroller. So number of pins required for data exchange and backlight control shrinks from ~10 to 2, relieving IOs for other challenging tasks. Besides, Grove - LCD RGB Backlight supports user-defined characters. Want to get a love heart or some other foreign characters? Just take advantage of this feature and design it! This product is a replacement of Grove - Serial LCD. If you are looking for primitive 16x2 LCD modules, we have green yellow backlight version and blue backlight version on sale also.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
 
 !!!Note This document work for Version 1.0, 2.0 and 4.0.
 
@@ -22,8 +20,6 @@ sku: 104030001
 * I2C communication
 * Built-in English fonts
 * 16x2 LCD
-
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ## Specification
 
@@ -63,8 +59,6 @@ This getting started will show you how to use Grove - LCD RGB Backlight, we need
 You need to download the library and install to your Arduino IDE.
 
 Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install LCD RGB Backlight library.
-
-[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/library.png)](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip)
 
 ### STEP2. Hardware Installation
 

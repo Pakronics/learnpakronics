@@ -8,13 +8,11 @@ surveyurl: 'https://www.research.net/r/Grove_Red_LED'
 sku: 104030005
 ---
 
-# Grove-Red\_LED
+# Grove Red LED
 
 ![](https://github.com/SeeedDocument/Grove-Red_LED/raw/master/img/Grove-LED_Photo.jpg)
 
 Grove - Red LED is similar to the [Grove - LED](/Grove-LED) module in that it houses an LED light source. In addition, it also has a potentiometer on-board to manage the power requirements of the LED. The PCB of this module has mounting holes using which it can be mounted on the required surface for your prototype. For example, it can be easily used as a pilot lamp for indicating power or signal presence.
-
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)
 
 ## Features
 

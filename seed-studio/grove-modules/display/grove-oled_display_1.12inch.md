@@ -9,9 +9,7 @@ sku: 101020452
 category: Display
 ---
 
-# Grove-OLED\_Display\_1.12inch
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg)
+# Grove OLED Display 1.12inch
 
 Our new 1.12” OLED displays are perfect when you need a small display with 16 grayscale. The visible portion of the OLED measures 1.12” diagonal and contains 96x96 grayscale pixels. Because the display uses OLEDs, there is no backlight, and the contrast is very high.
 
@@ -44,8 +42,6 @@ This OLED uses the SSD1327\(V1.0\) or SH1107G\(V2.1\) driver chip, which manages
 | Dot Size | 0.15\(W\)mm x 0.15\(H\)mm |
 | Dot Pitch | 0.75\(W\)mm x 0.175\(H\)mm |
 | Operating Temperature | -40~70 oC |
-
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ## Platforms Supported
 

@@ -8,7 +8,7 @@ surveyurl: 'https://www.research.net/r/Grove_LED_Strip_Driver'
 sku: 105020002
 ---
 
-# Grove-LED\_Strip\_Driver
+# Grove LED Strip Driver
 
 ![](https://github.com/SeeedDocument/Grove-LED_Strip_Driver/raw/master/img/Grove-LED_Strip_Driver.jpg)
 
@@ -25,8 +25,6 @@ It can drive an LED strip 1 to 2 meters long with 9 V, while 1 to 5 meters long 
   3. 3.3K discrete resistors change to exclusion.
 
 !!!Note Clock/data IO requires 5V logic level.
-
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-LED-Strip-Driver-p-1197.html)
 
 ## Specifications
 

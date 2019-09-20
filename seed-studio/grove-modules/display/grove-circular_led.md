@@ -8,11 +8,9 @@ surveyurl: 'https://www.research.net/r/Grove_Circular_LED'
 sku: 104030013
 ---
 
-# Grove-Circular\_LED
+# Grove Circular LED
 
 ![](https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/img/Circular_LED.jpg) This is a unique ring– it has a florid body with 24 controllable LEDs. Maybe it will drive the inspiration out of you to make a glowing magic ring! There is a 1\*1 square hollow-out in the middle of this module, where you can place a Grove Encoder in and make it a rotary visual encoder!
-
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Circular-LED-p-1353.html)
 
 ## Features
 

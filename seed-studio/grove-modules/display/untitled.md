@@ -10,21 +10,17 @@ sku: 104030003
 category: Display
 ---
 
-# Grove-4-Digit\_Display
+# Grove 4 Digit Display
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove-4-Digit_Display/master/img/Grove-4_digit_display.jpg)](http://www.seeedstudio.com/depot/grove-4digital-display-p-1198.html)
 
 Grove - 4-Digit Display module is a 12-pin module. In this module, we utilise a TM1637 to scale down the number of controlling pins to 2. That is to say, it controls both the content and the luminance via only 2 digital pins of Arduino or Seeeduino. For projects that require alpha-numeric display, this can be a nice choice.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-4digital-display-p-1198.html)
 
 ## Features
 
 * 4 digit red alpha-numeric display
 * Grove compatible interface \(3.3V/5V\)
 * 8 adjustable luminance levels
-
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ## Application Ideas
 
@@ -293,8 +289,6 @@ sudo ./firmware_update.sh
 Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
 
 The Wooden Laser Gun and the Gun Target are all based on an Arduino board called Seeeduino Lotus. The laser emitter on the Laser Gun is controlled to fire laser pulse to "activate" the Gun Target. And there are 3 light sensors on the Gun Target to detect the laser pulse. It seems very simple right? If you are interested in our project, please make one for yourself or your child! It's worth to spend one day DIY it as a Xmas present.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
 
 ## Resources
 

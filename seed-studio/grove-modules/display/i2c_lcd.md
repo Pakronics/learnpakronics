@@ -10,7 +10,7 @@ sku: 114990279
 category: Display
 ---
 
-# I2C\_LCD
+# I2C LCD
 
 ![enter image description here](https://raw.githubusercontent.com/SparkingStudio/I2C_LCD/master/images/I2C_LCD_WIKI_1.jpg)
 
@@ -21,13 +21,6 @@ We developed the Arduino library for I2C\_LCD, user just need a few lines of the
 More than that, we also develop the dedicated picture data convert software \(bitmap converter\)now is available to support PC platform of windows, Linux, Mac OS. Through the bitmap convert software you can get your favorite picture displayed on I2C\_LCD, without the need for complex programming.
 
 I2C\_LCD can provide you with a very convenient way of make. Enjoy yourself!
-
-### Product Version
-
-| Version | How to buy |
-| :--- | :--- |
-| I2C\_LCD \(With universal Grove cable\) | \[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)\]\([https://www.seeedstudio.com/I2C\_LCD-\(With-universal-Grove-cable\)-p-2601.html](https://www.seeedstudio.com/I2C_LCD-%28With-universal-Grove-cable%29-p-2601.html)\) |
-| I2C\_LCD \(With conversion Grove cable\) | \[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/300px-Get_One_Now_Banner.png)\]\([https://www.seeedstudio.com/I2C\_LCD-\(With-universal-Grove-cable\)-p-2601.html](https://www.seeedstudio.com/I2C_LCD-%28With-universal-Grove-cable%29-p-2601.html)\) |
 
 ## Features
 
@@ -95,8 +88,6 @@ Here is some funny project for your reference.
 
 **Step 1:** Install the latest version of Arduino IDE to your computer.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
-
 **Step 2:** Download and install the I2C\_LCD library to Arduino IDE:
 
 Open Arduino IDE, **click Sketch -&gt; Include library -&gt; Add .ZIP library**.
@@ -139,28 +130,6 @@ Select the COM: **Click Tools -&gt; Serial Port -&gt; COMX\(which connected with
 2. If you encounter other problems during the use, please refer to the User Manual for help. If you can't solve it, please contact us.
 
 **Technical support:** Joney.s@foxmail.com
-
-## Version Tracker
-
-**I2C\_LCD Hardware:**
-
-| Revision | Release Note | Release Date |
-| :--- | :--- | :--- |
-| I2C\_LCD\_v1.2 | 1. Add production test point. | Sep 18, 2015 |
-| I2C\_LCD\_v1.1 | 1. Modify the logo position. 2. Modify the board shape. 3. Modify the button position. | May 8, 2014 |
-| I2C\_LCD\_v1.0 | 1. Modify the power circuit wiring. | Mar 1, 2014 |
-| I2C\_LCD\_v0.9b | 1. Initial public release. | Feb 15, 2014 |
-
-**I2C\_LCD Library:**
-
-| Revision | Release Note | Release Date |
-| :--- | :--- | :--- |
-| I2C\_LCD\_v1.21 | Support LinkIt boards. | Aug 21, 2016 |
-| I2C\_LCD\_v1.20 | Reorganize I2C\_LCD driver interface, make it easy to transplant to any other boards. | Apr 16, 2016 |
-| I2C\_LCD\_v1.12 | Modify the bug that can't display bitmap when y coordinate is more than 16. | Sep 4, 2015 |
-| I2C\_LCD\_v1.11 | Modify the bug that '\t' can't print. | Jun 27, 2015 |
-| I2C\_LCD\_v1.10 | 1.Add LCD print function. 2.Edit DeviceAddressConfig example. | Jun 25, 2015 |
-| I2C\_LCD\_v1.0 | Initial public release. | July 6, 2014 |
 
 ## Resources
 

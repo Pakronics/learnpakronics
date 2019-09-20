@@ -10,15 +10,13 @@ sku: 104030002
 category: Display
 ---
 
-# Grove-LED\_Bar
+# Grove LED Bar
 
 | ![](https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Bar/master/img/Grove-LED_Bar-1.jpg) | ![](https://raw.githubusercontent.com/SeeedDocument/Grove-LED_Bar/master/img/Grove-LED_Bar-2.jpg) |
 | :--- | :--- |
 
 
 Grove – LED Bar is comprised of a 10 segment LED gauge bar and an MY9221 LED controlling chip. It can be used as an indicator for remaining battery life, voltage, water level, music volume or other values that require a gradient display. There are 10 LED bars in the LED bar graph: one red, one yellow, one light green, and seven green bars. Demo code is available to get you up and running quickly. It lights up the LEDs sequentially from red to green, so the entire bar graph is lit up in the end. Want to go further? Go ahead and code your own effect.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-LED-Bar-p-1178.html)
 
 ### Features
 
@@ -28,8 +26,6 @@ Grove – LED Bar is comprised of a 10 segment LED gauge bar and an MY9221 LED c
 * Flexible power option, supports 3-5.5DC
 * Available demo code
 * Suli-compatible Library
-
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 ### Platforms Supported
 
@@ -361,18 +357,6 @@ sudo python grove\_ledbar.py
 ```
 
 cd yourpath/GrovePi/Firmware sudo ./firmware\_update.sh
-
-\`\`\`
-
-### Project
-
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
-
-Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
-
-The Wooden Laser Gun and the Gun Target are all based on an Arduino board called Seeeduino Lotus. The laser emitter on the Laser Gun is controlled to fire laser pulse to "activate" the Gun Target. And there are 3 light sensors on the Gun Target to detect the laser pulse. It seems very simple right? If you are interested in our project, please make one for yourself or your child! It's worth to spend one day DIY it as a Xmas present.
-
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/make.png)](http://www.instructables.com/id/DIY-a-Wooden-Laser-Gun-As-a-Xmas-Present-for-Your-/)
 
 ### Resources
 
