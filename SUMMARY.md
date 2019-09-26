@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Educational STEM Products](README.md)
-* [Seed Studio](seed-studio/README.md)
+* [Grove Ecosystem](seed-studio/README.md)
   * [Grove System](seed-studio/grove-system.md)
   * [Grove Modules](seed-studio/grove-modules/README.md)
     * [Display](seed-studio/grove-modules/display/README.md)
@@ -17,7 +17,7 @@
       * [Grove Red LED](seed-studio/grove-modules/display/grove-red_led.md)
       * [I2C LCD](seed-studio/grove-modules/display/i2c_lcd.md)
     * [Sensor](seed-studio/grove-modules/sensor.md)
-    * [Actuator](seed-studio/grove-modules/actuator/README.md)
+    * [Communication](seed-studio/grove-modules/actuator/README.md)
       * [Grove High Precision RTC](seed-studio/grove-modules/actuator/communication.md)
       * [Grove LoRa Radio](seed-studio/grove-modules/actuator/grove_lora_radio.md)
       * [Grove NFC Tag](seed-studio/grove-modules/actuator/grove_nfc_tag.md)
