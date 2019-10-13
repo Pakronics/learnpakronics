@@ -174,6 +174,7 @@
       * [Grove Toy Kit](seed-studio/grove-modules/others/grove-toy_kit.md)
       * [Grove Wrapper](seed-studio/grove-modules/others/grove-wrapper.md)
       * [GrovePi Plus](seed-studio/grove-modules/others/grovepi_plus.md)
+* [Makeblock](makeblock.md)
 * [Halocode](halocode-1/README.md)
   * [Introduction](halocode-1/introduction.md)
   * [Get Started](halocode-1/untitled.md)
