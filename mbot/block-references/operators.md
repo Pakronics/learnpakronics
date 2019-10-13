@@ -32,7 +32,7 @@ Performs mathematical multiplication.
 
 **Example:**
 
-![](../../.gitbook/assets/5%20%2811%29.png)
+![](../../.gitbook/assets/5%20%2815%29.png)
 
 When the space key is pressed, the external LED panel will display the result of "2 × 3".
 
@@ -40,11 +40,11 @@ When the space key is pressed, the external LED panel will display the result of
 
 Performs mathematical division.
 
-![](../../.gitbook/assets/6%20%289%29.png)
+![](../../.gitbook/assets/6%20%2812%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/7%20%282%29.png)
+![](../../.gitbook/assets/7%20%284%29.png)
 
 When the space key is pressed, the external LED panel will display the result of "6 ÷ 2".
 
@@ -56,7 +56,7 @@ Picks a random number from the specified range.
 
 **Example:**
 
-![](../../.gitbook/assets/9%20%288%29.png)
+![](../../.gitbook/assets/9%20%2810%29.png)
 
 When the space key is pressed, the external LED panel will display the image for a random number of seconds within the range of 1 to 10.
 
@@ -64,11 +64,11 @@ When the space key is pressed, the external LED panel will display the image for
 
 If the value of the specified parameter is greater than the specified value, the report condition is met.
 
-![](../../.gitbook/assets/10%20%284%29.png)
+![](../../.gitbook/assets/10%20%286%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/11%20%283%29.png)
+![](../../.gitbook/assets/11%20%284%29.png)
 
 When the green flag is clicked, if the light intensity is greater than 50, all LEDs will light up red.
 

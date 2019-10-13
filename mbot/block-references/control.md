@@ -16,11 +16,11 @@ When the space key is pressed, all LEDs will light up red, and 1 second later, s
 
 Runs the script for the specified number of times.
 
-![](../../.gitbook/assets/2%20%2813%29.png)
+![](../../.gitbook/assets/2%20%2816%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/3%20%2813%29.png)
+![](../../.gitbook/assets/3%20%2817%29.png)
 
 When the space key is pressed, all LEDs will switch between red and yellow for 10 times.
 
@@ -28,11 +28,11 @@ When the space key is pressed, all LEDs will switch between red and yellow for 1
 
 Runs the script repeatedly.
 
-![](../../.gitbook/assets/4%20%2813%29.png)
+![](../../.gitbook/assets/4%20%2818%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/5%20%289%29.png)
+![](../../.gitbook/assets/5%20%2813%29.png)
 
 When the space key is pressed, all LEDs will switch between red and yellow.
 
@@ -40,7 +40,7 @@ When the space key is pressed, all LEDs will switch between red and yellow.
 
 If the report condition is met, run the script.
 
-![](../../.gitbook/assets/6%20%287%29.png)
+![](../../.gitbook/assets/6%20%289%29.png)
 
 **Example:**
 
@@ -56,7 +56,7 @@ If the report condition is met, run script 1. If not, run script 2.
 
 **Example:**
 
-![](../../.gitbook/assets/9%20%289%29.png)
+![](../../.gitbook/assets/9%20%2811%29.png)
 
 When the space key is pressed, if the on-board button is pressed, all LEDs will light up red, else, green.
 
@@ -64,7 +64,7 @@ When the space key is pressed, if the on-board button is pressed, all LEDs will 
 
 Wait until the report condition is met. Then run the script.
 
-![](../../.gitbook/assets/10%20%285%29.png)
+![](../../.gitbook/assets/10%20%287%29.png)
 
 **Example:**
 

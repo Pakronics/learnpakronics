@@ -19,7 +19,7 @@ As shown in the figure above, the face panel has the upper-left corner as the or
 
 Displays the specified image on mBot's screen that is connected to the specified port of the main board for the specified amount of seconds.
 
-![](../../.gitbook/assets/2%20%2814%29.png)
+![](../../.gitbook/assets/2%20%2817%29.png)
 
 **Example:**
 
@@ -31,7 +31,7 @@ When the space key is pressed, the LED panel connected to port1 will display the
 
 Displays the specified image on mBot's screen that is connected to the specified port of the main board.
 
-![](../../.gitbook/assets/4%20%289%29.png)
+![](../../.gitbook/assets/4%20%2813%29.png)
 
 **Example:**
 
@@ -43,11 +43,11 @@ When the space key is pressed, the LED panel connected to port1 will switch betw
 
 Displays the specified image on mBot's screen that is connected to the specified port of the main board at the specified position.
 
-![](../../.gitbook/assets/6%20%283%29.png)
+![](../../.gitbook/assets/6%20%284%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/7%20%287%29.png)
+![](../../.gitbook/assets/7%20%2810%29.png)
 
 When the space key is pressed, the LED panel connected to port1 will display the specified image at \(0,0\).
 
@@ -67,11 +67,11 @@ When the space key is pressed, the LED panel connected to port1 will display "he
 
 Displays the specified text on mBot's screen that is connected to the specified port of the main board at the specified position.
 
-![](../../.gitbook/assets/10%20%286%29.png)
+![](../../.gitbook/assets/10%20%288%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/11%20%281%29.png)
+![](../../.gitbook/assets/11%20%282%29.png)
 
 When the space key is pressed, the LED panel connected to port1 will display "hello" at \(0,0\).
 

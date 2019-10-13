@@ -16,11 +16,11 @@ When the space key is pressed, the light intensity value will be displayed on th
 
 Reports the distance of obstacles detected by the ultrasonic sensor that is connected to the specified port.
 
-![](../../.gitbook/assets/2%20%2810%29.png)
+![](../../.gitbook/assets/2%20%2813%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/3%20%286%29.png)
+![](../../.gitbook/assets/3%20%287%29.png)
 
 When the space key is pressed, the distance of obstacles detected by the ultrasonic sensor will be displayed on the external LED panel.
 
@@ -28,11 +28,11 @@ When the space key is pressed, the distance of obstacles detected by the ultraso
 
 Reports the value detected by the specified line follower sensor.
 
-![](../../.gitbook/assets/4%20%286%29.png)
+![](../../.gitbook/assets/4%20%2810%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/5%20%286%29.png)
+![](../../.gitbook/assets/5%20%288%29.png)
 
 When the space key is pressed, the value detected by the line follower sensor will be displayed on the external LED panel.
 
@@ -40,11 +40,11 @@ When the space key is pressed, the value detected by the line follower sensor wi
 
 If the color detected by the specified line follower sensor on the specified side is the specified color, the report condition is met.
 
-![](../../.gitbook/assets/6%20%286%29.png)
+![](../../.gitbook/assets/6%20%288%29.png)
 
 **Example:**
 
-![](../../.gitbook/assets/7%20%285%29.png)
+![](../../.gitbook/assets/7%20%287%29.png)
 
 When the green flag is clicked, if the line follower sensor detects black obstacles on the left side, mBot will stop moving.
 
@@ -52,7 +52,7 @@ When the green flag is clicked, if the line follower sensor detects black obstac
 
 If the on-board button is pressed or released, the report condition is met.
 
-![](../../.gitbook/assets/8%20%289%29.png)
+![](../../.gitbook/assets/8%20%2810%29.png)
 
 **Example:**
 
@@ -68,7 +68,7 @@ If the specified button of the IR remote is pressed, the report condition is met
 
 **Example:**
 
-![](../../.gitbook/assets/11%20%286%29.png)
+![](../../.gitbook/assets/11%20%287%29.png)
 
 When the green flag is clicked, if button A of the IR remote is pressed, "yes" will be displayed on the external LED panel.
 

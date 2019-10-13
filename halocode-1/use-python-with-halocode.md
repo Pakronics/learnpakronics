@@ -31,7 +31,7 @@ def on\_start\(\):
 
 After programming, click "Upload" to upload the program to HaloCode.
 
-![](../.gitbook/assets/2%20%287%29.png)
+![](../.gitbook/assets/2%20%2810%29.png)
 
 **Convert Blocks to Python Code**
 
@@ -45,7 +45,7 @@ In the Scripts area, click   ![](../.gitbook/assets/3%20%281%29.png)   to covert
 
 The ID and position of each of the 12 LEDs are as follows:
 
-![](../.gitbook/assets/5%20%288%29.png)
+![](../.gitbook/assets/5%20%2811%29.png)
 
 **led.show\_all\(r, g, b\)**
 

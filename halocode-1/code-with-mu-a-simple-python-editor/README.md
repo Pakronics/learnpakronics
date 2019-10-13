@@ -16,21 +16,21 @@ After installation, the programming learning journey will begin!
 
 **1、Hardware Connection**
 
-Connect Halocode to your computer via the Micro USB cable. ![](../../.gitbook/assets/2%20%284%29.png) Note: You can also connect Halocode to your computer via Makeblock Bluetooth dongle.
+Connect Halocode to your computer via the Micro USB cable. ![](../../.gitbook/assets/2%20%287%29.png) Note: You can also connect Halocode to your computer via Makeblock Bluetooth dongle.
 
 **2、Open the Software**
 
-Open the unzipped folder **mu-editor**, then double-click on the the file **.main.exe** to open Mu. ![](../../.gitbook/assets/3%20%2810%29.png)
+Open the unzipped folder **mu-editor**, then double-click on the the file **.main.exe** to open Mu. ![](../../.gitbook/assets/3%20%2812%29.png)
 
 **3、Select Mode**
 
-From the pop-up Select Mode page, select **Makeblock HaloCode** and click **OK**. ![](../../.gitbook/assets/4%20%2811%29.png)
+From the pop-up Select Mode page, select **Makeblock HaloCode** and click **OK**. ![](../../.gitbook/assets/4%20%2816%29.png)
 
 Note：You can also click **Mode** to select mode.
 
 **4、Update the Firmware**
 
-Before using the Mu editor, you need to use the latest Halocode firmware that we haven't released yet. Click **Firmware** and select the file **firefly\_firmware\_25\_01\_004-ht1.bin** from the pop-up dialog box. You can check the upgrade progress in the lower left corner of the software. ![](../../.gitbook/assets/5%20%287%29.png) ![](../../.gitbook/assets/6%20%281%29.png)
+Before using the Mu editor, you need to use the latest Halocode firmware that we haven't released yet. Click **Firmware** and select the file **firefly\_firmware\_25\_01\_004-ht1.bin** from the pop-up dialog box. You can check the upgrade progress in the lower left corner of the software. ![](../../.gitbook/assets/5%20%2810%29.png) ![](../../.gitbook/assets/6%20%281%29.png)
 
 **5、Start Programming**
 
@@ -44,7 +44,7 @@ Note：Please refer to [Python API Reference](http://docs.makeblock.com/halocode
 
 **6、Upload Your Program to the Halocode**
 
-Click **Uploading** to upload your program to the Halocode, then check if the LEDs turn green? ![](../../.gitbook/assets/7%20%284%29.png) ![](../../.gitbook/assets/8%20%281%29.png)
+Click **Uploading** to upload your program to the Halocode, then check if the LEDs turn green? ![](../../.gitbook/assets/7%20%286%29.png) ![](../../.gitbook/assets/8%20%281%29.png)
 
 **More Features: Use the REPL Platform to Debug the Program**
 
@@ -60,13 +60,13 @@ while True:
 
  print\(halo.microphone.get\_loudness\("maximum"\)\)
 
-![](../../.gitbook/assets/9%20%287%29.png)
+![](../../.gitbook/assets/9%20%289%29.png)
 
 **Sending a Command**
 
 You can also use the platform to debug the program in real time.
 
-Here is a simple, write code in the platform and press the enter key, now check if the LEDs of Halocode turn red? ![](../../.gitbook/assets/10%20%288%29.png) You can also continue to send commands to check the loudness detected by the microphone: ![](../../.gitbook/assets/11%20%285%29.png)
+Here is a simple, write code in the platform and press the enter key, now check if the LEDs of Halocode turn red? ![](../../.gitbook/assets/10%20%2810%29.png) You can also continue to send commands to check the loudness detected by the microphone: ![](../../.gitbook/assets/11%20%286%29.png)
 
 **More Features: Plotter**
 

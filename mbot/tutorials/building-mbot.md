@@ -17,17 +17,17 @@
 
 **Main board**
 
-![](../../.gitbook/assets/2%20%288%29.png)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
 **Building instructions**
 
-![](../../.gitbook/assets/3%20%287%29.png)
+![](../../.gitbook/assets/3%20%289%29.png)
 
-![](../../.gitbook/assets/4%20%284%29.png)
+![](../../.gitbook/assets/4%20%287%29.png)
 
-![](../../.gitbook/assets/5%20%2813%29.png)
+![](../../.gitbook/assets/5%20%2818%29.png)
 
-![](../../.gitbook/assets/6%20%288%29.png)
+![](../../.gitbook/assets/6%20%2811%29.png)
 
 ![](../../.gitbook/assets/7.png)
 

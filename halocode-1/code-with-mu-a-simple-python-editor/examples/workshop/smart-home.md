@@ -48,7 +48,7 @@ With built-in Wi-Fi and User Cloud Message, HaloCode can play its role in your s
 
 ![](../../../../.gitbook/assets/9%20%283%29.gif)
 
-![](../../../../.gitbook/assets/10%20%289%29.png)
+![](../../../../.gitbook/assets/10%20%2811%29.png)
 
 **Add garage button**
 

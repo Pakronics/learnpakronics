@@ -10,7 +10,7 @@ Makeblock HaloCode is a powerful single board computer, with built-in Wi-Fi and 
 
 Use mBlock 5 to play with HaloCode. You can make all kinds of creations, such as a wearable somatosensory pedometer, a touch sensitive light box, and more.
 
-![](../.gitbook/assets/3%20%288%29.png)
+![](../.gitbook/assets/3%20%2810%29.png)
 
 * **mBlock 5 PC**: visit [http://www.mblock.cc/mblock-software/](http://www.mblock.cc/mblock-software/) to download
 * **mBlock 5 Web**: [https://ide.mblock.cc/](https://ide.mblock.cc/)

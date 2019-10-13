@@ -12,14 +12,14 @@ Switch modes using the **infrared remote controller or the on-board button**.
 
 The color of the LED on the main board indicates the current mode:  
 ![](../../.gitbook/assets/1%20%289%29.png) White: infrared remote control mode  
-![](../../.gitbook/assets/2%20%2812%29.png) Green: obstacle avoidace mode  
-![](../../.gitbook/assets/3%20%289%29.png) Blue: line-following mode
+![](../../.gitbook/assets/2%20%2815%29.png) Green: obstacle avoidace mode  
+![](../../.gitbook/assets/3%20%2811%29.png) Blue: line-following mode
 
 **Obstacle avoidance mode**
 
 In obstacle avoidance mode, mBot moves and avoids obstacles autonomously.
 
-![](../../.gitbook/assets/4%20%288%29.png)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
 **Infrared remote control mode**
 
@@ -33,5 +33,5 @@ A special infrared remote controller is included in the package. You can use the
 
 In line-following mode, mBot moves autonomously along the black lines on the map.
 
-![](../../.gitbook/assets/6%20%285%29.png)
+![](../../.gitbook/assets/6%20%287%29.png)
 

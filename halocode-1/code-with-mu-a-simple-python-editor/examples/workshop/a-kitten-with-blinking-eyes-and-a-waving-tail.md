@@ -17,7 +17,7 @@ Connect the servo motor to HaloCode \(any of the four pins will work\), as follo
 * The black line of the servo means the negative pole, and is connected to the blue line of the alligator clip, which is connected to the GND pin of HaloCode.
 * The white line of the servo is the communication line, and is connected to the yellow line of the alligator clip, which can be connected to any touchpad of HaloCode. We'll use touchpad0 in this example.
 
-![](../../../../.gitbook/assets/1.jpeg) ![](../../../../.gitbook/assets/2.jpeg) ![](../../../../.gitbook/assets/3.jpeg)
+![](../../../../.gitbook/assets/1%20%285%29.jpeg) ![](../../../../.gitbook/assets/2.jpeg) ![](../../../../.gitbook/assets/3.jpeg)
 
 Stick the tail to the servo motor. Connect the body and tail of the kitten with HaloCode, the servo motor, and the battery box.
 

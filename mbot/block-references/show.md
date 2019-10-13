@@ -14,7 +14,7 @@ Lights up the specified LED/LEDs the specified color for the specified amount of
 
 **Example:**
 
-![](../../.gitbook/assets/2%20%285%29.png)
+![](../../.gitbook/assets/2%20%288%29.png)
 
 When the space key is pressed, both LEDs will light up red for 1 second.
 
@@ -26,7 +26,7 @@ Lights up the specified LED/LEDs the specified color. There are three options: a
 
 **Example:**
 
-![](../../.gitbook/assets/4%20%2810%29.png)
+![](../../.gitbook/assets/4%20%2815%29.png)
 
 When the space key is pressed, both LEDs will switch between red and yellow for 10 times, with the time gap of 1 second.
 
@@ -38,7 +38,7 @@ Lights up the specified LED/LEDs the specified color, mixed by specified RGB col
 
 **Example:**
 
-![](../../.gitbook/assets/6%20%2810%29.png)
+![](../../.gitbook/assets/6%20%2813%29.png)
 
 When the space key is pressed, both LEDs will light up red.
 
@@ -46,7 +46,7 @@ When the space key is pressed, both LEDs will light up red.
 
 Plays the specified note for the specified number of beats.
 
-![](../../.gitbook/assets/7%20%283%29.png)
+![](../../.gitbook/assets/7%20%285%29.png)
 
 **Example:**
 
