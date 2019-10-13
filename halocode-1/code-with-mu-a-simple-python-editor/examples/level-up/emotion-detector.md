@@ -2,7 +2,7 @@
 
 When a happy face is detected, the LED ring of HaloCode will light up, and make a smiling face.
 
-![](../../../../.gitbook/assets/0%20%2811%29.png)
+![](../../../../.gitbook/assets/0%20%2820%29.png)
 
 **Add a sprite**
 

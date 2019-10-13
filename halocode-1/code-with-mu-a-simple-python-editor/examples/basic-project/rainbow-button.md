@@ -1,6 +1,6 @@
 # Rainbow Button
 
-![](../../../../.gitbook/assets/0%20%282%29.png)
+![](../../../../.gitbook/assets/0%20%283%29.png)
 
 1. Drag an Events block when button is pressed to the Scripts area
 

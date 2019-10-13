@@ -2,7 +2,7 @@
 
 Shake your hand to power HaloCode. As HaloCode is "charging", more LEDs will light up
 
-![](../../../../.gitbook/assets/0%20%287%29.png)
+![](../../../../.gitbook/assets/0%20%2816%29.png)
 
 1. Choose Variables block, and click "Make a Variable". Name the variable "n"
 

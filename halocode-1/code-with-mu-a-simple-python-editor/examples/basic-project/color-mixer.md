@@ -2,13 +2,13 @@
 
 Change the color of the LED ring by RGB values. We'll use touchpad 0, 1, and 2 to control each of the values.
 
-![](../../../../.gitbook/assets/0%20%2814%29.png)
+![](../../../../.gitbook/assets/0%20%2823%29.png)
 
 **Introduction to HaloCode's touchpads**
 
 HaloCode has four touchpads.
 
-![](../../../../.gitbook/assets/1%20%284%29.png)
+![](../../../../.gitbook/assets/1%20%2811%29.png)
 
 **Toggle on Upload mode**
 

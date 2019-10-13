@@ -52,7 +52,7 @@ We can use "User Cloud Message" to control HaloCode remotely. We need to sign in
 
 9. Likewise, we can program the purple balloon. Add an Events block when this sprite clicked and a User Cloud Message block send user cloud message \(\). Name the message "purple". Apply the same special effects.
 
-![](../../../../.gitbook/assets/10.png)
+![](../../../../.gitbook/assets/10%20%281%29.png)
 
 **HaloCode receives user cloud message**
 

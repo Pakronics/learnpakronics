@@ -2,7 +2,7 @@
 
 With built-in Wi-Fi and User Cloud Message, HaloCode can play its role in your smart home. Let's build a house. On the one hand, HaloCode can be the light source of the room; on the other, by connecting to a servo, HaloCode can control garage door.
 
-![](../../../../.gitbook/assets/0%20%285%29.png)
+![](../../../../.gitbook/assets/0%20%2811%29.png)
 
 **Set stage background**
 
@@ -48,7 +48,7 @@ With built-in Wi-Fi and User Cloud Message, HaloCode can play its role in your s
 
 ![](../../../../.gitbook/assets/9%20%283%29.gif)
 
-![](../../../../.gitbook/assets/10%20%282%29.png)
+![](../../../../.gitbook/assets/10%20%289%29.png)
 
 **Add garage button**
 

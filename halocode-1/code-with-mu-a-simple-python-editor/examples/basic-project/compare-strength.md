@@ -10,7 +10,7 @@
 
 The motion sensor detects how HaloCode moves, including shaking strength.
 
-![](../../../../.gitbook/assets/1%20%285%29.png)
+![](../../../../.gitbook/assets/1%20%2812%29.png)
 
 **Set the range of shaking strength**
 

@@ -2,7 +2,7 @@
 
 With Wi-Fi and User Cloud Message, HaloCode can interact with the stage. In this project, we can make a remote control to light up or light off HaloCode's LED ring with stage bulb.
 
-![](../../../../.gitbook/assets/0%20%2810%29.png)
+![](../../../../.gitbook/assets/0%20%2819%29.png)
 
 **Enable Upload mode**
 

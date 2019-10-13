@@ -1,10 +1,14 @@
-# action
+# Action
 
 **1. move forward at power \(50\)% for \(\) secs**
 
 Moves mBot forward at the specified power for the specified amount of time.
 
+![](../../.gitbook/assets/0%20%282%29.png)
+
 **Example:**
+
+![](../../.gitbook/assets/1%20%2815%29.png)
 
 When the "↑" key is pressed, mBot will move forward at 50% power for 1 second.
 
@@ -12,7 +16,11 @@ When the "↑" key is pressed, mBot will move forward at 50% power for 1 second.
 
 Moves mBot backward at the specified power for the specified amount of time.
 
+![](../../.gitbook/assets/2%20%283%29.png)
+
 **Example:**
+
+![](../../.gitbook/assets/3%20%285%29.png)
 
 When the "↓" key is pressed, mBot will move backward at 50% power for 1 second.
 
@@ -20,7 +28,11 @@ When the "↓" key is pressed, mBot will move backward at 50% power for 1 second
 
 Turns mBot left at the specified power for the specified amount of time.
 
+![](../../.gitbook/assets/4%20%2812%29.png)
+
 **Example:**
+
+![](../../.gitbook/assets/5%20%285%29.png)
 
 When the "←" key is pressed, mBot will turn left at 50% power for 1 second.
 
@@ -28,7 +40,11 @@ When the "←" key is pressed, mBot will turn left at 50% power for 1 second.
 
 Turns mBot right at the specified power for the specified amount of time.
 
+![](../../.gitbook/assets/6.png)
+
 **Example:**
+
+![](../../.gitbook/assets/7%20%289%29.png)
 
 When the "→" key is pressed, mBot will turn right at 50% power for 1 second.
 
@@ -36,7 +52,11 @@ When the "→" key is pressed, mBot will turn right at 50% power for 1 second.
 
 Moves mBot to the specified direction at the specified power. There are four options: "move forward", "move backward", "turn left", or "turn right".
 
+![](../../.gitbook/assets/8%20%288%29.png)
+
 **Example:**
+
+![](../../.gitbook/assets/9%20%283%29.png)
 
 When the space key is pressed, mBot will keep moving forward at 50% power.
 
@@ -44,7 +64,11 @@ When the space key is pressed, mBot will keep moving forward at 50% power.
 
 Turns the left wheel and right wheel at the specified power.
 
+![](../../.gitbook/assets/10%20%287%29.png)
+
 **Example:**
+
+![](../../.gitbook/assets/11%20%284%29.png)
 
 When the space key is pressed, both the left wheel and the right wheel will move at 50% power.
 
@@ -52,7 +76,11 @@ When the space key is pressed, both the left wheel and the right wheel will move
 
 Makes mBot stop moving.
 
+![](../../.gitbook/assets/12%20%284%29.png)
+
 **Example:**
+
+![](../../.gitbook/assets/13%20%283%29.png)
 
 When the space key is pressed, mBot will stop moving.
 

@@ -2,13 +2,13 @@
 
 **Programming Result**
 
-![](../../../../.gitbook/assets/0%20%283%29.png)
+![](../../../../.gitbook/assets/0%20%284%29.png)
 
 **LED ID of HaloCode**
 
 The 12 LEDs of HaloCode share the same position as the twelve hours of a clock.
 
-![](../../../../.gitbook/assets/1.png)
+![](../../../../.gitbook/assets/1%20%284%29.png)
 
 **Program the "eyes"**
 

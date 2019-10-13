@@ -2,7 +2,7 @@
 
 Connect HaloCode to the internet.
 
-![](../../../../.gitbook/assets/0%20%288%29.png)
+![](../../../../.gitbook/assets/0%20%2817%29.png)
 
 **Toggle on Upload mode**
 

@@ -10,27 +10,27 @@ This section includes a quick start guide to HaloCode.
 
 2. From the pop-up Device Library page, select "HaloCode" and click "OK".
 
-![](../.gitbook/assets/1%20%281%29.png)
+![](../.gitbook/assets/1%20%287%29.png)
 
 **Tip:**  
 ☛ Click ☆ to set HaloCode as the mostly used device.  
-![](../.gitbook/assets/2%20%284%29.png)
+![](../.gitbook/assets/2%20%2811%29.png)
 
 3. Use a micro-USB cable to connect your HaloCode to a USB port of your computer.
 
-![](../.gitbook/assets/3%20%284%29.png)
+![](../.gitbook/assets/3%20%2814%29.png)
 
 4. Under "Devices", choose "HaloCode", and click "Connect".
 
-![](../.gitbook/assets/4.png)
+![](../.gitbook/assets/4%20%281%29.png)
 
 5. The Device Connection window will pop up. The serial port of HaloCode will automatically be detected. Please click "Connect".
 
-![](../.gitbook/assets/5%20%283%29.png)
+![](../.gitbook/assets/5%20%2810%29.png)
 
 6. Toggle on Upload Mode.
 
-![](../.gitbook/assets/6%20%281%29.png)
+![](../.gitbook/assets/6%20%2811%29.png)
 
 **Create a HaloCode Project**
 

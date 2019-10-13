@@ -1,6 +1,6 @@
 # Pedometer
 
-![](../../../../.gitbook/assets/0%20%2816%29.png)
+![](../../../../.gitbook/assets/0%20%2825%29.png)
 
 **Program HaloCode**
 

@@ -9,7 +9,7 @@ Draw the kitten's body and tail on the cardboard, and then cut them out. Use the
 
 **Note: the distance of the two eyes should equal to the greatest distance between two LEDs of HaloCode.**
 
-![](../../../../.gitbook/assets/0.jpeg)
+![](../../../../.gitbook/assets/0%20%282%29.jpeg)
 
 Connect the servo motor to HaloCode \(any of the four pins will work\), as follows:
 

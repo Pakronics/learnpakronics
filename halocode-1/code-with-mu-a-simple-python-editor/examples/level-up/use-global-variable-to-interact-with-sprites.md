@@ -8,7 +8,7 @@ When you rotate HaloCode around the y-axis, the sun on stage will rotate as well
 
 The axes of HaloCode are as follows:
 
-![](../../../../.gitbook/assets/0%20%286%29.png)
+![](../../../../.gitbook/assets/0%20%2813%29.png)
 
 **Create a new variable**
 
