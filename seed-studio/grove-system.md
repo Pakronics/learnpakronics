@@ -7,7 +7,7 @@ surveyurl: 'https://www.research.net/r/grove_system'
 
 # Grove System
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/grove_cover.png)
+![Grove Ecosystem](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/grove_cover.png)
 
 ## What is the Grove System?
 
