@@ -1,4 +1,4 @@
-# Merge-cube
+# Merge Cube
 
 
 

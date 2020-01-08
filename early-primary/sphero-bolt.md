@@ -1,4 +1,4 @@
-# Sphero-bolt
+# Sphero Bolt
 
 
 

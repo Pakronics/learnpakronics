@@ -1,4 +1,4 @@
-# Bare-conductive-board
+# Bare Conductive Board
 
 
 
