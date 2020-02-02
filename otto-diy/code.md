@@ -1,4 +1,14 @@
+---
+description: >-
+  Original files found on internet are designed for Arduino nano and Pakronics
+  Australia have developed compatible code for Arduino Every board.
+---
+
 # Code
+
+## Arduino Every code
+
+## Legacy Arduino Nano code
 
 You can download the codes for different functions of Otto from here. You will need to install the libraries in arduino before using the codes provided. 
 
