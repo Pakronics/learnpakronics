@@ -16,5 +16,7 @@ You will need a Laser cut machine ro someone that provides you the service and s
 While Boxes.py allows setting any thickness this is really meant be be cut in 3mm plywood with the exception of servo mounts in the body \(the two top most parts\) which should be cut from 5mm plywood to get the right depth for the servos. Material with different but similar thickness should also work just fine. Check that the \(body\) servos will poke through the two layers. Always measure the actual thickness as it often differs from the nominal value. Baltic birch has worked well for us. Poppler is a bit weak but may work now as some weak points in the model have been addressed.﻿  
 Generate the body [https://www.festi.info/boxes.py/OttoBody](https://www.festi.info/boxes.py/OttoBody)﻿                                                                  Generate the legs [https://www.festi.info/boxes.py/OttoLegs](https://www.festi.info/boxes.py/OttoLegs)
 
+## Paper craft
 
+You can download paper craft to dress your OTTO - [https://wikifactory.com/+OttoDIY/otto-diy/files/Papercraft](https://wikifactory.com/+OttoDIY/otto-diy/files/Papercraft)
 

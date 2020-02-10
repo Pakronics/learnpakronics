@@ -22,7 +22,7 @@ Before performing this lab experiment, it is important to learn following concep
 * The axes perpendicular to earth’s gravity will indicate 0g.
 * Thus when board is held with USB connector facing downwards, x-axis would indicate acceleration value of +1g.
 
-![](../../.gitbook/assets/2%20%2818%29.png) ![](../../.gitbook/assets/3%20%288%29.png)
+![](../../.gitbook/assets/2%20%2819%29.png) ![](../../.gitbook/assets/3%20%288%29.png)
 
 * The orientation detection mechanism is used in smartphones to stop the caller tone / snooze alarm when the phone is flipped.
 

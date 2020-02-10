@@ -241,6 +241,7 @@
     * [Assembling the parts](curcuitmess/circuitmess-ringo/assembling-the-parts.md)
     * [Set up your Ringo](curcuitmess/circuitmess-ringo/set-up-your-ringo.md)
 * [Otto DIY](otto-diy/README.md)
+  * [User guide](otto-diy/user-guide.md)
   * [Assembly Instructions](otto-diy/assembly-instructions/README.md)
     * [Builder Kit](otto-diy/assembly-instructions/builder-kit.md)
     * [Builder Kit +](otto-diy/assembly-instructions/builder-kit-+.md)

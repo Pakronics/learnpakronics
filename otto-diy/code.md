@@ -6,7 +6,9 @@ description: >-
 
 # Code
 
-## Arduino Every code
+## OTTO with Arduino Nano Every board code
+
+{% file src="../.gitbook/assets/pakronics\_otto.zip" caption="Libraries - OTTO with Arduino Every " %}
 
 ## Legacy Arduino Nano code
 

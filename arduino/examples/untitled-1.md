@@ -103,7 +103,7 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 1. Open the sketch \(G101\_Ex-2\_Shock\_Tap\_Detect.ino\) on Arduino IDE.
 
-![](../../.gitbook/assets/3%20%2818%29.png)
+![](../../.gitbook/assets/3%20%2819%29.png)
 
 1. From Tools menu, select the right board \(i.e., Arduino/Genuino 101\) and COM Port it is connected to.
 

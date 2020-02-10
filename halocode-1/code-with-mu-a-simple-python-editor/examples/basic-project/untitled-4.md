@@ -2,7 +2,7 @@
 
 Multiple HaloCodes can join the same LAN \(Local Area Network\), and communicate with each other. We can use HaloCode to control others.
 
-![](../../../../.gitbook/assets/0%20%2822%29.png)
+![](../../../../.gitbook/assets/0%20%2823%29.png)
 
 ## Control HaloCode B with HaloCode A
 

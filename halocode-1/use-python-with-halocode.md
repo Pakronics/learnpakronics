@@ -7,7 +7,7 @@ Python code need to be uploaded to HaloCode to run.
 
 Switch the programming mode from "Blocks" to "Python" to start using Python.
 
-![](../.gitbook/assets/0%20%2824%29.png)
+![](../.gitbook/assets/0%20%2825%29.png)
 
 **Note: please make sure that "HaloCode" is currently selected.**
 

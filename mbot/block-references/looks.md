@@ -19,7 +19,7 @@ As shown in the figure above, the face panel has the upper-left corner as the or
 
 Displays the specified image on mBot's screen that is connected to the specified port of the main board for the specified amount of seconds.
 
-![](../../.gitbook/assets/2%20%2817%29.png)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
 **Example:**
 

@@ -24,7 +24,7 @@ Open the unzipped folder **mu-editor**, then double-click on the the file **.mai
 
 **3、Select Mode**
 
-From the pop-up Select Mode page, select **Makeblock HaloCode** and click **OK**. ![](../../.gitbook/assets/4%20%2816%29.png)
+From the pop-up Select Mode page, select **Makeblock HaloCode** and click **OK**. ![](../../.gitbook/assets/4%20%2817%29.png)
 
 Note：You can also click **Mode** to select mode.
 
