@@ -4,8 +4,6 @@ description: Otto DIY Maker kit with Arduino Nano Every
 
 # User guide
 
-
-
 Pakronics® sells Otto-DIY robots with Arduino _**Nano Every**_ boards. While both boards and pin-wise compatible, there are few differences between the two Arduino variants, as listed below:
 
 | Parameter | Arduino Nano | Arduino Nano Every |
@@ -78,4 +76,6 @@ Across all the four variants of Otto-DIY Robots, buzzer, switch and Servos are c
 * 16x8 LED matrix is connected to I2C port \(Eye only\)
 
 ![](../.gitbook/assets/4%20%2816%29.png)
+
+{% file src="../.gitbook/assets/tips\_for\_working\_with\_otto-diy-kit\_v02.pdf" caption="User guide - OTTO with Arduino Nano Every board" %}
 
