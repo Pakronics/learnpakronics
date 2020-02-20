@@ -24,11 +24,11 @@ description: >-
 | :--- | :--- | :--- |
 
 
-| Level | Beginner coding | Beginner to expert coding |
+| Level |                              Beginner coding | Beginner to expert coding |
 | :--- | :--- | :--- |
 
 
-| Coding | Online or Screen free | Online or Screen free or App |
+| Coding |                       Online or Screen free | Online or Screen free or App |
 | :--- | :--- | :--- |
 
 
@@ -48,19 +48,19 @@ description: >-
 | :--- | :--- | :--- |
 
 
-|  | 1 LED light | 7 LEDs light |
+|  |                            1 LED light | 7 LEDs light |
 | :--- | :--- | :--- |
 
 
-|  | Motors | Motors |
+|  |                    Motors | Motors |
 | :--- | :--- | :--- |
 
 
-|  |  | Proximity |
+|  |                                            | Proximity |
 | :--- | :--- | :--- |
 
 
-|  |  | Speaker |
+|  |                                       | Speaker |
 | :--- | :--- | :--- |
 
 
