@@ -8,7 +8,7 @@ description: >-
 
 ## OTTO with Arduino Nano Every board code
 
-{% file src="../../.gitbook/assets/pakronics\_otto\_v2.zip" caption="OTTO Library for Arduino Nano Every by Pakronics" %}
+{% file src="../../.gitbook/assets/pakronics\_otto.zip" caption="OTTO Library for Arduino Nano Every by Pakronics" %}
 
 ## Legacy Arduino Nano code
 
