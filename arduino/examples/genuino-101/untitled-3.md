@@ -19,7 +19,7 @@ Before performing this lab experiment, it is important to learn following concep
 * CurieBLE library is used for programming the on-board BLE of Arduino/Genuino 101. Bluetooth 4.0 supports both traditional Bluetooth and the new Bluetooth Low Energy \(or BLE\). BLE is optimized for lower power consumption at lower data rates. \(further details: [https://www.arduino.cc/en/Main/ArduinoBoard101](https://www.arduino.cc/en/Main/ArduinoBoard101)\).
 * A BLE device can act as peripheral device \(or bulletin board\) or central device \(reader\). A bulletin would post data in the form of characteristics of different services. These characteristics from bulletin \(or peripheral BLE device\) can be read or written by reader \(central BLE devices\).
 
-![](../../.gitbook/assets/ble.jpg)
+![](../../../.gitbook/assets/ble.jpg)
 
 * The information presented by the peripheral or bulletin is structured as services. Each service is further divided into characteristics. These characteristics are the actual data that is exchanged between peripheral and central devices.
 * One can use a standard service or define an own custom service. A standard service has 16 bit \(or 4 hex characters\) Universally Unique Identifier \(UUID\) whereas a custom UUID has 128 bits \( = 32 hex characters\). A service can have multiple characteristics. A characteristics value can be up to 20 bytes long.
@@ -122,7 +122,7 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 1. Connect the Arduino/Genuino 101 board with computer using USB cable.
 
-![](../../.gitbook/assets/3%20%284%29.png)
+![](../../../.gitbook/assets/3%20%284%29.png)
 
 ### Arduino IDE / Library Setup
 
@@ -132,31 +132,31 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 1. Open the sketch \(G101\_Ex-4\_Bluetooth\_Pedometer.ino\) on Arduino IDE.
 
-![](../../.gitbook/assets/4%20%286%29.png)
+![](../../../.gitbook/assets/4%20%286%29.png)
 
 1. From Tools menu, select the right board \(i.e., Arduino/Genuino 101\) and COM Port it is connected to.
 
-![](../../.gitbook/assets/5%20%285%29.png)
+![](../../../.gitbook/assets/5%20%285%29.png)
 
 1. Compile \(verify\) and run \(upload\) the sketch on Arduino board. In case of any upload error, try pressing the Master Reset Button just at the start of upload process.
 
-![](../../.gitbook/assets/6%20%283%29.png)
+![](../../../.gitbook/assets/6%20%283%29.png)
 
 ### BLE App \(PC / Mobile\) Setup
 
 1. BLE is supported only on Bluetooth 4.0 hardware. Ensure your computer / mobile / tablet hardware supports BLE. You’ll need appropriate BLE app to communicate with Genuino 101 over Bluetooth. We recommend following free apps: LightBlue for Mac and nRF Master Control for mobile \(Android / iOS\).
 2. Open the app and scan for Bluetooth devices. Arduino / Genuino 101 should appear with the name “StepCounter”.
 
-![](../../.gitbook/assets/7%20%283%29.png)
+![](../../../.gitbook/assets/7%20%283%29.png)
 
 1. Click on “StepCounter” under the list of peripherals to connect to it. Successful connection will be indicated in two ways – \(i\) on-board LED at pin 13 would glow, \(ii\) the services offered by the device would show up in ‘services’ column. Selecting a service will show associated characteristics in respective tabs.
 
-![](../../.gitbook/assets/4-1.jpg)
+![](../../../.gitbook/assets/4-1.jpg)
 
 1. Clicking on “Subscribe” button will register the app for receiving the notifications of change in this characteristics \(step count\) value.
 2. After subscribing, shake the Arduino/Genuino 101 board as if you are walking holding in your hand. You should see the count value changing on the app.
 
-![](../../.gitbook/assets/4-2.jpg)
+![](../../../.gitbook/assets/4-2.jpg)
 
 1. You can try powering the board, after uploading of the sketch, using a battery pack and hold it while you walk around. You can see the electronic, wireless pedometer in action.
 

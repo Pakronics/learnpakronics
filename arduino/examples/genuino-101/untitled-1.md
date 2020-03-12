@@ -93,7 +93,7 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 1. Connect the Arduino/Genuino 101 board with computer using USB cable.
 
-![](../../.gitbook/assets/2%20%283%29.png)
+![](../../../.gitbook/assets/2%20%283%29.png)
 
 ### Arduino IDE / Library Setup
 
@@ -103,28 +103,28 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 1. Open the sketch \(G101\_Ex-2\_Shock\_Tap\_Detect.ino\) on Arduino IDE.
 
-![](../../.gitbook/assets/3%20%2819%29.png)
+![](../../../.gitbook/assets/3%20%2819%29.png)
 
 1. From Tools menu, select the right board \(i.e., Arduino/Genuino 101\) and COM Port it is connected to.
 
-![](../../.gitbook/assets/4%20%285%29.png)
+![](../../../.gitbook/assets/4%20%285%29.png)
 
 1. Compile \(verify\) and run \(upload\) the sketch on Arduino board. In case of any upload error, try pressing the Master Reset Button just at the start of upload process.
 
-![](../../.gitbook/assets/5%20%287%29.png)
+![](../../../.gitbook/assets/5%20%287%29.png)
 
 1. Open the “serial monitor” of Arduino IDE. It will be used to display the accelerometer values.
 
-![](../../.gitbook/assets/2-1.jpg)
+![](../../../.gitbook/assets/2-1.jpg)
 
 1. Keep the Arduino/Genuino 101 board on a table. When it is at rest, the LED \(on-board LED at pin 13\) will be off. The differential acceleration values \(difference of acceleration now and its previous value\) shown on serial monitor would be around zero.
 2. Now gently tap the table or board directly. The LED should glow and you should see the values getting changed to a larger value \(other than zero\) on serial monitor.
 
-![](../../.gitbook/assets/2-2.jpg)
+![](../../../.gitbook/assets/2-2.jpg)
 
 1. Changes to acceleration values due to tap or shock can be best viewed graphically on a plotter. Close the Serial Monitor and open the Serial plotter. You should see the pulses/spikes when the board is tapped.
 
-![](../../.gitbook/assets/2-3.jpg)
+![](../../../.gitbook/assets/2-3.jpg)
 
 ## Additional Exercise
 

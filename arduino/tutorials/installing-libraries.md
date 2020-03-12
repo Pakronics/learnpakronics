@@ -1,3 +1,7 @@
+---
+description: How to install libraries in Arduino IDE
+---
+
 # Installing Libraries
 
 ## **Using the Library Manager**

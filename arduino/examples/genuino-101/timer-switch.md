@@ -91,7 +91,7 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 1. Connect the Arduino/Genuino 101 board with computer using USB cable.
 
-![](../../.gitbook/assets/5-1.jpg)
+![](../../../.gitbook/assets/5-1.jpg)
 
 ### Arduino IDE / Library Setup
 
@@ -101,35 +101,35 @@ The answers to the above questions can be found at [Appendix B](appendices/appen
 
 Open the sketch \(G101\_Ex-5\_Timer-Switch.ino\) on Arduino IDE.
 
-![](../../.gitbook/assets/3%20%2813%29.png)
+![](../../../.gitbook/assets/3%20%2813%29.png)
 
 From Tools menu, select the right board \(i.e., Arduino/Genuino 101\) and COM Port it is connected to.
 
-![](../../.gitbook/assets/4%20%284%29.png)
+![](../../../.gitbook/assets/4%20%284%29.png)
 
 Compile \(verify\) and run \(upload\) the sketch on Arduino board. In case of any upload error, try pressing the Master Reset Button just at the start of upload process.
 
-![](../../.gitbook/assets/5%20%289%29.png)
+![](../../../.gitbook/assets/5%20%289%29.png)
 
 Open the “serial monitor” of Arduino IDE. It will be used to display the timer switch state, down-counting and to enter time for the switch.
 
-![](../../.gitbook/assets/5-2.jpg)
+![](../../../.gitbook/assets/5-2.jpg)
 
 The serial monitor would instruct you to specify two values separated by a comma – \[a\] enabling of the timer \(any value &gt; 0\) and \[b\] time value in seconds.
 
-![](../../.gitbook/assets/5-3.jpg)
+![](../../../.gitbook/assets/5-3.jpg)
 
 Suppose you want to time the switch for 50s, then enter “1, 50” and hit “Send”.
 
-![](../../.gitbook/assets/5-4.jpg)
+![](../../../.gitbook/assets/5-4.jpg)
 
 You would see – \[a\] LED on board glows and \[b\] the count-down starts.
 
-![](../../.gitbook/assets/5-5.jpg)
+![](../../../.gitbook/assets/5-5.jpg)
 
 Once the counting to specified time is complete, the LED is turned off and user is prompted to specify the time again.
 
-![](../../.gitbook/assets/10%20%283%29.png)
+![](../../../.gitbook/assets/10%20%283%29.png)
 
 ## Additional Exercise
 

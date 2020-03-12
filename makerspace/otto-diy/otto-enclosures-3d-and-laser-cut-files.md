@@ -4,6 +4,22 @@ description: otto can have 3D printed parts or laser cut file to make range of e
 
 # OTTO enclosures 3D and laser cut files
 
+## OTTO for Arduino Nano EVERY board 
+
+Otto DIY with Arduino Nano every board will have different head file as there is minor difference in the USB port. The Nano Every is using Micro USB.
+
+{% file src="../../.gitbook/assets/ottodiy-basic\_head\_nano\_every.stl" caption="OTTO Basic Head designed for Arduino Nano Every " %}
+
+{% file src="../../.gitbook/assets/ottodiy-basic\_head\_nano\_every.stl" caption="OTTO Plus Head designed for Arduino Nano Every" %}
+
+{% file src="../../.gitbook/assets/ottodiyeyes\_head\_v04.stl" caption="OTTO Eye Head designed for Arduino Nano Every" %}
+
+{% file src="../../.gitbook/assets/ottodiy-humanoid-nano-every.stl" caption="OTTO Humanoid Head designed for Arduino Nano Every" %}
+
+## OTTO V9 Files 
+
+#### OTTO v9 file includes Head, Body, Leg and foot. You will need to print one of Head and Body while 2 print of Leg and foot. If you are using Arduino Nano Every board then use the Head STL file from above list.
+
 OTTO basic and plus shares same 3D files that can be downloaded from here - [https://wikifactory.com/+OttoDIY/otto-diy/files/3Dprint](https://wikifactory.com/+OttoDIY/otto-diy/files/3Dprint) 
 
 OTTO Humanoid can be found here  -[https://wikifactory.com/+OttoDIY/humanoid/files/3DPrint](https://wikifactory.com/+OttoDIY/humanoid/files/3DPrint)
