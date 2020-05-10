@@ -20,7 +20,7 @@ Runs the script for the specified number of times.
 
 **Example:**
 
-![](../../.gitbook/assets/3%20%2817%29.png)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
 When the space key is pressed, all LEDs will switch between red and yellow for 10 times.
 
@@ -28,7 +28,7 @@ When the space key is pressed, all LEDs will switch between red and yellow for 1
 
 Runs the script repeatedly.
 
-![](../../.gitbook/assets/4%20%2818%29.png)
+![](../../.gitbook/assets/4%20%2819%29.png)
 
 **Example:**
 

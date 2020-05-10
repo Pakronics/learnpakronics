@@ -28,7 +28,7 @@ When the "↓" key is pressed, mBot will move backward at 50% power for 1 second
 
 Turns mBot left at the specified power for the specified amount of time.
 
-![](../../.gitbook/assets/4%20%2817%29.png)
+![](../../.gitbook/assets/4%20%2818%29.png)
 
 **Example:**
 

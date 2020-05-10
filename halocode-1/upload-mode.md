@@ -6,7 +6,7 @@ HaloCode has two programming modes: Live mode, and Upload Mode.
 
 The default programming mode with HaloCode is Live Mode. Once HaloCode is connected to mBlock 5, Live Mode is toggled on, as shown below:
 
-![](../.gitbook/assets/0%20%2818%29.png)
+![](../.gitbook/assets/0%20%2819%29.png)
 
 Under "Live" mode, programming has the following features:
 

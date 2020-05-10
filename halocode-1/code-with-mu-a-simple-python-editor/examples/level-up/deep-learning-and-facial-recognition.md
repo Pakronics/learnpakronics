@@ -2,7 +2,7 @@
 
 Use the Machine Learning extension to achieve facial recognition function. When "woman" is recognized, the message "laugh" will be broadcast, and HaloCode will make a smiling face with its LED ring; otherwise, the message "angry" will be broadcast, and the LED ring of HaloCode will light up red. You can apply facial recognition to your smart-home system.
 
-![](../../../../.gitbook/assets/0%20%2821%29.png)
+![](../../../../.gitbook/assets/0%20%2822%29.png)
 
 **Training model**
 

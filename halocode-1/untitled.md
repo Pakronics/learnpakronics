@@ -18,7 +18,7 @@ This section includes a quick start guide to HaloCode.
 
 3. Use a micro-USB cable to connect your HaloCode to a USB port of your computer.
 
-![](../.gitbook/assets/3%20%2819%29.png)
+![](../.gitbook/assets/3%20%2820%29.png)
 
 4. Under "Devices", choose "HaloCode", and click "Connect".
 

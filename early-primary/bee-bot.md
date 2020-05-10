@@ -2,7 +2,7 @@
 description: A programmable floor robot for early primary.
 ---
 
-# Bee-Bot
+# Bee Bot
 
 [**Bee-Bot**](https://www.pakronics.com.au/products/new-2019-bee-bot-rechargeable-pakr-et1002) is a simplified Logo turtle for the youngest students. Designed for students in kindergarten through second grade, Bee-Bot may be programmed to move forward and back and turn left and right by pressing the corresponding arrow keys on its back. Press the green GO button and watch Bee-Bot follow the steps. Children are captivated by Bee-Bot and eager to send it on its way.
 
