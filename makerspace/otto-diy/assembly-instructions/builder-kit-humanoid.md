@@ -1,72 +1,72 @@
 # Builder Kit Humanoid
 
-![](../../../.gitbook/assets/screenshot_1%20%281%29.png)
+![](../../../.gitbook/assets/Screenshot\_1.png)
 
-![](../../../.gitbook/assets/screenshot_2%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_2 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_3%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_3 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_4.png)
+![](<../../../.gitbook/assets/Screenshot\_4 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_5%20%282%29.png)
+![](../../../.gitbook/assets/Screenshot\_5.png)
 
-![](../../../.gitbook/assets/screenshot_6%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_6 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_7%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_7 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_8%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_8 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_9%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_9 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_10.png)
+![](<../../../.gitbook/assets/Screenshot\_10 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_11%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_11 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_12%20%283%29.png)
+![](../../../.gitbook/assets/Screenshot\_12.png)
 
-![](../../../.gitbook/assets/screenshot_13%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_13 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_14%20%283%29.png)
+![](../../../.gitbook/assets/Screenshot\_14.png)
 
-![](../../../.gitbook/assets/screenshot_15%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_15 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_16%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_16 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_17.png)
+![](<../../../.gitbook/assets/Screenshot\_17 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_18%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_18 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_19%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_19 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_20%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_20 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_21%20%281%29.png)
+![](../../../.gitbook/assets/Screenshot\_21.png)
 
-![](../../../.gitbook/assets/screenshot_22.png)
+![](<../../../.gitbook/assets/Screenshot\_22 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_23%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_23 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_24%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_24 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_25%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_25 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_26.png)
+![](../../../.gitbook/assets/Screenshot\_26.png)
 
-![](../../../.gitbook/assets/screenshot_27%20%281%29.png)
+![](../../../.gitbook/assets/Screenshot\_27.png)
 
-![](../../../.gitbook/assets/screenshot_28.png)
+![](<../../../.gitbook/assets/Screenshot\_28 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_29%20%281%29.png)
+![](../../../.gitbook/assets/Screenshot\_29.png)
 
-![](../../../.gitbook/assets/screenshot_30%20%282%29.png)
+![](../../../.gitbook/assets/Screenshot\_30.png)
 
 The above instructions have been sourced from [OttoDIY.com](https://www.ottodiy.com/)
 
 You can download the printable assembly instructions here.
 
-{% file src="../../../.gitbook/assets/humanoid.pdf" caption="Printable Assembly Instructions" %}
-
-
+{% file src="../../../.gitbook/assets/Humanoid.pdf" %}
+Printable Assembly Instructions
+{% endfile %}
 
 
 

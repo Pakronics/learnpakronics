@@ -7,7 +7,7 @@ description: >-
 
 # Arduino Comparison Sheet
 
-![Arduino board comparison](../.gitbook/assets/verticalcomparison.png)
+![Arduino board comparison](../.gitbook/assets/VerticalComparison.png)
 
 
 
@@ -15,7 +15,7 @@ Arduino IoT Cloud:
 
 * [Getting Started with Arduino IoT Cloud](https://www.arduino.cc/en/IoT/HomePage)
 
-  
+\
 Instructions for our boards:
 
 * [Due](https://www.arduino.cc/en/Guide/ArduinoDue)
@@ -39,7 +39,7 @@ Instructions for our boards:
 * [Zero](https://www.arduino.cc/en/Guide/ArduinoZero)
 * [Yún Rev.2](https://www.arduino.cc/en/Guide/ArduinoYunRev2)
 
-  
+\
 Instructions for shields:
 
 * [Arduino MKR 485 Shield](https://www.arduino.cc/en/Guide/MKR485Shield)
@@ -61,8 +61,6 @@ Instructions for shields:
 {% embed url="https://www.pakronics.com.au/collections/arduino-mkr-family-an-iot-development-platform" %}
 
 {% embed url="https://www.pakronics.com.au/collections/arduino-nano" %}
-
-
 
 
 

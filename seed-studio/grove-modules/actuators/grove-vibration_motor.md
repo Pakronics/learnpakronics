@@ -1,30 +1,30 @@
 ---
 oldwikiname: Grove_-_Vibration_Motor
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/product/gvib.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/product/gvib.jpg
 prodimagename: Gvib.jpg
-surveyurl: 'https://www.research.net/r/Grove-Vibration_Motor'
-bzurl: 'https://seeedstudio.com/Grove-Vibration-Motor-p-839.html'
+surveyurl: https://www.research.net/r/Grove-Vibration_Motor
+bzurl: https://seeedstudio.com/Grove-Vibration-Motor-p-839.html
 title: Grove - Vibration Motor
-tags: 'grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg'
+tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 sku: 105020003
 category: Actuator
 ---
 
 # Grove Vibration Motor
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration_Motor/master/img/Gvib.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration\_Motor/master/img/Gvib.jpg)
 
 This is a mini vibration motor suitable as a non-audible indicator. When the input is HIGH, the motor will vibrate just like your cell phone on silent mode.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Vibration-Motor-p-839.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-Vibration-Motor-p-839.html)
 
 ### Version Tracker
 
-| Revision | Description | Release |
-| :--- | :--- | :--- |
-| v0.9b | Initial public release | May 10, 2011 |
-| v1.0 | Directly uses an I/O port to drive Vibration Motor | Nov 5, 2011 |
-| v1.2 | Transistor added, uses bigger current to drive Vibration Motor | July 11, 2013 |
+| Revision | Description                                                    | Release       |
+| -------- | -------------------------------------------------------------- | ------------- |
+| v0.9b    | Initial public release                                         | May 10, 2011  |
+| v1.0     | Directly uses an I/O port to drive Vibration Motor             | Nov 5, 2011   |
+| v1.2     | Transistor added, uses bigger current to drive Vibration Motor | July 11, 2013 |
 
 ### Features
 
@@ -33,35 +33,34 @@ This is a mini vibration motor suitable as a non-audible indicator. When the inp
 * Low power consumption
 * High reliability
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ### Specifications
 
-|  Item |  Min |  Typ |  Max |
-| :--- | :--- | :--- | :--- |
-|  Operating Voltage |  3.0V |  5.0V |  5.5V |
-|  Control Mode |  Logic Level \(When Logic HIGH, the motor is ON. When LOW, the motor is OFF.\) |  |  |
-|  Rated speed |  9000 rpm |  |  |
+|  Item              |  Min                                                                         |  Typ  |  Max  |
+| ------------------ | ---------------------------------------------------------------------------- | ----- | ----- |
+|  Operating Voltage |  3.0V                                                                        |  5.0V |  5.5V |
+|  Control Mode      |  Logic Level (When Logic HIGH, the motor is ON. When LOW, the motor is OFF.) |       |       |
+|  Rated speed       |  9000 rpm                                                                    |       |       |
 
 ### Platforms Supported
 
 ### Usage
 
-#### With [Arduino](/Arduino)
+#### With [Arduino](https://app.gitbook.com/Arduino)
 
 To make it vibrate is just as easy as to turn on an LED. Here is an example showing how to turn on the vibration motor.
 
 1. Plug it onto the Digital port 9 of Grove - Base Shield using a Grove cable.
-2. Plug the Grove - Base Shield onto Arduino.
+2.  Plug the Grove - Base Shield onto Arduino.
 
-   ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration_Motor/master/img/IMG_0506.jpg)
-
+    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration\_Motor/master/img/IMG\_0506.jpg)
 3. Connect Arduino to PC by using a USB cable.
-4. Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. 
+4. Copy and paste code below to a new Arduino sketch, and upload it to your Arduino.&#x20;
 
 Use the demo code shown below:
 
-```text
+```
 int MoPin = 9;    // vibrator Grove connected to digital pin 9
 
 void setup()  {
@@ -84,7 +83,7 @@ Now, feel the vibration of your motor!
 
 1.You should have a Raspberry Pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+2.You should have completed configuring the development enviroment, otherwise follow [here](https://app.gitbook.com/GrovePiPlus).
 
 3.Connection
 
@@ -92,21 +91,21 @@ Now, feel the vibration of your motor!
 
 4.Navigate to the demos' directory:
 
-```text
+```
 cd yourpath/GrovePi/Software/Python/
 ```
 
-* To see the code
+*   To see the code
 
-  ```text
-  nano grove_vibration_motor.py   # "Ctrl+x" to exit #
-  ```
+    ```
+    nano grove_vibration_motor.py   # "Ctrl+x" to exit #
+    ```
 
-  \`\`\`
+    \`\`\`
 
-  import time
+    import time
 
-  import grovepi
+    import grovepi
 
 ## Connect the Grove Vibration Motor to digital port D8
 
@@ -114,11 +113,11 @@ cd yourpath/GrovePi/Software/Python/
 
 vibration\_motor = 8
 
-grovepi.pinMode\(vibration\_motor,"OUTPUT"\)
+grovepi.pinMode(vibration\_motor,"OUTPUT")
 
 while True: try:
 
-```text
+```
     # Start vibrating for 1 second
     grovepi.digitalWrite(vibration_motor,1)
     print 'start'
@@ -136,7 +135,7 @@ except IOError:
     print "Error"
 ```
 
-```text
+```
 5.Run the demo.
 ```
 
@@ -146,7 +145,7 @@ sudo python grove\_vibration\_motor.py
 
 ### Project
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino\_Lotus/master/img/gun.jpg)
 
 Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
 
@@ -156,7 +155,6 @@ The Wooden Laser Gun and the Gun Target are all based on an Arduino board called
 
 ### Resources
 
-* [Grove - Vibration Motor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration_Motor/master/res/Grove-Vibration_Motor_Eagle_Files.zip)
-* [S9013 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration_Motor/master/res/S9013.pdf)
-* [ANDA-B1020 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration_Motor/master/res/ANDA-B1020_datasheet.pdf)
-
+* [Grove - Vibration Motor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration\_Motor/master/res/Grove-Vibration\_Motor\_Eagle\_Files.zip)
+* [S9013 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration\_Motor/master/res/S9013.pdf)
+* [ANDA-B1020 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Vibration\_Motor/master/res/ANDA-B1020\_datasheet.pdf)

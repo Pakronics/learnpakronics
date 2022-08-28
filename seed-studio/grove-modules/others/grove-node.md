@@ -4,15 +4,15 @@ category: Others
 bzurl: null
 oldwikiname: Grove - Node
 prodimagename: null
-surveyurl: 'https://www.research.net/r/Grove-Node'
+surveyurl: https://www.research.net/r/Grove-Node
 sku: null
 ---
 
 # Grove Node
 
-Grove - Node is a simple and flexible electronic module to connect physical objects. It's based on the idea of IFTTT \(IF-This-Then-That\). It has two Grove connectors to access a variety of [Grove](/Grove) modules. With pre-programming IFTTT firmware, it's easy to create physical objects with analog sensors and 0/1 actuators.
+Grove - Node is a simple and flexible electronic module to connect physical objects. It's based on the idea of IFTTT (IF-This-Then-That). It has two Grove connectors to access a variety of [Grove](https://app.gitbook.com/Grove) modules. With pre-programming IFTTT firmware, it's easy to create physical objects with analog sensors and 0/1 actuators.
 
-It integrates Bluetooth Low Energy \(BLE\) which makes it extremely easy to interact with phones and tablets. To extend its usability, a DFU bootloader is built in to reprogram it Over-The-Air through BLE. It supports ARM mbed platform to write new firmware with hundreds of libraries.
+It integrates Bluetooth Low Energy (BLE) which makes it extremely easy to interact with phones and tablets. To extend its usability, a DFU bootloader is built in to reprogram it Over-The-Air through BLE. It supports ARM mbed platform to write new firmware with hundreds of libraries.
 
 ## Features
 
@@ -37,7 +37,7 @@ It integrates Bluetooth Low Energy \(BLE\) which makes it extremely easy to inte
 * Maximum charge current: 100mA
 * Grove Interface supply Voltage：3.3V
 * Grove Interface supply Current: 100mA max
-* Grove Interface input Voltage：0~3.3V
+* Grove Interface input Voltage：0\~3.3V
 
 ## Pinout
 
@@ -47,49 +47,49 @@ It integrates Bluetooth Low Energy \(BLE\) which makes it extremely easy to inte
 
 Connect Grove Node with a battery or a USB cable and then press its button, it will run.
 
- \* Double Clicks - run its bootloader, the red LED will be on. \* Otherwise - run its application, the green LED will blink.
+&#x20;\* Double Clicks - run its bootloader, the red LED will be on. \* Otherwise - run its application, the green LED will blink.
 
 * Turn Off Grove Node
 * In bootloader mode - wait for a while to run into the application.
-* In application mode - long press the button wait until all LEDs are off &lt;/dd&gt;&lt;/dl&gt;
+* In application mode - long press the button wait until all LEDs are off \</dd>\</dl>
 
 ### Get Started with Pre-programmed Firmware
 
-![](https://github.com/SeeedDocument/Grove-Node/raw/master/img/Milcandy_IFTTT.jpg)
+![](https://github.com/SeeedDocument/Grove-Node/raw/master/img/Milcandy\_IFTTT.jpg)
 
 First, we need an **Input** Grove module to sense the physical world. Pre-programmed firmware only supports an analog input sensor or 0/1 digital input sensor. The following Grove modules from Seeedstudio can be used as an **Input**:
 
-| Module name | Parameter to measure |
-| :--- | :--- |
-|  Grove - 80cm Infrared Proximity Sensor |  Distance |
-|  Grove - Button | On/Off |
-|  Grove - Electricity Sensor |  Electricity |
-|  Grove - Gas Sensor\(MQ2&MQ5\) |  Gas Quality |
-|  Grove - Light Sensor |  Light |
-|  Grove - Magnetic Switch |  Magnetic |
-|  Grove - Moisture Sensor |  Moisture |
-|  Grove - PIR Motion Sensor |  PIR Motion |
-|  Grove - Rotary Angle Sensor |  Rotary Angle |
-|  Grove - Tilt Switch |  Object Position |
-|  Grove - Sound Sensor |  Sound |
-|  Grove - Temperature Sensor |  Temperature |
-|  Grove - Touch Sensor |  Human touch |
-|  Grove - Water Sensor |  Water |
+| Module name                             | Parameter to measure |
+| --------------------------------------- | -------------------- |
+|  Grove - 80cm Infrared Proximity Sensor |  Distance            |
+|  Grove - Button                         | On/Off               |
+|  Grove - Electricity Sensor             |  Electricity         |
+|  Grove - Gas Sensor(MQ2\&MQ5)           |  Gas Quality         |
+|  Grove - Light Sensor                   |  Light               |
+|  Grove - Magnetic Switch                |  Magnetic            |
+|  Grove - Moisture Sensor                |  Moisture            |
+|  Grove - PIR Motion Sensor              |  PIR Motion          |
+|  Grove - Rotary Angle Sensor            |  Rotary Angle        |
+|  Grove - Tilt Switch                    |  Object Position     |
+|  Grove - Sound Sensor                   |  Sound               |
+|  Grove - Temperature Sensor             |  Temperature         |
+|  Grove - Touch Sensor                   |  Human touch         |
+|  Grove - Water Sensor                   |  Water               |
 
 Other analog sensors which is not Grove-compatible need a little small adjustment. Just connect your signal output to pin4 of Grove connector and then the VCC and GND. _Note that only sensors that output an analog or digital 1/0 value can be used with the pre-programmed firmware_
 
-![](https://github.com/SeeedDocument/Grove-Node/raw/master/img/Mil_Grove_con.png)
+![](https://github.com/SeeedDocument/Grove-Node/raw/master/img/Mil\_Grove\_con.png)
 
 Second, we need an **output** Grove module as an actuator. The following Grove modules can be used:
 
-| Module name | Action when triggered |
-| :--- | :--- |
-|  Grove - Buzzer |  Buzzer enabled |
-|  Grove - LED | LED On |
-|  Grove - Vibrator |  Vibrate |
-|  Grove - Relay |  Swith On/Off other circuits |
+| Module name       | Action when triggered        |
+| ----------------- | ---------------------------- |
+|  Grove - Buzzer   |  Buzzer enabled              |
+|  Grove - LED      | LED On                       |
+|  Grove - Vibrator |  Vibrate                     |
+|  Grove - Relay    |  Swith On/Off other circuits |
 
-For example, we intend to create a light which automatically turns on if the environment is dark and turns off if otherwise, then we select a [Grove\_-\_Light\_Sensor](/Grove-Light_Sensor) and a [Grove\_-\_LED](/Grove-LED).
+For example, we intend to create a light which automatically turns on if the environment is dark and turns off if otherwise, then we select a [Grove\_-\_Light\_Sensor](https://app.gitbook.com/Grove-Light\_Sensor) and a [Grove\_-\_LED](https://app.gitbook.com/Grove-LED).
 
 Third, teach the Grove Node a logic.
 
@@ -118,6 +118,5 @@ See [ble on mbed.org](http://developer.mbed.org/teams/Bluetooth-Low-Energy/)
 
 ## Resources
 
-* [Grove - Node v1.0 schematic pdf file](https://github.com/SeeedDocument/Grove-Node/raw/master/res/Grove-Node_v1.0.pdf)
-* [Grove - Node v1.0 eagle design file](https://github.com/SeeedDocument/Grove-Node/raw/master/res/Grove-Node_v1.0_eagle.zip)
-
+* [Grove - Node v1.0 schematic pdf file](https://github.com/SeeedDocument/Grove-Node/raw/master/res/Grove-Node\_v1.0.pdf)
+* [Grove - Node v1.0 eagle design file](https://github.com/SeeedDocument/Grove-Node/raw/master/res/Grove-Node\_v1.0\_eagle.zip)

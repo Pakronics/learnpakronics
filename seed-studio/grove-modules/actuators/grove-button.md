@@ -1,27 +1,27 @@
 ---
 title: Grove - Button
 category: Actuator
-bzurl: 'https://www.seeedstudio.com/Grove-Button-p-766.html'
+bzurl: https://www.seeedstudio.com/Grove-Button-p-766.html
 oldwikiname: Grove - Button
 prodimagename: Button.jpg
-surveyurl: 'https://www.surveymonkey.com/r/grove-button'
+surveyurl: https://www.surveymonkey.com/r/grove-button
 sku: 101020003
 ---
 
 # Grove Button
 
-![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/Button.jpg)
+![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/Button.jpg)
 
 **Grove - Button** is a momentary push button. It contains one independent "momentary on/off" button. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released. The button signals the SIG Pin of the Grove Interface while NC is not used at all. There are two versions of this button available as showed in the pictures. The only difference between them is the direction of the Grove socket.
 
-[![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Button-p-766.html)
+[![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/300px-Get\_One\_Now\_Banner.png)](https://www.seeedstudio.com/Grove-Button-p-766.html)
 
 ## Features
 
 * Easy to use momentary ON/OFF button
 * Uses Standard 4-pin Grove Cables to connect to other Grove modules such as Grove Power Modules and Grove - Base Shield
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Usage
 
@@ -29,12 +29,12 @@ sku: 101020003
 
 Follow these steps to build a sample circuit using this module but without using any microcontroller:
 
-* Connect the button module to the input side of your circuit \(to the left of the power module\). On the output side of the circuit, you may use a range of User [Interface modules](/Grove/Grove_System/) \(Grove - Red LED, Grove - LED String Light, Grove - Mini Fan, Grove - Buzzer, Grove - Recorder etc.\)
+* Connect the button module to the input side of your circuit (to the left of the power module). On the output side of the circuit, you may use a range of User [Interface modules](https://app.gitbook.com/Grove/Grove\_System/) (Grove - Red LED, Grove - LED String Light, Grove - Mini Fan, Grove - Buzzer, Grove - Recorder etc.)
 * Power up the circuit when complete.
 * The button module can now be used to trigger an output. For example:
   * When used in conjunction with a Grove - Red LED output module, observe that the LED turns ON when you press the button and turns OFF when you stop pressing it.
 
-![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/Grove-momentarySwitch-RedLED.jpg)
+![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/Grove-momentarySwitch-RedLED.jpg)
 
 In terms of power modules, use either the Grove - USB Power module or the Grove - DC Jack Power module for the Grove circuit.
 
@@ -98,9 +98,9 @@ void loop(){
 
 This is a simple example of Raspberry Pi. Run Program and press button, it will print 1 on the terminal, else print 0. Such as the picture below.
 
-![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/GrovePi%2B_grove_button.jpg)
+![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/GrovePi%2B\_grove\_button.jpg)
 
-![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/Grovepi%2B_grove_button_terminal.jpg)
+![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/Grovepi%2B\_grove\_button\_terminal.jpg)
 
 ```python
 # http://www.seeedstudio.com/wiki/Grove_-_Button
@@ -125,32 +125,31 @@ while True:
 
 **Run The Program**
 
-* Find the path to the file\(According to your own path\)
+*   Find the path to the file(According to your own path)
 
-  ```text
-  cd GrovePi/Software/Python/
-  ```
+    ```
+    cd GrovePi/Software/Python/
+    ```
+*   Run Progrom
 
-* Run Progrom
-
-  ```text
-  sudo python grove_button.py
-  ```
+    ```
+    sudo python grove_button.py
+    ```
 
 **Related Grove Packer**
 
 The standard Grove - Button module is available as part of the following Grove Kit Series:
 
-| Grove - Mixer Pack V2 | Grove - Mixer Pack | Grove - Starter Kit V1.1b |
-| :---: | :---: | :---: |
-| ![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/mixer%20pack%20v2.jpg) | ![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/mixer%20pack.jpg) | ![](https://github.com/SeeedDocument/Grove_Button/raw/master/image/Newbundle1.jpg) |
-| [Get One Now](https://www.seeedstudio.com/Mixer-Pack-V2%28Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system%29-p-1867.html) | [Get One Now](https://www.seeedstudio.com/Grove-Mixer-Pack-p-1590.html) | [Get One Now](https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html) |
+|                                                        Grove - Mixer Pack V2                                                       |                                   Grove - Mixer Pack                                  |                               Grove - Starter Kit V1.1b                              |
+| :--------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+|                     ![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/mixer%20pack%20v2.jpg)                     | ![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/mixer%20pack.jpg) |  ![](https://github.com/SeeedDocument/Grove\_Button/raw/master/image/Newbundle1.jpg) |
+| [Get One Now](https://www.seeedstudio.com/Mixer-Pack-V2\(Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system\)-p-1867.html) |        [Get One Now](https://www.seeedstudio.com/Grove-Mixer-Pack-p-1590.html)        | [Get One Now](https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html) |
 
 Alternatively, it can be bought stand-alone [here](https://www.seeedstudio.com/Grove-Button-p-766.html)at the Seeed Studio [Bazaar](https://www.seeedstudio.com/). To buy the Panel Mount version of the module, go to [here](http://www.seeedstudio.com/depot/Grove-ButtonP-p-1243.html)
 
 ## Project
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Button/master/img/gun.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove\_Button/master/img/gun.jpg)
 
 Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
 
@@ -160,7 +159,6 @@ The Wooden Laser Gun and the Gun Target are all based on an Arduino board called
 
 ## Resources
 
-* [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_Button_v1_2-f0f9f212fcee460ebe3703dab813e5c4)
-* [Grove-Button Eagle Files](https://github.com/SeeedDocument/Grove_Button/raw/master/resources/Grove_-_Button_v1.0_Source_File.zip).
-* [How to upload code](http://wiki.seeedstudio.com/wiki/Upload_Code)
-
+* [Schematic at Easyeda](https://easyeda.com/Seeed/Grove\_Button\_v1\_2-f0f9f212fcee460ebe3703dab813e5c4)
+* [Grove-Button Eagle Files](https://github.com/SeeedDocument/Grove\_Button/raw/master/resources/Grove\_-\_Button\_v1.0\_Source\_File.zip).
+* [How to upload code](http://wiki.seeedstudio.com/wiki/Upload\_Code)

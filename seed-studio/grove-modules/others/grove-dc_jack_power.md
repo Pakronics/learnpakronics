@@ -5,24 +5,24 @@ bzurl: >-
   https://www.seeedstudio.com/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14
 oldwikiname: Grove - DC Jack Power
 prodimagename: null
-surveyurl: 'https://www.research.net/r/Grove-DC_Jack_Power'
+surveyurl: https://www.research.net/r/Grove-DC_Jack_Power
 sku: 110060026
 ---
 
 # Grove DC Jack Power
 
-![](https://github.com/SeeedDocument/Grove-DC_Jack_Power/raw/master/img/Power_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-DC\_Jack\_Power/raw/master/img/Power\_photo1.jpg)
 
-This is a [Grove](/Grove) Power module meant for [Grove kits](/GROVE_System#GROVE_Kit_Series) such as the [Grove Mixer Pack V2](/GROVE_MIXER_PACK_V2). It is the source of power or energy for all the circuits with which it is used. It can plug in a range of power sources such as a 9V battery as shown in the picture, or any battery pack or wall power adapter that supplies power in the range of 5.5V-20V. Grove - DC Jack Power module is based on the TD1410 DC-DC step down converter chip and achieves 2A continuous output current over a wide input supply range with excellent load and line regulation.
+This is a [Grove](https://app.gitbook.com/Grove) Power module meant for [Grove kits](https://app.gitbook.com/GROVE\_System#GROVE\_Kit\_Series) such as the [Grove Mixer Pack V2](https://app.gitbook.com/GROVE\_MIXER\_PACK\_V2). It is the source of power or energy for all the circuits with which it is used. It can plug in a range of power sources such as a 9V battery as shown in the picture, or any battery pack or wall power adapter that supplies power in the range of 5.5V-20V. Grove - DC Jack Power module is based on the TD1410 DC-DC step down converter chip and achieves 2A continuous output current over a wide input supply range with excellent load and line regulation.
 
 ## Features
 
 * Essential Grove Module for the Grove mixer packs
 * Standard cylindrical DC power connector connects easily to a range of wall power adapters
-* Connect 9V DC battery using the connector cable that comes along with the module \(as shown in the picture\)
+* Connect 9V DC battery using the connector cable that comes along with the module (as shown in the picture)
 * ON/OFF switch eliminates the need for connecting and disconnecting the power source in order to switch the circuit on or off respectively.
-* Interfaces to an 'input module' such as an [Environmental Monitoring](/GROVE_System#Environmental_Monitoring) module on one side and an 'output module' such as a [User Interface](/GROVE_System#User_Interface) module on another side as indicated on the small illustration on the case
-* Uses Standard 4-pin [Grove Cables](/GROVE_System#Grove_Cables) to connect to other [Grove](/Grove) modules
+* Interfaces to an 'input module' such as an [Environmental Monitoring](https://app.gitbook.com/GROVE\_System#Environmental\_Monitoring) module on one side and an 'output module' such as a [User Interface](https://app.gitbook.com/GROVE\_System#User\_Interface) module on another side as indicated on the small illustration on the case
+* Uses Standard 4-pin [Grove Cables](https://app.gitbook.com/GROVE\_System#Grove\_Cables) to connect to other [Grove](https://app.gitbook.com/Grove) modules
 
 ## Usage
 
@@ -37,12 +37,12 @@ Follow these steps to power up your circuit:
 
 ## Availability
 
-This [Grove](/Grove) module is available as part of the following [Grove Kit Series](/GROVE_System#GROVE_Kit_Series):
+This [Grove](https://app.gitbook.com/Grove) module is available as part of the following [Grove Kit Series](https://app.gitbook.com/GROVE\_System#GROVE\_Kit\_Series):
 
-* [Grove Mixer Pack V2](/GROVE_MIXER_PACK_V2)
-* [Grove Mixer Pack](/Grove-Mixer_Pack)
+* [Grove Mixer Pack V2](https://app.gitbook.com/GROVE\_MIXER\_PACK\_V2)
+* [Grove Mixer Pack](https://app.gitbook.com/Grove-Mixer\_Pack)
 
-Note that the DC - Jack Power [Grove](/Grove) module is sold only as part of the above mentioned packs and is not available stand-alone from the [Seeed Studio Bazaar](http://www.seeedstudio.com/depot/).
+Note that the DC - Jack Power [Grove](https://app.gitbook.com/Grove) module is sold only as part of the above mentioned packs and is not available stand-alone from the [Seeed Studio Bazaar](http://www.seeedstudio.com/depot/).
 
 ## Troubleshooting
 
@@ -52,4 +52,3 @@ If the on-board green LED does not light up when you turn ON the ON/OFF switch o
 2. If using a wall adapter, check if the power adapter has been plugged in properly on the wall. If the wall socket where its plugged in had a switch, ensure that it has been turned ON
 3. Check if the supplied voltage and current is within the module's specified range
 4. Contact your seller's customer service if you still can't solve the problem, or visit the [SeeedStudio Customer Support Site](http://support.seeedstudio.com/)
-

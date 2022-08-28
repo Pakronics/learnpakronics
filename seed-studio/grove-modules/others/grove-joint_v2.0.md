@@ -4,13 +4,13 @@ category: Others
 bzurl: null
 oldwikiname: Grove - Joint v2.0
 prodimagename: Grove-Joint.jpg
-surveyurl: 'https://www.research.net/r/Grove-Joint_v2'
+surveyurl: https://www.research.net/r/Grove-Joint_v2
 sku: null
 ---
 
 # Grove Joint v2.0
 
-![](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/img/Grove-Joint.jpg)
+![](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/img/Grove-Joint.jpg)
 
 Grove - Joint v2.0 shares many similarities with Seeeduino Lotus. It is a mini ATMEGA328 Microcontroller development board. It uses an Atmel ATMEGA328P-MU and CH340. ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. CH340 is a USB bus converter chip that can realize a USB to serial interface. Grove - Joint v2.0 has two Grove interfaces included I2C port and two digital I/Os. It else support battery powered. You can do some simple applications with it.
 
@@ -20,24 +20,24 @@ Grove - Joint v2.0 shares many similarities with Seeeduino Lotus. It is a mini A
 * Operating Voltage: 5V
 * Digital I/O Pins: 2
 * I2C Port: 1
-* Analog Input Channels: 2 \(multiplex with I2C\)
+* Analog Input Channels: 2 (multiplex with I2C)
 * DC Current per I/O Pin: 40 mA
-* Flash Memory: 32 KB \(ATmega328P-MU\)
-* RAM: 2 KB \(ATmega328P-MU\)
-* EEPROM: 1 KB \(ATmega328P-MU\)
+* Flash Memory: 32 KB (ATmega328P-MU)
+* RAM: 2 KB (ATmega328P-MU)
+* EEPROM: 1 KB (ATmega328P-MU)
 * Clock Speed: 12 MHz
 
 ## Hardware Overview
 
 Here is block diagram of Grove - Joint module which consists of following parts.
 
-![](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/img/Grove-Joint_instruction1_.jpg)
+![](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/img/Grove-Joint\_instruction1\_.jpg)
 
 * **Battery Interface** - This moudle can battery powered.
 * **Light Sensor** - There's a light sensor on the board which is connected to **A0** pin.
-* **Status LED** - There're 3 LEDs indicate the status of the board. TX\(**D1**\), RX\(**D0**\) and L\(**D10**\)
-* **INPUT Port** - The INPUT Port is a Grove I2C interface as well as two analog channels\(**A4** & **A5**\).
-* **OUTPUT Port** - The OUTPUT Port is a Grove Interface too including two digital I/Os \(**D3** & **D5**\).
+* **Status LED** - There're 3 LEDs indicate the status of the board. TX(**D1**), RX(**D0**) and L(**D10**)
+* **INPUT Port** - The INPUT Port is a Grove I2C interface as well as two analog channels(**A4** & **A5**).
+* **OUTPUT Port** - The OUTPUT Port is a Grove Interface too including two digital I/Os (**D3** & **D5**).
 * **Button** - The button is connected to **D2** , It can be used as a switch as well.
 * **Micro USB Port** - It can be used for power supply and download the code.
 * **Power LED** - The LED+ connect to VCC and LED- connect to **D6**, you can turn **D6** HIGH to turn off this led to save power.
@@ -64,18 +64,18 @@ Totally compatible with serial application program in computer endpoint Windows 
 
 * 1\) Plug it to computer's USB Port.
 * 2\) Wait till you find it in Device Manager.
-* 3\) If you do not find the port, please download the Driver from [Here](http://www.wch.cn/downloads.php?name=pro&amp;proid=5)
+* 3\) If you do not find the port, please download the Driver from [Here](http://www.wch.cn/downloads.php?name=pro\&amp;proid=5)
 
-![](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/img/CH340_Driver.jpg)
+![](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/img/CH340\_Driver.jpg)
 
 #### Mac OS
 
-Download the driver from here: [http://www.wch.cn/download/CH341SER\_MAC\_ZIP.html](http://www.wch.cn/download/CH341SER_MAC_ZIP.html)
+Download the driver from here: [http://www.wch.cn/download/CH341SER\_MAC\_ZIP.html](http://www.wch.cn/download/CH341SER\_MAC\_ZIP.html)
 
 On Mac OS Yosemite:
 
 * 1\) Download and install the CH340/CH341 driver package
-* 2\) Open Terminal program \(located in /Applications/Utilities/\)
+* 2\) Open Terminal program (located in /Applications/Utilities/)
 * 3\) Type command: `sudo nvram boot-args="debug=0x146 kext-dev-mode=1"`
 * 4\) Enter your password for sudo
 * 5\) Restart your computer
@@ -93,7 +93,7 @@ Now we are making a demo for Grove - Joint v2.0 which require following modules.
 * [Grove Rotary Angle Sensor](http://www.seeedstudio.com/depot/Grove-Rotary-Angle-Sensor-p-770.html)
 * [Digital RGB LED Flexi-Strip](http://www.seeedstudio.com/depot/Digital-RGB-LED-FlexiStrip-60-LED-1-Meter-p-1666.html)
 
-Grove - Joint is compatible with Arduino. If this is your first time using Arduino, Please put hand on [here](/Getting_Started_with_Seeeduino) to start your Arduino journey.
+Grove - Joint is compatible with Arduino. If this is your first time using Arduino, Please put hand on [here](https://app.gitbook.com/Getting\_Started\_with\_Seeeduino) to start your Arduino journey.
 
 ### Hardware Installation
 
@@ -104,27 +104,27 @@ Grove - Joint got two Grove sockets for connecting two modules above : They are:
 
 As shown below:
 
-![](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/img/Grove-Joint_demo_.jpg)
+![](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/img/Grove-Joint\_demo\_.jpg)
 
 ### Software Work
 
 Connect Grove - Joint to computer use a micro USB cable, if the status LED not blink , press the button .
 
-Click [here](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/res/Grove-Joint_demo.rar) to download testing code and decompress it to any folders\(e.g. Drive D or desktop）
+Click [here](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/res/Grove-Joint\_demo.rar) to download testing code and decompress it to any folders(e.g. Drive D or desktop）
 
-Now you need simple [configurations for Arduino](/Sketchbook的使用) sketchbook.
+Now you need simple [configurations for Arduino](https://app.gitbook.com/Sketchbook%E7%9A%84%E4%BD%BF%E7%94%A8) sketchbook.
 
-Launch Arduino IDE and click File&gt;Preferences and add absolute location for downloaded testing code at Sketchbook location.
+Launch Arduino IDE and click File>Preferences and add absolute location for downloaded testing code at Sketchbook location.
 
-![](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/img/Grove-Joint-Demo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/img/Grove-Joint-Demo1.jpg)
 
-After configurations, please restart Arduino, click File&gt;Sketchbook and choose Grove- Joint demo after which testing code will show up.
+After configurations, please restart Arduino, click File>Sketchbook and choose Grove- Joint demo after which testing code will show up.
 
-![](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/img/Grove-Joint-Demo2.jpg)
+![](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/img/Grove-Joint-Demo2.jpg)
 
-Click Tools&gt;Board to choose Arduino Fio and select respective serial port.
+Click Tools>Board to choose Arduino Fio and select respective serial port.
 
-Now click Upload\(CTRL+U\) to burn testing code. Please refer to [here](/Arduino_Common_Error) for any error prompt and you can also add comment on [forum](http://www.seeedstudio.com/forum/)
+Now click Upload(CTRL+U) to burn testing code. Please refer to [here](https://app.gitbook.com/Arduino\_Common\_Error) for any error prompt and you can also add comment on [forum](http://www.seeedstudio.com/forum/)
 
 ### Review Results
 
@@ -136,7 +136,7 @@ The Battery+ is connected to A2. You can read this pin to get the voltage of bat
 
 Upload the below code to get voltage of the battery.
 
-```text
+```
 // Grove - Joint get Battery
 
 const int pinBattery = A2;
@@ -171,6 +171,5 @@ void loop()
 
 ## Resources
 
-* [Schematic in Eagle](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/res/Grove-Joint_v2.0_PCB.rar)
-* [Schematic in PDF](https://github.com/SeeedDocument/Grove-Joint_v2.0/raw/master/res/Grove-Joint_v2.0_SCH.rar)
-
+* [Schematic in Eagle](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/res/Grove-Joint\_v2.0\_PCB.rar)
+* [Schematic in PDF](https://github.com/SeeedDocument/Grove-Joint\_v2.0/raw/master/res/Grove-Joint\_v2.0\_SCH.rar)

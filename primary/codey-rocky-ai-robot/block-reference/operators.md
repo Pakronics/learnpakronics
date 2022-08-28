@@ -1,6 +1,6 @@
 # Operators
 
-### 1. \(\) + \(\) <a id="1---"></a>
+### 1. () + () <a href="#1" id="1"></a>
 
 Perform mathematical addition.
 
@@ -12,7 +12,7 @@ Perform mathematical addition.
 
 Press Button A. Codey's screen will display the result of "2 + 3".
 
-### 2. \(\) − \(\) <a id="2--&#x2212;-"></a>
+### 2. () − () <a href="#2" id="2"></a>
 
 Perform mathematical subtraction.
 
@@ -24,7 +24,7 @@ Perform mathematical subtraction.
 
 Press Button A. Codey's screen will display the result of "3 - 1".
 
-### 3. \(\) \* \(\) <a id="3---"></a>
+### 3. () \* () <a href="#3" id="3"></a>
 
 Perform mathematical multiplication.
 
@@ -36,7 +36,7 @@ Perform mathematical multiplication.
 
 Press Button A. Codey's screen will display the result of "2 × 3".
 
-### 4. \(\) / \(\) <a id="4---"></a>
+### 4. () / () <a href="#4" id="4"></a>
 
 Perform mathematical division.
 
@@ -48,7 +48,7 @@ Perform mathematical division.
 
 Press Button A. Codey's screen will display the result of "6 ÷ 2".
 
-### 5. pick random \(\) to \(\) <a id="5-pick-random--to-"></a>
+### 5. pick random () to () <a href="#5-pick-random-to" id="5-pick-random-to"></a>
 
 Pick a random number from the specified range.
 
@@ -60,7 +60,7 @@ Pick a random number from the specified range.
 
 Press Button A. Codey's screen will display the image for a random number of seconds within the range of 1 to 10.
 
-### 6. \(\) &gt; \(\) <a id="6---"></a>
+### 6. () > () <a href="#6" id="6"></a>
 
 If the value of the specified parameter is greater than the specified value, the report condition is met.
 
@@ -72,7 +72,7 @@ If the value of the specified parameter is greater than the specified value, the
 
 Shake Codey. If the shaking strength is greater than 10, Codey will play the sound "wow".
 
-### 7. \(\) &lt; \(\) <a id="7---"></a>
+### 7. () < () <a href="#7" id="7"></a>
 
 If the value of the specified parameter is less than the specified value, the report condition is met.
 
@@ -84,7 +84,7 @@ If the value of the specified parameter is less than the specified value, the re
 
 When Codey starts up, if battery level is lower than 50%, Codey's screen will display "low battery".
 
-### 8. \(\) = \(\) <a id="8---"></a>
+### 8. () = () <a href="#8" id="8"></a>
 
 If the value of the specified parameter equals the specified value, the report condition is met.
 
@@ -96,7 +96,7 @@ If the value of the specified parameter equals the specified value, the report c
 
 When Codey starts up, if the red value of the object detected equals 255, Codey's LED will light up red.
 
-### 9. \(\) and \(\) <a id="9--and-"></a>
+### 9. () and () <a href="#9-and" id="9-and"></a>
 
 If both the conditions are met, the report condition is met.
 
@@ -108,7 +108,7 @@ If both the conditions are met, the report condition is met.
 
 After starting up, Codey Rocky will keep moving forward at 50% power until red obstacle is detected.
 
-### 10. \(\) or \(\) <a id="10--or-"></a>
+### 10. () or () <a href="#10-or" id="10-or"></a>
 
 If either one of the two conditions is met, the report condition is met.
 
@@ -120,7 +120,7 @@ If either one of the two conditions is met, the report condition is met.
 
 When Codey starts up, Codey will play the sound "hello", if Button A is pressed or if being shaken.
 
-### 11. not \(\) <a id="11-not-"></a>
+### 11. not () <a href="#11-not" id="11-not"></a>
 
 The report condition is met when the specified condition is not met.
 
@@ -132,7 +132,7 @@ The report condition is met when the specified condition is not met.
 
 When Codey starts up, if there no obstacle ahead, Codey Rocky will keep moving forward at 50% power.
 
-### 12. join \(\) \(\) <a id="12-join--"></a>
+### 12. join () () <a href="#12-join" id="12-join"></a>
 
 Join two specified character strings.
 
@@ -144,7 +144,7 @@ Join two specified character strings.
 
 When Codey starts up, the screen will display "hi" and "morning" together.
 
-### 13. letter \(\) of \(\) <a id="13-letter--of-"></a>
+### 13. letter () of () <a href="#13-letter-of" id="13-letter-of"></a>
 
 Report the letter at specified position of a character string.
 
@@ -156,7 +156,7 @@ Report the letter at specified position of a character string.
 
 When Codey starts up, the screen will display the third letter of "morning".
 
-### 14. length of \(\) <a id="14-length-of-"></a>
+### 14. length of () <a href="#14-length-of" id="14-length-of"></a>
 
 Report the length of a specified character string.
 
@@ -168,7 +168,7 @@ Report the length of a specified character string.
 
 When Codey starts up, the screen will display the length of "morning."
 
-### 15. \(\) contains \(\)? <a id="15--contains-"></a>
+### 15. () contains ()? <a href="#15-contains" id="15-contains"></a>
 
 If the specified character string contains the other specified character string, the report condition is met.
 
@@ -180,9 +180,9 @@ If the specified character string contains the other specified character string,
 
 When Codey starts up, if "apple" contains "a", Codey's screen will display "yes".
 
-### 16. \(\) mod \(\) <a id="16--mod-"></a>
+### 16. () mod () <a href="#16-mod" id="16-mod"></a>
 
-Calculate the remainder \(modular\) of two specified numbers.
+Calculate the remainder (modular) of two specified numbers.
 
 ![](http://docs.makeblock.com/codeyrocky/en/block-reference/images/operators-16-1.png)
 
@@ -192,7 +192,7 @@ Calculate the remainder \(modular\) of two specified numbers.
 
 When Codey starts up, the screen will display the remainder of "9 ÷ 6".
 
-### 17. round \(\) <a id="17-round-"></a>
+### 17. round () <a href="#17-round" id="17-round"></a>
 
 Round the specified number to nearest integer.
 
@@ -204,9 +204,9 @@ Round the specified number to nearest integer.
 
 When Codey starts up, the screen will display the result of rounding 10.7.
 
-### 18. \(\) \(\) <a id="18--"></a>
+### 18. () () <a href="#18" id="18"></a>
 
-Perform specific mathematical operation on the specified number. Mathematical operations include: abs \(absolute value\), floor, ceiling, sqrt \(square root\), sin, sos, tan, asin, atan, acos, ln, log, e^, and 10^.
+Perform specific mathematical operation on the specified number. Mathematical operations include: abs (absolute value), floor, ceiling, sqrt (square root), sin, sos, tan, asin, atan, acos, ln, log, e^, and 10^.
 
 ![](http://docs.makeblock.com/codeyrocky/en/block-reference/images/operators-18-1.png)
 
@@ -214,6 +214,4 @@ Perform specific mathematical operation on the specified number. Mathematical op
 
 ![](http://docs.makeblock.com/codeyrocky/en/block-reference/images/operators-18-2.png)
 
-When Codey starts up, the screen will display the square root of 16.  
-
-
+When Codey starts up, the screen will display the square root of 16.\

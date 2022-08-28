@@ -1,20 +1,20 @@
 ---
 title: Grove - Bee Socket
 category: Communication
-bzurl: 'https://www.seeedstudio.com/Grove-Bee-Socket-p-1449.html'
+bzurl: https://www.seeedstudio.com/Grove-Bee-Socket-p-1449.html
 oldwikiname: Grove - Bee Socket
 prodimagename: LFUUlWtcc3wNmrxDp3yjPy7I.jpg
-surveyurl: 'https://www.research.net/r/Grove_Bee_Socket'
+surveyurl: https://www.research.net/r/Grove_Bee_Socket
 sku: 103020002
 ---
 
 # Grove Bee Socket
 
-![](https://github.com/SeeedDocument/Grove-Bee_Socket/raw/master/img/Bee_Socket_01.jpg)
+![](https://github.com/SeeedDocument/Grove-Bee\_Socket/raw/master/img/Bee\_Socket\_01.jpg)
 
-Grove - Bee Socket is an adapter of Xbee serials which can connect wireless modules with Arduino, such as WIFI Bee, RF Bee, Bluetooth Bee, etc. It is Arduino compatible and more effective to conduct operations of peer to peer and mesh network ran by wireless modules. Regulator CJT1117 guarantees Xbee of stable 3.3 voltage. LEDs can perform work modes of the grove clearly. Grove-Bee Socket has the same functions as [XBee Shield](/XBee_Shield_V2.0). Grove-Bee Socket and Arduino are connected by cables, and XB Shield is a standard adapter that can plug to Arduino.
+Grove - Bee Socket is an adapter of Xbee serials which can connect wireless modules with Arduino, such as WIFI Bee, RF Bee, Bluetooth Bee, etc. It is Arduino compatible and more effective to conduct operations of peer to peer and mesh network ran by wireless modules. Regulator CJT1117 guarantees Xbee of stable 3.3 voltage. LEDs can perform work modes of the grove clearly. Grove-Bee Socket has the same functions as [XBee Shield](https://app.gitbook.com/XBee\_Shield\_V2.0). Grove-Bee Socket and Arduino are connected by cables, and XB Shield is a standard adapter that can plug to Arduino.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Bee-Socket-p-1449.html)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get\_One\_Now\_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Bee-Socket-p-1449.html)
 
 ## Feature
 
@@ -26,7 +26,7 @@ Grove - Bee Socket is an adapter of Xbee serials which can connect wireless modu
 
 ## Interface Function
 
-![](https://github.com/SeeedDocument/Grove-Bee_Socket/raw/master/img/Bee_Socket_Interface.jpg)
+![](https://github.com/SeeedDocument/Grove-Bee\_Socket/raw/master/img/Bee\_Socket\_Interface.jpg)
 
 **J1:** Grove Interface, used for connecting to UART Interface of Arduino/Seeeduino.
 
@@ -53,7 +53,7 @@ Using the Grove - Bee Socket, it is easy to control Bee Modules by Arduino/Seeed
 * Plug XBee module onto the Bee Socket.
 * Then connect Grove - Bee Socket to UART Interface of Arduino/Seeeduino using a Grove cable. And connect your Arduino/Seeeduino to the computer via a USB cable to turn it on.
 
-![](https://github.com/SeeedDocument/Grove-Bee_Socket/raw/master/img/Grove-Bee_Socket.jpg)
+![](https://github.com/SeeedDocument/Grove-Bee\_Socket/raw/master/img/Grove-Bee\_Socket.jpg)
 
 * Now you can send some simple AT commands to do some basic configuration for the RF Bee and send/receive data. Of course, you can update the firmware without changing the hardware connection.
 
@@ -61,5 +61,4 @@ If you need further information about how to communicate, please refer to WIKI p
 
 ## Resource
 
-[Bee Socket Eagle File](https://github.com/SeeedDocument/Grove-Bee_Socket/raw/master/res/Bee_Socket_Eagle_File.zip)
-
+[Bee Socket Eagle File](https://github.com/SeeedDocument/Grove-Bee\_Socket/raw/master/res/Bee\_Socket\_Eagle\_File.zip)

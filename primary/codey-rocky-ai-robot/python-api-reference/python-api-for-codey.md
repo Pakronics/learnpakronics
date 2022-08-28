@@ -6,34 +6,34 @@
 
 **Function**
 
-`led.show(r, g, b)`  
+`led.show(r, g, b)`\
 Set the displayed color of the RGB LED, parameters：
 
 * _r_ refers to the value of red component, parameter range is `0 ~ 255`，0 with no red component and 255 the highest red component.
 * _g_ refers to the value of green component, parameter range is `0 ~ 255`，0 with no green component and 255 the highest green component.
 * _b_ refers to the value of blue component, parameter range is `0 ~ 255`，0 with no blue component and 255 the highest blue component.
 
-`led.set_red(val)`  
+`led.set_red(val)`\
 Set the red color value of the RGB LED, parameters：
 
 * _val_ refers to the value of red component, parameter range is `0 ~ 255`，0 with no red component and 255 the highest red component.
 
-`led.set_green(val)`  
+`led.set_green(val)`\
 Set the green color value of the RGB LED, parameters：
 
 * _val_ refers to the value of green component, parameter range is `0 ~ 255`，0 with no green component and 255 the highest green component.
 
-`led.set_blue(val)`  
+`led.set_blue(val)`\
 Set the blue color value of the RGB LED, parameters：
 
 * _val_ refers to the value of blue component, parameter range is `0 ~ 255`，0 with no blue component and 255 the highest blue component.
 
-`led.off()`  
+`led.off()`\
 Turn off the RGB LED.
 
 **Sample Code:**
 
-```text
+```
 import codey
 import time
 
@@ -62,47 +62,47 @@ As shown in the figure above, the face panel has the upper left corner as the co
 
 **Function**
 
-`display.show_image(image, pos_x = 0, pos_y = 0, time_s = None)`  
+`display.show_image(image, pos_x = 0, pos_y = 0, time_s = None)`\
 Display custom dot matrix graphics as image parameters, parameters：
 
 * _image_ string data, each column of the dot matrix has 8 display points, which is 1 byte of data, converted to a hexadecimal string. Therefore, 16 columns of lattices need to be represented by 32 string data.
 * _pos\_x_ displays the offset of the x-axis of the graph on the panel. The parameter range is `-15 ~ 15`, It starts from the 0 position as default if this parameter is not set.
 * _pos\_y_ displays the offset of the graph on the y-axis of the panel. The parameter range is `-7 ~ 7`, It starts from the 0 position as default if this parameter is not set.
-* _time\_s_ displays the time in seconds \(in seconds\). If this parameter is not set, the display remains unchanged until there is a clear screen or resetting the panel operation.
+* _time\_s_ displays the time in seconds (in seconds). If this parameter is not set, the display remains unchanged until there is a clear screen or resetting the panel operation.
 
-`display.show(var, pos_x = 0, pos_y = 0, wait = True)`  
+`display.show(var, pos_x = 0, pos_y = 0, wait = True)`\
 Display data in full-type data parameters, parameters：
 
-* _var_ full type, where the display of numeric and time types is treated specially, and the time format display needs to satisfy: `[x]x:[x]x` format \(regular expression `d?d:dd?`\)
+* _var_ full type, where the display of numeric and time types is treated specially, and the time format display needs to satisfy: `[x]x:[x]x` format (regular expression `d?d:dd?`)
 * _pos\_x_ displays the offset of the data on the x-axis of the panel. The parameter range is `-15 ~ 15`. It starts from the 0 position as default if this parameter is not set.
 * _pos\_y_ displays the offset of the data on the y-axis of the panel. The parameter range is `-7 ~ 7`. It starts from the 0 position as default if this parameter is not set.
 * _wait_ sets whether to block the display, where True: means blocking until the display is complete, False: means display but not blocking.
 
-`display.set_pixel(pos_x, pos_y, status)`  
+`display.set_pixel(pos_x, pos_y, status)`\
 Set the brightness and deactivation status of a single pixel of the panel, Parameters：
 
 * _pos\_x_ The coordinates of the x-axis for the pixel on the panel. The parameter range is `0 ~ 15`.
 * _pos\_y_ The coordinates of the y-axis for the pixel on the panel. The parameter range is `0 ~ 7`.
 * _status_ Boolean value，where `True` indicates that the pixel is lit, and `False`: indicates that the pixel is off.
 
-`display.get_pixel(pos_x, pos_y)`  
+`display.get_pixel(pos_x, pos_y)`\
 Get the current on and off states of a single pixel on the panel. The return value is a Boolean value, where `True`: indicates that the pixel is lit, and `False`: indicates that the pixel is off, parameter：
 
 * _pos\_x_ The coordinates of the x-axis for the pixel on the panel. The parameter range is `0 ~ 15`.
 * _pos\_y_ The coordinates of the y-axis for the pixel on the panel. The parameter range is `0 ~ 7`.
 
-`display.toggle_pixel(pos_x, pos_y)`  
+`display.toggle_pixel(pos_x, pos_y)`\
 Toggle the current on and off states of a single pixel on the panel, parameter：
 
 * _pos\_x_ The coordinates of the x-axis for the pixel on the panel. The parameter range is `0 ~ 15`.
 * _pos\_y_ The coordinates of the y-axis for the pixel on the panel. The parameter range is `0 ~ 7`.
 
-`display.clear()`  
+`display.clear()`\
 Turn off all the LED lights on the display.
 
 **Sample Code:**
 
-```text
+```
 import codey
 import time
 
@@ -127,112 +127,112 @@ while True:
 
 **Function**
 
-`speaker.stop_sounds()`  
+`speaker.stop_sounds()`\
 Stop all sounds.
 
-`speaker.play_melody(file_name)`  
+`speaker.play_melody(file_name)`\
 Playing an audio file, the function will not block when playing, but if it is called continuously, the next playback will stop the previous playback, Parameters：
 
-* _file\_name_ String type, the audio file name of the wav format burned in Codey Rocky flash. When inputting, the format suffix `.wav` can also be omitted.  
+*   _file\_name_ String type, the audio file name of the wav format burned in Codey Rocky flash. When inputting, the format suffix `.wav` can also be omitted.\
 
 
-  The optional sound file has:  
+    The optional sound file has:\
 
 
-  ```text
-  hello.wav       ： hello
-  hi.wav          ： hi
-  bye.wav         ： bye
-  yeah.wav        ： yeah
-  wow.wav         ： wow
-  laugh.wav       ： laugh
-  hum.wav         ： hum
-  sad.wav         ： sad
-  sigh.wav        ： sigh
-  annoyed.wav     ： annoyed
-  angry.wav       ： angry
-  surprised.wav   ： scared
-  yummy.wav       ： pettish
-  curious.wav     ： curious
-  embarrassed.wav ： embarrassed
-  ready.wav       ： ready
-  sprint.wav      ： sprint
-  sleepy.wav      ： snore
-  meow.wav        ： meow
-  start.wav       ： start
-  switch.wav      ： switch
-  beeps.wav       ： beeps
-  buzzing.wav     ： buzz
-  exhaust.wav     ： air-out
-  explosion.wav   ： explosion
-  gotcha.wav      ： gotcha
-  hurt.wav        ： painful
-  jump.wav        ： jump
-  laser.wav       ： laser
-  level up.wav    ： level-up
-  low energy.wav  ： low-energy
-  metal clash.wav ： metal-clash
-  prompt tone.wav ： prompt-tone
-  right.wav       ： right
-  wrong.wav       ： wrong
-  ring.wav        ： ringtone
-  score.wav       ： score
-  shot.wav        ： shot
-  step_1.wav      ： step_1
-  step_2.wav      ： step_2
-  wake.wav        ： activate
-  warning.wav     ： warning
-  ```
+    ```
+    hello.wav       ： hello
+    hi.wav          ： hi
+    bye.wav         ： bye
+    yeah.wav        ： yeah
+    wow.wav         ： wow
+    laugh.wav       ： laugh
+    hum.wav         ： hum
+    sad.wav         ： sad
+    sigh.wav        ： sigh
+    annoyed.wav     ： annoyed
+    angry.wav       ： angry
+    surprised.wav   ： scared
+    yummy.wav       ： pettish
+    curious.wav     ： curious
+    embarrassed.wav ： embarrassed
+    ready.wav       ： ready
+    sprint.wav      ： sprint
+    sleepy.wav      ： snore
+    meow.wav        ： meow
+    start.wav       ： start
+    switch.wav      ： switch
+    beeps.wav       ： beeps
+    buzzing.wav     ： buzz
+    exhaust.wav     ： air-out
+    explosion.wav   ： explosion
+    gotcha.wav      ： gotcha
+    hurt.wav        ： painful
+    jump.wav        ： jump
+    laser.wav       ： laser
+    level up.wav    ： level-up
+    low energy.wav  ： low-energy
+    metal clash.wav ： metal-clash
+    prompt tone.wav ： prompt-tone
+    right.wav       ： right
+    wrong.wav       ： wrong
+    ring.wav        ： ringtone
+    score.wav       ： score
+    shot.wav        ： shot
+    step_1.wav      ： step_1
+    step_2.wav      ： step_2
+    wake.wav        ： activate
+    warning.wav     ： warning
+    ```
 
-`speaker.play_melody_until_done(file_name)`  
+`speaker.play_melody_until_done(file_name)`\
 The audio file is played until it stops, and the function blocks playback, that is, the next instruction cannot be executed until the sound is played, parameter：
 
 * _file\_name_ String type, the audio file name of the wav format burned in Codey Rocky flash. When inputting, the format name `.wav` can also be omitted. For specific optional parameters, see `play_melody`.
 
-`speaker.play_note(note_num, beat = None)`  
-Play note, digital note definitions please refer to: [scratch digital note description](https://en.scratch-wiki.info/wiki/Play_Note_%28)_for_\(\)_Beats_\(block\)\), prameters：
+`speaker.play_note(note_num, beat = None)`\
+Play note, digital note definitions please refer to: [scratch digital note description](https://en.scratch-wiki.info/wiki/Play\_Note\_\()_for_()_Beats_(block)), prameters：
 
 * _note\_num_ numeric value, range of values `48 - 72`, or string type, such as `C4`.
-* _beat_ value data, indicates the number of beats, the default value is always playing.  
-  notes and frequency is as follows:  
+*   _beat_ value data, indicates the number of beats, the default value is always playing.\
+    notes and frequency is as follows:\
 
 
-  ```text
-  ['C2','65'],   ['D2','73'],   ['E2','82'],   ['F2','87'],
-  ['G2','98'],   ['A2','110'],  ['B2','123'],  ['C3','131'],
-  ['D3','147'],  ['E3','165'],  ['F3','175'],  ['G3','196'],
-  ['A3','220'],  ['B3','247'],  ['C4','262'],  ['D4','294'],
-  ['E4','330'],  ['F4','349'],  ['G4','392'],  ['A4','440'],
-  ['B4','494'],  ['C5','523'],  ['D5','587'],  ['E5','659'],
-  ['F5','698'],  ['G5','784'],  ['A5','880'],  ['B5','988'],
-  ['C6','1047'], ['D6','1175'], ['E6','1319'], ['F6','1397'],
-  ['G6','1568'], ['A6','1760'], ['B6','1976'], ['C7','2093'],
-  ['D7','2349'], ['E7','2637'], ['F7','2794'], ['G7','3136'],
-  ['A7','3520'], ['B7','3951'], ['C8','4186'], ['D8','4699'],
-  ```
+    ```
+    ['C2','65'],   ['D2','73'],   ['E2','82'],   ['F2','87'],
+    ['G2','98'],   ['A2','110'],  ['B2','123'],  ['C3','131'],
+    ['D3','147'],  ['E3','165'],  ['F3','175'],  ['G3','196'],
+    ['A3','220'],  ['B3','247'],  ['C4','262'],  ['D4','294'],
+    ['E4','330'],  ['F4','349'],  ['G4','392'],  ['A4','440'],
+    ['B4','494'],  ['C5','523'],  ['D5','587'],  ['E5','659'],
+    ['F5','698'],  ['G5','784'],  ['A5','880'],  ['B5','988'],
+    ['C6','1047'], ['D6','1175'], ['E6','1319'], ['F6','1397'],
+    ['G6','1568'], ['A6','1760'], ['B6','1976'], ['C7','2093'],
+    ['D7','2349'], ['E7','2637'], ['F7','2794'], ['G7','3136'],
+    ['A7','3520'], ['B7','3951'], ['C8','4186'], ['D8','4699'],
+    ```
 
-`speaker.play_tone(frequency, time = None)`  
+`speaker.play_tone(frequency, time = None)`\
 Play the setting frequency sound, parameters：
 
 * _frequency_ Numerical data, the frequency of sound which is played, and its value range is `0 ~ 5000`.
-* _time_ Numerical data, indicating the playback time \(in `milliseconds - ms`\) and its value range is `0 ~ the value range limit`.
+* _time_ Numerical data, indicating the playback time (in `milliseconds - ms`) and its value range is `0 ~ the value range limit`.
 
-`speaker.rest(number)`  
+`speaker.rest(number)`\
 Stop the beat, parameters：
 
 * _number_ Numerical data, the number of paused beats, its value range is `0 ~ the value range limit`.
 
 **Constant**
 
-`speaker.volume`  
+`speaker.volume`\
 Numerical data, the property value of the volume, you can modify or read this value. Modify this value to control the volume. Its value range is `0 ~ 100`.
 
-`speaker.tempo`  
-Numerical data, indicating the nature of the playback speed, in `bmp` \(beat per minute\), which is the length of each beat.Its value range is `6 ~ 600`. The default value is 60, which means that the duration of one beat is 1 second. The beats of the `rest` and `play_note` functions are affected by this constant.
+`speaker.tempo`\
+Numerical data, indicating the nature of the playback speed, in `bmp` (beat per minute), which is the length of each beat.Its value range is `6 ~ 600`. The default value is 60, which means that the duration of one beat is 1 second. The beats of the `rest` and `play_note` functions are affected by this constant.
 
 **Sample Code:**
 
-```text
+```
 import codey
 import time
 
@@ -266,12 +266,12 @@ codey.speaker.rest(1)
 
 **Function**
 
-`sound_sensor.get_loudness()`  
+`sound_sensor.get_loudness()`\
 Get the sound intensity detected by the sound sensor, and the return value is the volume. The value range is `0 ~ 100`.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 while True:
@@ -282,12 +282,12 @@ while True:
 
 **Function**
 
-`light_sensor.get_value()`  
+`light_sensor.get_value()`\
 Get the light intensity detected by the light sensor, and the return value is the intensity value of visible light. The value range is `0 ~ 100`.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 while True:
@@ -298,12 +298,12 @@ while True:
 
 **Function**
 
-`potentiometer.get_value()`  
+`potentiometer.get_value()`\
 Get the current value of the potentiometer knob. The value range is `0 ~ 100`.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 while True:
@@ -314,12 +314,12 @@ while True:
 
 **Function**
 
-`button_a.is_pressed()`  
+`button_a.is_pressed()`\
 Get the current state of button A. The result returned is `True`: the button is pressed, or the `False`: button is not pressed.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 def loop():
@@ -333,12 +333,12 @@ loop()
 
 **Function**
 
-`button_b.is_pressed()`  
+`button_b.is_pressed()`\
 Get the current state of button B. The result returned is `True`: the button is pressed, or the `False`: button is not pressed.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 def loop():
@@ -352,12 +352,12 @@ loop()
 
 **Function**
 
-`button_c.is_pressed()`  
+`button_c.is_pressed()`\
 Get the current state of button C. The result returned is `True`: the button is pressed, or the `False`: button is not pressed.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 def loop():
@@ -382,64 +382,64 @@ Both roll and pitch are `0°` when the Codey is horizontally placed.
 
 **Function**
 
-`motion_sensor.get_roll()`  
+`motion_sensor.get_roll()`\
 Get the roll of the Euler angle, the returned data range is `-90 ~ 90`.
 
-`motion_sensor.get_pitch()`  
+`motion_sensor.get_pitch()`\
 Get the pitch of the Euler angle, the returned data range is `-180 ~ 180`.
 
-`motion_sensor.get_yaw()`  
+`motion_sensor.get_yaw()`\
 Get the yaw of the Euler angle, The returned data range is `0 ~ 360`. Since the Codey onboard sensor is a six-axis sensor, there is no electronic compass. So in fact the yaw angle is just the integral of the Z-axis angular velocity. It has accumulated errors. If you want to get a true yaw angle, this API is not suitable for use.
 
-`motion_sensor.get_rotation(axis)`  
+`motion_sensor.get_rotation(axis)`\
 Get the angle at which the Codey rotates on the three axes, and the counterclockwise direction is the positive direction, parameter：
 
 * _axis_ String type, with `x`, `y`, `z` representing the axis defined by Codey.
 
-`motion_sensor.reset_rotation(axis = "all")`  
+`motion_sensor.reset_rotation(axis = "all")`\
 The current angle of initial rotation around the three axes is 0, and the `get_rotation()` will start at 0, parameter:
 
 * _axis_ string type, with `x`, `y`, `z` representing the axis defined by Codey, and `all` representing all three axes. This is also the default value for this function.
 
-`motion_sensor.is_shaked()`  
+`motion_sensor.is_shaked()`\
 Check if the Codey is shaken, the return value is a Boolean value, where `True` means that Codey is shaken, and `False` means that Codey is not shaken.
 
-`motion_sensor.get_shake_strength()`  
+`motion_sensor.get_shake_strength()`\
 If the Codey is shaken, this function can obtain the intensity of the shaking. The value of the return value range is `0 ~ 100`. The larger the value, the greater the intensity of the shaking.
 
-`motion_sensor.is_tilted_left()`  
+`motion_sensor.is_tilted_left()`\
 Check if Codey is tilted to the left, and the return value is a Boolean value, where `True` means that Codey is tilted to the left, and `False` means that Codey is not tilted to the left.
 
-`motion_sensor.is_tilted_right()`  
+`motion_sensor.is_tilted_right()`\
 Check if Codey is tilted to the right, and the return value is a Boolean value, where `True` means that Codey is tilted to the right, and `False` means that Codey is not tilted to the right.
 
-`motion_sensor.is_ears_up()`  
+`motion_sensor.is_ears_up()`\
 Check if the ear of Codey is up, the return value is a Boolean value, where `True` means that the ear of Codey is facing up, and `False` means that the ear of Codey is not facing up.
 
-`motion_sensor.is_ears_down()`  
+`motion_sensor.is_ears_down()`\
 Check if the ear of Codey is down, the return value is a Boolean value, where `True` means that the ear of Codey is facing down, and `False` means that the ear of Codey is not facing down.
 
-`motion_sensor.is_display_up()`  
+`motion_sensor.is_display_up()`\
 Check if the face panel of Codey is up, the return value is a Boolean value, where `True` means that the panel of Codey is facing up, and `False` means that the panel of Codey is not facing up.
 
 `motion_sensor.is_display_down()` Check if the face panel of Codey is down, the return value is a Boolean value, where `True` means that the panel of Codey is facing down, and `False` means that the panel of Codey is not facing down.
 
-`motion_sensor.is_upright()`  
+`motion_sensor.is_upright()`\
 Check if Codey is upright, the return value is a Boolean value, where `True` means that Codey is upright, and `False` means that Codey is not upright.
 
-`motion_sensor.get_acceleration(axis)`  
+`motion_sensor.get_acceleration(axis)`\
 Get the acceleration values of the three axes in `m/s^2`, Parameters：
 
 * _axis_ String type, with `x`, `y`, `z` representing the axis defined by Codey.
 
-`motion_sensor.get_gyroscope(axis)`  
+`motion_sensor.get_gyroscope(axis)`\
 Get the angular velocity values of the three axes in `°/sec`, Parameters：
 
 * _axis_ String type, with `x`, `y`, `z` representing the axis defined by Codey。
 
 **Sample Code 1:**
 
-```text
+```
 import codey
 import time
 
@@ -458,7 +458,7 @@ while True:
 
 **Sample Code 2:**
 
-```text
+```
 import codey
 
 while True:
@@ -469,7 +469,7 @@ while True:
 
 **Sample Code 3:**
 
-```text
+```
 import codey
 
 while True:
@@ -493,41 +493,41 @@ while True:
 
 **Function**
 
-`ir.receive()`  
+`ir.receive()`\
 Returns the string information received by the infrared receiver, so the data sent by the infrared sender must end with `\n`. If it is a remote control command that receives the NEC encoding protocol, use another function `receive_remote_code()`.
 
-`ir.receive_remote_code()`  
+`ir.receive_remote_code()`\
 Get the date from infrared remote controller. The data contains two parts: address and content, so it returns a list data which length 2. The first parameter is the address code, and the latter parameter is the data code.
 
-`ir.send(str)`  
+`ir.send(str)`\
 Send infrared string, parameters：
 
 * _str_ The string data to be emitted, the function send will add the `\n` terminator at the end of the string automatically.
 
-`ir.start_learning()`  
+`ir.start_learning()`\
 Start infrared learning and only support remote control commands that learn the standard NEC protocol.
 
-`ir.stop_learning()`  
+`ir.stop_learning()`\
 Stop infrared learning.
 
-`ir.save_learned_result(index)`  
+`ir.save_learned_result(index)`\
 Save the learned infrared coding result to the corresponding area, parameters：
 
-* _index_ the value range is 0 ~ 15, a total of 16 storage areas.
+* _index_ the value range is 0 \~ 15, a total of 16 storage areas.
 
-`ir.send_learned_result(index = 1)`  
+`ir.send_learned_result(index = 1)`\
 Send infrared learning saved infrared code, the learning result of the area with index = 1 is set as default, parameters：
 
 * _index_ The index value range is `0 ~ 15`, a total of 16 storage areas.
 
-`ir.learn(time = 3)`  
+`ir.learn(time = 3)`\
 Infrared learning `time` seconds, after calling this API will save the infrared information learned in `time` seconds. Default saved to the area with index = 1, parameter：
 
 * _time_ learning time, in `seconds`.
 
 **Sample Code 1:**
 
-```text
+```
 import codey
 import event
 
@@ -540,7 +540,7 @@ def start_cb():
 
 **Sample Code 2:**
 
-```text
+```
 import codey
 import event
 
@@ -567,30 +567,30 @@ def button_c_cb():
 
 **Function**
 
-`wifi.start(ssid = "wifi_ssid", password = "password", mode = codey.wifi.STA)`  
+`wifi.start(ssid = "wifi_ssid", password = "password", mode = codey.wifi.STA)`\
 Start wifi connection, the API will not block process, API exit does not mean that wifi is connected, you need to call `wifi.is_connected()` to judge, Parameter：
 
 * _ssid_ string type, Wi-Fi account.
 * _password_ string type, Wi-Fi password.
 * _mode_ starts the Wi-Fi mode.
 
-`wifi.is_connected()`  
+`wifi.is_connected()`\
 Check if Wi-Fi is connected, the return value is Boolean, where `True` means that wifi has established a connection, `False` means that wifi has not yet established a connection.
 
 **Constant**
 
-`wifi.STA`  
+`wifi.STA`\
 The Wi-Fi station mode, that is, the wireless adapter mode. In this mode, wifi can be connected to the router.
 
-`wifi.AP`  
+`wifi.AP`\
 Wireless access point mode, the general wireless routing / bridge works in this mode. In this mode, it allows other wireless devices to access.
 
-`wifi.APSTA`  
+`wifi.APSTA`\
 The Wi-Fi AP and STA modes coexist.
 
 **Sample Code:**
 
-```text
+```
 import codey
 codey.wifi.start('makeblock', 'password', codey.wifi.STA)
 codey.led.show(0,0,0)
@@ -606,15 +606,15 @@ while True:
 
 **Function**
 
-`battery.get_voltage()`  
+`battery.get_voltage()`\
 Get the current battery voltage, the return value is a floating point data. The unit is `V`.
 
-`battery.get_percentage()`  
+`battery.get_percentage()`\
 Get the percentage of remaining battery power. The return value is an integer. The data range is `0 ~ 100`, where 100 means there is still 100% of the remaining battery.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 while True:
@@ -626,15 +626,15 @@ while True:
 
 **Function**
 
-`codey.get_timer()`  
-Gets the current value of the timer \(the timer runs from the time the user script starts\), the return value is a floating point data. The unit is `seconds`.
+`codey.get_timer()`\
+Gets the current value of the timer (the timer runs from the time the user script starts), the return value is a floating point data. The unit is `seconds`.
 
-`codey.reset_timer()`  
+`codey.reset_timer()`\
 Initialize the value of the timer.
 
 **Sample Code:**
 
-```text
+```
 import codey
 
 codey.reset_timer()
@@ -648,14 +648,14 @@ while True:
 
 **Function**
 
-`codey.broadcast(str)`  
+`codey.broadcast(str)`\
 A broadcast can be sent to the serial port, Bluetooth, and its own event monitoring unit, Parameter：
 
 * _str_ The content of the broadcast.
 
 **Sample Code:**
 
-```text
+```
 import codey
 import event
 
@@ -673,15 +673,15 @@ def received_cb():
 
 **Function**
 
-`codey.has_neuron_connected()`  
-Check whether there is any neuron module connected to Codey, and the return value is a Boolean value, where `True` indicates that the neuron module is connected to Codey \(including the connecting of the Rocky\), and `False` indicates that there is no neuron module connected to the Codey.
+`codey.has_neuron_connected()`\
+Check whether there is any neuron module connected to Codey, and the return value is a Boolean value, where `True` indicates that the neuron module is connected to Codey (including the connecting of the Rocky), and `False` indicates that there is no neuron module connected to the Codey.
 
-`codey.is_rocky_connected()`  
+`codey.is_rocky_connected()`\
 Check if the Rocky is connected to the Codey, the return value is a Boolean value, where `True` means that there is a Rocky connected to the Codey, and `False` means no Rocky connected to Codey.
 
 **Sample Code:**
 
-```text
+```
 import codey
 import time
 
@@ -697,18 +697,18 @@ while True:
 
 **Function**
 
-`codey.stop_this_script()`  
+`codey.stop_this_script()`\
 Stop the current script, consistent with the scratch stop script feature.
 
-`codey.stop_other_scripts()`  
+`codey.stop_other_scripts()`\
 Stop other scripts, consistent with the scratch stop other scripts feature.
 
-`codey.stop_this_script()`  
+`codey.stop_this_script()`\
 Stop all scripts, consistent with the scratch stop all scripts.
 
 **Sample Code:**
 
-```text
+```
 import codey
 import time
 import event
@@ -744,7 +744,7 @@ def button_c_cb():
 
 The way user events are used currently supports two ways of writing. One is registration：
 
-```text
+```
 import codey
 import time
 import event
@@ -760,7 +760,7 @@ event.start(start_cb)
 
 The other is to use a decorator, such as：
 
-```text
+```
 import codey
 import time
 import event
@@ -777,50 +777,50 @@ def start_callback():
 
 **Function**
 
-`event.start(callback)`  
+`event.start(callback)`\
 Startup event.
 
-`event.shaked(callback)`  
+`event.shaked(callback)`\
 Codey was shaken event.
 
-`event.received(callback, msgstr)`  
+`event.received(callback, msgstr)`\
 Broadcast reception detection event. In addition to the callback parameter, the parameter：
 
 * _msgstr_ string type, the string to be matched. The event will be triggered when the received string matches the matching string.
 
-`event.button_a_pressed(callback)`  
+`event.button_a_pressed(callback)`\
 Button A pressed event.
 
-`event.button_b_pressed(callback)`  
+`event.button_b_pressed(callback)`\
 Button B pressed event.
 
-`event.button_c_pressed(callback)`  
+`event.button_c_pressed(callback)`\
 Button C pressed event.
 
-`event.tilted_left(callback)`  
+`event.tilted_left(callback)`\
 Codey left-tilted event.
 
-`event.tilted_right(callback)`  
+`event.tilted_right(callback)`\
 Codey right-tilted event.
 
-`event.ears_up(callback)`  
+`event.ears_up(callback)`\
 Codey ears-up event.
 
-`event.ears_down(callback)`  
+`event.ears_down(callback)`\
 Codey ears-down event.
 
-`event.ir_received(callback, ir_str)`  
+`event.ir_received(callback, ir_str)`\
 Infrared string reception detection event. In addition to the callback parameter, the parameter：
 
 * _ir\_str_ string type, the string to be matched. The event will be triggered when the received string matches the matching string.
 
-`event.greater_than(callback, threshold, type_str)`  
+`event.greater_than(callback, threshold, type_str)`\
 The threshold comparison event, which will be triggered when the threshold is exceeded. In addition to the callback parameter, the parameter：
 
 * _threshold_ value data, set the threshold for triggering.
 * _type\_str_ string data, currently only supports `sound_sensor`: volume sensor, `timer`: timer.
 
-`event.less_than(callback, threshold, type_str)`  
+`event.less_than(callback, threshold, type_str)`\
 Threshold comparison event, triggered below the threshold, in addition to the callback parameter, the parameter：
 
 * _threshold_ value data, set the threshold for triggering
@@ -828,7 +828,7 @@ Threshold comparison event, triggered below the threshold, in addition to the ca
 
 **Sample Code:**
 
-```text
+```
 import codey
 import event
 
@@ -856,4 +856,3 @@ def timer_cb():
 def light_sensor_cb():
     print("light sensor event triggered")
 ```
-

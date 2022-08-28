@@ -1,29 +1,29 @@
 ---
 oldwikiname: Grove_-_Infrared_Receiver
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/101020016 1.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/101020016 1.jpg
 prodimagename: Grove-Infrared_Receiver.jpg
-surveyurl: 'https://www.research.net/r/Grove-Infrared_Receiver'
-bzurl: 'https://seeedstudio.com/Grove-Infrared-Receiver-p-994.html'
+surveyurl: https://www.research.net/r/Grove-Infrared_Receiver
+bzurl: https://seeedstudio.com/Grove-Infrared-Receiver-p-994.html
 title: Grove - Infrared Receiver
-tags: 'grove_digital, io_3v3, io_5v, plat_duino'
+tags: grove_digital, io_3v3, io_5v, plat_duino
 sku: 101020016
 category: Sensor
 ---
 
 # Grove Infrared Receiver
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Receiver/master/img/Grove-Infrared_Receiver.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared\_Receiver/master/img/Grove-Infrared\_Receiver.jpg)
 
-The Infrared Receiver is used to receive infrared signals and also used for remote control detection. There is an IR detector on the Infrared Receiver which is used to get the infrared light emitted by the Infrared Emitter. The IR detector have a demodulator inside that looks for modulated IR at 38 KHz. The Infrared Receiver can receive signals well within 10 meters. If more than 10 meters , the receiver may not get the signals. We often use the two Groves-the Infrared Receiver and the [Grove - Infrared Emitter](/Grove-Infrared_Emitter) to work together.
+The Infrared Receiver is used to receive infrared signals and also used for remote control detection. There is an IR detector on the Infrared Receiver which is used to get the infrared light emitted by the Infrared Emitter. The IR detector have a demodulator inside that looks for modulated IR at 38 KHz. The Infrared Receiver can receive signals well within 10 meters. If more than 10 meters , the receiver may not get the signals. We often use the two Groves-the Infrared Receiver and the [Grove - Infrared Emitter](https://app.gitbook.com/Grove-Infrared\_Emitter) to work together.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Infrared-Receiver-p-994.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-Infrared-Receiver-p-994.html)
 
 ## Specifications
 
 * Voltage: 3.3-5V
 * Distance: 10m
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Platforms Supported
 
@@ -38,8 +38,8 @@ We will use Grove-Infrared Receiver and Grove - Infrared Emitter in this demonst
 
 ### Suggest Reading for Starter
 
-* [Download Arduino and install Arduino driver](/Download_Arduino_and_install_Arduino_driver)
-* [Getting Started with Seeeduino/Arduino](/Getting_Started_with_Seeeduino)
+* [Download Arduino and install Arduino driver](https://app.gitbook.com/Download\_Arduino\_and\_install\_Arduino\_driver)
+* [Getting Started with Seeeduino/Arduino](https://app.gitbook.com/Getting\_Started\_with\_Seeeduino)
 
 ### IRSendRev Library
 
@@ -50,7 +50,7 @@ We have created a library to help you start playing quickly with the Seeeduino/A
 1. Download the [library code as a zip file](https://github.com/Seeed-Studio/IRSendRev) from the IRSendRev github page.
 2. Unzip the downloaded file into your …/arduino/libraries.
 3. Rename the unzipped folder "IRSendRev"
-4. Start the Arduino IDE \(or restart if it is open\).
+4. Start the Arduino IDE (or restart if it is open).
 
 ### Infrared Receiver Examples/Applications
 
@@ -58,13 +58,13 @@ These examples are going to show you how to use features of Grove - Infrared Rec
 
 #### Receiver
 
-* Open File-&gt;Examples-&gt;IRSendRev-&gt;example-&gt;recv sketch for a complete example, or copy and paste code below to a new Arduino sketch.
+* Open File->Examples->IRSendRev->example->recv sketch for a complete example, or copy and paste code below to a new Arduino sketch.
 
 **Description**: This example connect the IR receiver pins to D2 for this demo. You can see the remote control's infrared data that received through a serial port terminal, then write the received infrared data into send.ino and upload to the board with Infrared Emitter Grove, so you can send the same data with remote control's button.
 
 **Application**: You can note the remote control's infrared data down through Infrared Receiver, then send the same data through Infrared Emitter in some cases, such as open the fan switch when indoor temperature is greater than 26 degrees.
 
-```text
+```
 #include <IRSendRev.h>
 
 #define BIT_LEN         0
@@ -131,14 +131,14 @@ void loop()
 
 * Upload the code to the development board.
 * Open the serial monitor window and wait for the input.
-* Using IR remote control sending data\(This example uses MIDEA Company's IR remote control of fans, and press the open/close key.\).
+* Using IR remote control sending data(This example uses MIDEA Company's IR remote control of fans, and press the open/close key.).
 * You can see the information below.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Receiver/master/img/Data：IR_remote_control_of_fans.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared\_Receiver/master/img/Data%EF%BC%9AIR\_remote\_control\_of\_fans.jpg)
 
 #### Emitter
 
-* Open File-&gt;Examples-&gt;IRSendRev-&gt;example-&gt;send sketch for a complete example, or copy and paste code below to a new Arduino sketch.
+* Open File->Examples->IRSendRev->example->send sketch for a complete example, or copy and paste code below to a new Arduino sketch.
 
 **Description**: Connect the IR send pins to D3 for this demo. You can see the remote control's infrared data that received through Infrared Receiver, such as the example above. Then write the received infrared data into this example and upload to the board with Infrared Emitter Grove, so you can send the same data with remote control's button.
 
@@ -146,7 +146,7 @@ void loop()
 
 Note You must connect the IR send pins to D3 for this demo.
 
-```text
+```
 #include <IRSendRev.h>
 
 #define BIT_LEN         0
@@ -194,8 +194,7 @@ void loop()
 
 ## Resources
 
-* [Grove - Infrared Receiver eagle files](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared_Receiver/master/res/Grove-Infrared_Receiver_eagle_files.zip)
+* [Grove - Infrared Receiver eagle files](https://raw.githubusercontent.com/SeeedDocument/Grove-Infrared\_Receiver/master/res/Grove-Infrared\_Receiver\_eagle\_files.zip)
 * [IR Send and Receiver Library](https://github.com/Seeed-Studio/IRSendRev)
-* [IR Receive Library for LinkIt ONE](https://github.com/Seeed-Studio/IR_Recv_LinkIt_ONE)
+* [IR Receive Library for LinkIt ONE](https://github.com/Seeed-Studio/IR\_Recv\_LinkIt\_ONE)
 * [TSOP282 Datasheet](http://www.vishay.com/docs/82491/tsop382.pdf)
-

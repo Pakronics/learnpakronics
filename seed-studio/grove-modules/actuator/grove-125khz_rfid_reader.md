@@ -1,36 +1,36 @@
 ---
 oldwikiname: Grove_-_125KHz_RFID_Reader
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/product/gr125k.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/product/gr125k.jpg
 prodimagename: Grove-125KHz_RFID_Reader.jpg
-surveyurl: 'https://www.research.net/r/Grove-125KHz_RFID_Reader'
-bzurl: 'https://seeedstudio.com/Grove-125KHz-RFID-Reader-p-1008.html'
+surveyurl: https://www.research.net/r/Grove-125KHz_RFID_Reader
+bzurl: https://seeedstudio.com/Grove-125KHz-RFID-Reader-p-1008.html
 title: Grove - 125KHz RFID Reader
-tags: 'grove_digital, io_5v, plat_duino, plat_pi'
+tags: grove_digital, io_5v, plat_duino, plat_pi
 sku: 113020002
 category: Communication
 ---
 
 # Grove 125KHz RFID Reader
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz_RFID_Reader/master/img/Grove-125KHz_RFID_Reader.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz\_RFID\_Reader/master/img/Grove-125KHz\_RFID\_Reader.jpg)
 
 This Grove-125KHz RFID Reader is a module used to read uem4100 RFID card information with two output formats: Uart and Wiegand. It has a sensitivity with maximum 7cm sensing distance. There is also [the electronic brick version](http://www.seeedstudio.com/depot/electronic-brick-125khz-rfid-card-reader-p-702.html?cPath=52) of this module. It can help you with project like internet of thing and access control system.
 
 And you should use the module below while using RFID reader:
 
-* [RFID tag combo \(125khz\)](http://www.seeedstudio.com/depot/rfid-tag-combo-125khz-5-pcs-p-700.html?cPath=19_24)
+* [RFID tag combo (125khz)](http://www.seeedstudio.com/depot/rfid-tag-combo-125khz-5-pcs-p-700.html?cPath=19\_24)
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/depot/grove-125khz-rfid-reader-p-1008.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/depot/grove-125khz-rfid-reader-p-1008.html)
 
 ## Specifications
 
 * Voltage: 4.75-5.25V
 * Working Frequency: 125 KHz
-* Sensing Distance\(Max\): 70mm
+* Sensing Distance(Max): 70mm
 * TTL Output: 9600 baudrate, 8 data bits, 1 stop bit, and no verify bit
 * Wiegand Output: 26 bits Wiegand format, 1 even verify bit, 24 data bits, and 1 odd verify bit
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Platforms Supported
 
@@ -38,9 +38,9 @@ And you should use the module below while using RFID reader:
 
 Here we show how to read RFID information using the Grove - 125KHz RFID Reader. Connect Grove - 125KHz RFID Reader to UART of Grove - Base Shield.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz_RFID_Reader/master/img/RFID_reader.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz\_RFID\_Reader/master/img/RFID\_reader.jpg)
 
-### Uart Mode \(Jumper set to the left two pins\)
+### Uart Mode (Jumper set to the left two pins)
 
 You would need to select the jumper to "U" to enter this mode, and the setting is: 9600bps, N, 8, 1, TTL output
 
@@ -93,107 +93,106 @@ void clearBufferArray()                 // function to clear buffer array
 
 Open the Serial Monitor, the card information can be displayed as shown below:
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz_RFID_Reader/master/img/Read_Data_.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz\_RFID\_Reader/master/img/Read\_Data\_.jpg)
 
-### Wiegand Mode \(Jumper Set to the Right two Pins\)
+### Wiegand Mode (Jumper Set to the Right two Pins)
 
-You would need to select the jumper to "W" to enter this mode. The [Wiegand demo code](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz_RFID_Reader/master/res/RFID_Wiegand_INT.zip) for Seeeduino is designed to read Wiegand data in interrupt mode.
+You would need to select the jumper to "W" to enter this mode. The [Wiegand demo code](https://raw.githubusercontent.com/SeeedDocument/Grove-125KHz\_RFID\_Reader/master/res/RFID\_Wiegand\_INT.zip) for Seeeduino is designed to read Wiegand data in interrupt mode.
 
 In Wiegand Mode, output data is formatted with 26bits including 24bits card info and 2 bits parity.
 
- bit
+&#x20;bit
 
- 0
+&#x20;0
 
- 1
+&#x20;1
 
- 2
+&#x20;2
 
- 3
+&#x20;3
 
- 4
+&#x20;4
 
- 5
+&#x20;5
 
- 6
+&#x20;6
 
- 7
+&#x20;7
 
- 8
+&#x20;8
 
- 9
+&#x20;9
 
- 10
+&#x20;10
 
- 11
+&#x20;11
 
- 12
+&#x20;12
 
- 13
+&#x20;13
 
- 14
+&#x20;14
 
- 15
+&#x20;15
 
- 16
+&#x20;16
 
- 17
+&#x20;17
 
- 18
+&#x20;18
 
- 19
+&#x20;19
 
- 20
+&#x20;20
 
- 21
+&#x20;21
 
- 22
+&#x20;22
 
- 23
+&#x20;23
 
- 24
+&#x20;24
 
- 25
+&#x20;25
 
- -
+&#x20;\-
 
- PE
+&#x20;PE
 
- D
+&#x20;D
 
- P0
+&#x20;P0
 
- -
+&#x20;\-
 
- -
+&#x20;\-
 
- E
+&#x20;E
 
- 0
+&#x20;0
 
- -
+&#x20;\-
 
- -
+&#x20;\-
 
- -
+&#x20;\-
 
- D2\[7..0\]
+&#x20;D2\[7..0]
 
- D1\[7..0\]
+&#x20;D1\[7..0]
 
- D0\[7..0\]
+&#x20;D0\[7..0]
 
- -
+&#x20;\-
 
 * PE is even bit, PO is odd bit;
 * E is the data bit which was involved in even, O is the data bit which was involved in odd;
-* DX\[7..0\] is the data bit which correspond to Mifare@ Standard & Light card read only ID;
+* DX\[7..0] is the data bit which correspond to Mifare@ Standard & Light card read only ID;
 
 ### How to convert the output to Card Number
 
 Take ID: 0009776930 for example:
 
-* Card Number ID: 0009776930 ------- Decimalism \[Start Bit\(00\) + Card Number\(8 numbers\)\]
-* Output: 0700952F229F ------------- Hex \[\[Start Bit\(07h\) + Card Number\(8 numbers\) + Checksum\]
+* Card Number ID: 0009776930 ------- Decimalism \[Start Bit(00) + Card Number(8 numbers)]
+* Output: 0700952F229F ------------- Hex \[\[Start Bit(07h) + Card Number(8 numbers) + Checksum]
 * The calculator for decimal and hex numbers is available online.
-

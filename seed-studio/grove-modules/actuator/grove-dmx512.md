@@ -1,20 +1,20 @@
 ---
 title: Grove - DMX512
 category: Communication
-bzurl: 'https://www.seeedstudio.com/Grove-DMX512-p-1447.html'
+bzurl: https://www.seeedstudio.com/Grove-DMX512-p-1447.html
 oldwikiname: Grove - DMX512
 prodimagename: DMX512_01.jpg
-surveyurl: 'https://www.research.net/r/Grove_DMX512'
+surveyurl: https://www.research.net/r/Grove_DMX512
 sku: 103020000
 ---
 
 # Grove DMX512
 
-![](https://github.com/SeeedDocument/Grove-DMX512/raw/master/img/DMX512_01.jpg)
+![](https://github.com/SeeedDocument/Grove-DMX512/raw/master/img/DMX512\_01.jpg)
 
-The Grove – DMX512 is a adapter from Grove interface to DMX512 interface\(industry standard EIA-485 interface. The module is based on SN75176 chip which can balance transmission lines and meet ANSI Standard EIA-485 interface. Now it is convenience to control stage lighting and DMX512 console for Arduino.
+The Grove – DMX512 is a adapter from Grove interface to DMX512 interface(industry standard EIA-485 interface. The module is based on SN75176 chip which can balance transmission lines and meet ANSI Standard EIA-485 interface. Now it is convenience to control stage lighting and DMX512 console for Arduino.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-DMX512-p-1447.html)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get\_One\_Now\_Banner-ragular.png)](https://www.seeedstudio.com/Grove-DMX512-p-1447.html)
 
 ## Feature
 
@@ -26,19 +26,18 @@ The Grove – DMX512 is a adapter from Grove interface to DMX512 interface\(indu
 
 Arduino can easily control DMX512 device by using the Grove - DXM512 module. Take the LED crystal magic ball light as an example. The Specific Operation as follows:
 
-* Connect Grove interface of Grove - DMX512 to D3 port of [Grove - Base Shield](/Grove-Base_Shield) and plug Grove - Base Shield to Arduino.
+* Connect Grove interface of Grove - DMX512 to D3 port of [Grove - Base Shield](https://app.gitbook.com/Grove-Base\_Shield) and plug Grove - Base Shield to Arduino.
 * Connect DMX512 interface of Grove - DMX512 to the DMXIN interface of the LED crystal magic ball light using a DMX cable. And power for the LED crystal magic ball light.
 * Set the LED crystal magic ball light to DMX512 control mode. The control panel display "A001" at the moment.
 
-![](https://github.com/SeeedDocument/Grove-DMX512/raw/master/img/DMX512_Usage.jpg)
+![](https://github.com/SeeedDocument/Grove-DMX512/raw/master/img/DMX512\_Usage.jpg)
 
 * Download [File: DmxSimple Library](https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/DmxSimple.zip) and Unzip it into the libraries file of Arduino IDE by the path: ..\arduino-1.0.1\libraries.
-* Open the code directly by the path:File -&gt; Example -&gt;DmxSimple-&gt;Fadup1.
+* Open the code directly by the path:File -> Example ->DmxSimple->Fadup1.
 * You can see a interesting scene. Try to change code for your enjoy.
 
 ## Resources
 
 * [SN75176 Datasheet](https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/Sn75176a.pdf)
-* [Grove - DMX512 Eagle File](https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/Grove-DMX512_Eagle_File.zip)
+* [Grove - DMX512 Eagle File](https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/Grove-DMX512\_Eagle\_File.zip)
 * [DmxSimple Library](https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/DmxSimple.zip)
-

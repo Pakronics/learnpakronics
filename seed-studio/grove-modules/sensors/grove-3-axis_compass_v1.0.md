@@ -1,22 +1,22 @@
 ---
 oldwikiname: Grove_-_3-Axis_Compass_V1.0
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/101020034 1.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/101020034 1.jpg
 prodimagename: Grove-3-Axis_Compass_V1.0.jpg
-surveyurl: 'https://www.research.net/r/Grove-3-Axis_Compass_V1_0'
-bzurl: 'https://seeedstudio.com/Grove-3-Axis-Digital-Compass-p-759.html'
+surveyurl: https://www.research.net/r/Grove-3-Axis_Compass_V1_0
+bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Compass-p-759.html
 title: Grove - 3-Axis Compass V1.0
-tags: 'grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio'
+tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio
 sku: 101020034
 category: Sensor
 ---
 
 # Grove 3 Axis Compass V1.0
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/img/Grove-3-Axis_Compass_V1.0.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/img/Grove-3-Axis\_Compass\_V1.0.jpg)
 
 This 3-axis digital compass features a low field magnetic sensing multi-chip module HMC5883L, which provides up to 1° to 2° heading accuracy. HMC5883L consists of high-resolution HMC118X series magneto-resistive sensors, as well as Honeywell developed ASIC containing amplification, automatic degaussing strap drivers, offset cancellation and 12 bit ADC. With peripheral power management circuit added, this is an easy to use and reliable compass module for low cost compassing and magnetometry.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-3-Axis-Digital-Compass-p-759.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-3-Axis-Digital-Compass-p-759.html)
 
 ## Specifications
 
@@ -29,13 +29,13 @@ This 3-axis digital compass features a low field magnetic sensing multi-chip mod
 * Max 116Hz output rate
 * High heading accuracy
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Platforms Supported
 
 ## Demonstration
 
-### With [Arduino](/Arduino)
+### With [Arduino](https://app.gitbook.com/Arduino)
 
 This demo is going to show you how to read raw data, how to calibrate the data with your local magnetic declination angle and how to get heading angle.
 
@@ -48,41 +48,40 @@ Then transfer it from degree to radians, and there you get the "declinationAngle
 Now let's start to run your compass.
 
 1. Plug the 3-axis compass into the I2C port of Grove - Base Shield.
-2. Download the library file: [Digital Compass Library](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/res/Digital_Compass.zip). Unzip it into the libraries file of Arduino IDE by the path: ..\arduino-1.0.1\libraries.
-3. Open the demo by the path:File -&gt;Example -&gt;Digital Compass -&gt;HMC5883L\_Example.
+2. Download the library file: [Digital Compass Library](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/res/Digital\_Compass.zip). Unzip it into the libraries file of Arduino IDE by the path: ..\arduino-1.0.1\libraries.
+3.  Open the demo by the path:File ->Example ->Digital Compass ->HMC5883L\_Example.
 
-   ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/img/Digital_Compass1.jpg)
-
+    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/img/Digital\_Compass1.jpg)
 4. Replace the value of variable "declinitionAngle" with the one you've figured out already.
 5. Upload the Code.
-6. Check the output result by opening the serial monitor.
+6.  Check the output result by opening the serial monitor.
 
-   ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/img/Digital_Compass2.jpg)
+    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/img/Digital\_Compass2.jpg)
 
 ### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+2.You should have completed configuring the development enviroment, otherwise follow [here](https://app.gitbook.com/GrovePiPlus).
 
 3.Connection
 
-* Plug the sensor to grovepi socket i2c-x\(1~3\) by using a grove cable.
+* Plug the sensor to grovepi socket i2c-x(1\~3) by using a grove cable.
 
 4.Navigate to the demos' directory:
 
-```text
+```
    cd yourpath/GrovePi/Software/Python/
 ```
 
 * To see the code
 
-```text
+```
     nano grove_compass_lib.py       
     nano grove_compass_example.py
 ```
 
-```text
+```
     import grove_compass_lib
     c=grove_compass_lib.compass()
     while True:
@@ -93,13 +92,12 @@ Now let's start to run your compass.
 
 5.Run the demo.
 
-```text
+```
     sudo python grove_compass_example.py
 ```
 
 ## Resources
 
-* [Grove-3-Axis Digital Compass Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/res/Grove-3-Axis_Digital_Compass_Eagle_File.zip)
-* [HMC5883.pdf](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/res/HMC5883.pdf)
-* [Digital Compass Library](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis_Compass_V1.0/master/res/Digital_Compass.zip)
-
+* [Grove-3-Axis Digital Compass Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/res/Grove-3-Axis\_Digital\_Compass\_Eagle\_File.zip)
+* [HMC5883.pdf](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/res/HMC5883.pdf)
+* [Digital Compass Library](https://raw.githubusercontent.com/SeeedDocument/Grove-3-Axis\_Compass\_V1.0/master/res/Digital\_Compass.zip)

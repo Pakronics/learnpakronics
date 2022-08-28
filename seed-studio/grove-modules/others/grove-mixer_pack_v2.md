@@ -5,15 +5,15 @@ bzurl: >-
   https://www.seeedstudio.com/Mixer-Pack-V2-(Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system)-p-1867.html
 oldwikiname: Grove - Mixer Pack V2
 prodimagename: U8GUZNb9TVZ14lLRW6ialXEV.jpg
-surveyurl: 'https://www.research.net/r/Grove_Mixer_Pack_V2'
+surveyurl: https://www.research.net/r/Grove_Mixer_Pack_V2
 sku: 110060026
 ---
 
 # Grove Mixer Pack V2
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/U8GUZNb9TVZ14lLRW6ialXEV.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/U8GUZNb9TVZ14lLRW6ialXEV.jpg)
 
-The [Grove - Mixer Pack V2](http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14) is a stand-alone, Lego-like electronics kit that consists of 13 select Grove modules from the [ Grove System](/GROVE_System) developed by [Seeed Studio](http://www.seeedstudio.com/depot/). These mini-modules can be used as building blocks to create electronic circuits and prototypes quite rapidly without necessarily using a Microcontroller board such as a [Seeeduino](/Seeeduino) or an [ Arduino](/Main_Page#Arduino).
+The [Grove - Mixer Pack V2](http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14) is a stand-alone, Lego-like electronics kit that consists of 13 select Grove modules from the [ Grove System](https://app.gitbook.com/GROVE\_System) developed by [Seeed Studio](http://www.seeedstudio.com/depot/). These mini-modules can be used as building blocks to create electronic circuits and prototypes quite rapidly without necessarily using a Microcontroller board such as a [Seeeduino](https://app.gitbook.com/Seeeduino) or an [ Arduino](https://app.gitbook.com/Main\_Page#Arduino).
 
 The 13 Grove modules included are a combination of sensor modules, actuators, logic and power modules that are extremely easy to use and fun to work with. Within minutes, you can design new circuits and assemble functional prototypes.
 
@@ -23,35 +23,35 @@ These modules are small and colorful bits of electronics, and so much fun to pla
 
 With the [Grove - Mixer Pack V2](http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14), you can easily learn the basic concepts of electronics, and also improve your practical ability to apply these concepts. This is the perfect way to let yourself into the wonderful world of electronics by working on your very own interactive projects.
 
-\[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)\]\([https://www.seeedstudio.com/Mixer-Pack-V2-\(Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system\)-p-1867.html](https://www.seeedstudio.com/Mixer-Pack-V2-%28Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system%29-p-1867.html)\)
+\[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get\_One\_Now\_Banner-ragular.png)]\([https://www.seeedstudio.com/Mixer-Pack-V2-(Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system)-p-1867.html](https://www.seeedstudio.com/Mixer-Pack-V2-\(Electronic-blocks%2Cwithout-Arduino%2Cplug-and-play-system\)-p-1867.html))
 
 ### Unboxing
 
-**You will find the following on opening this** [**Grove**](/Grove) **mixer pack:**
+**You will find the following on opening this** [**Grove**](https://app.gitbook.com/Grove) **mixer pack:**
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2_photo-2-.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2\_photo-2-.jpg)
 
-* [**A Mixer Handbook**](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/res/Mixer_Handbook.pdf) that will help you get started on your projects quickly. This includes basic information about all the [Grove](/Grove) Modules included in the pack and shows you how to build a few sample projects as well.
+* [**A Mixer Handbook**](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/res/Mixer\_Handbook.pdf) that will help you get started on your projects quickly. This includes basic information about all the [Grove](https://app.gitbook.com/Grove) Modules included in the pack and shows you how to build a few sample projects as well.
 * **13 Grove Modules:**
-* 1x [Grove - DC Jack Power](/Grove-DC_Jack_Power)
-* 1x [Grove - Recorder](/Grove-Recorder)
-* 1x [Grove - LED String Light](/Grove-LED_String_Light)
-* 1x [Grove - Mini Fan](/Grove-Mini_Fan)
-* 1x [Grove - NOT](/Grove-NOT)
-* 1x [Grove - OR](/Grove-OR)
-* 1x [Grove - AND](/Grove-AND)
-* 1x [Grove - Buzzer](/Grove-Buzzer)
-* 1x [Grove - Light Sensor](/Grove-Light_Sensor)
-* 1x [Grove - Red LED](/Grove-Red_LED)
-* 1x [Grove - Sound Sensor](/Grove-Sound_Sensor)
-* 1x [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer)
-* 1x [Grove - Button](/Grove-Button)
+* 1x [Grove - DC Jack Power](https://app.gitbook.com/Grove-DC\_Jack\_Power)
+* 1x [Grove - Recorder](https://app.gitbook.com/Grove-Recorder)
+* 1x [Grove - LED String Light](https://app.gitbook.com/Grove-LED\_String\_Light)
+* 1x [Grove - Mini Fan](https://app.gitbook.com/Grove-Mini\_Fan)
+* 1x [Grove - NOT](https://app.gitbook.com/Grove-NOT)
+* 1x [Grove - OR](https://app.gitbook.com/Grove-OR)
+* 1x [Grove - AND](https://app.gitbook.com/Grove-AND)
+* 1x [Grove - Buzzer](https://app.gitbook.com/Grove-Buzzer)
+* 1x [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor)
+* 1x [Grove - Red LED](https://app.gitbook.com/Grove-Red\_LED)
+* 1x [Grove - Sound Sensor](https://app.gitbook.com/Grove-Sound\_Sensor)
+* 1x [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer)
+* 1x [Grove - Button](https://app.gitbook.com/Grove-Button)
 * **Grove module accessories:**
-* 1x DC Motor to work with the [Grove - Mini Fan](/Grove-Mini_Fan) module
+* 1x DC Motor to work with the [Grove - Mini Fan](https://app.gitbook.com/Grove-Mini\_Fan) module
 * 1x Colorful Fan that fits onto the DC Motor
-* 1x Small Audio Speaker to work with the [Grove - Recorder](/Grove-Recorder) module
-* 1x LED String Light to work with the [Grove - LED String Light](/Grove-LED_String_Light) module
-* 7x [Grove Cables](/GROVE_System#Grove_Cables) \(3x 200mm, 3x 50mm, 1x Branch Cable\)
+* 1x Small Audio Speaker to work with the [Grove - Recorder](https://app.gitbook.com/Grove-Recorder) module
+* 1x LED String Light to work with the [Grove - LED String Light](https://app.gitbook.com/Grove-LED\_String\_Light) module
+* 7x [Grove Cables](https://app.gitbook.com/GROVE\_System#Grove\_Cables) (3x 200mm, 3x 50mm, 1x Branch Cable)
 
 ### Usage
 
@@ -59,33 +59,33 @@ Its pretty easy to build Grove circuits using the Grove modules in your Mixer Pa
 
 All circuits are built by combining the following four types of modules:
 
-1. Power Modules These supply power to the circuit. The \[Grove Mixer Pack V2\]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14\) includes 1 Power Module - the \[Grove - DC Jack Power\]\(/Grove-DC\_Jack\_Power "Grove - DC Jack Power"\). No matter what you are building, you will always need to use this one.2. Input Modules These are typically used to relay sensory inputs into the circuit. The \[Grove Mixer Pack V2\]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14\) has 4 Input Modules - a light sensor, a sound sensor, a slide potentiometer and a momentary switch. Based on the inputs received from these modules from these modules, you can choose to trigger an action using an Output Module.3. Output Modules Triggers from the Input Modules can be translated to actions using Output Modules. The \[Grove Mixer Pack V2\]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14\) has 5 Output Modules - an LED light, an LED String light, a sound recorder, a fan motor and a buzzer.4. Logic Gates Modules These are used in conjunction with Input Modules and can be used to enhance the logic for triggering a specific output. The \[Grove Mixer Pack V2\]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14\) has 3 Logic Gates Modules - one each for AND, OR and NOT gate functions.
+1\. Power Modules These supply power to the circuit. The \[Grove Mixer Pack V2]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14) includes 1 Power Module - the \[Grove - DC Jack Power]\(/Grove-DC\_Jack\_Power "Grove - DC Jack Power"). No matter what you are building, you will always need to use this one.2. Input Modules These are typically used to relay sensory inputs into the circuit. The \[Grove Mixer Pack V2]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14) has 4 Input Modules - a light sensor, a sound sensor, a slide potentiometer and a momentary switch. Based on the inputs received from these modules from these modules, you can choose to trigger an action using an Output Module.3. Output Modules Triggers from the Input Modules can be translated to actions using Output Modules. The \[Grove Mixer Pack V2]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14) has 5 Output Modules - an LED light, an LED String light, a sound recorder, a fan motor and a buzzer.4. Logic Gates Modules These are used in conjunction with Input Modules and can be used to enhance the logic for triggering a specific output. The \[Grove Mixer Pack V2]\(http://www.seeedstudio.com/depot/Mixer-Pack-V2Electronic-blockswithout-Arduinoplug-and-play-system-p-1867.html?cPath=14) has 3 Logic Gates Modules - one each for AND, OR and NOT gate functions.
 
 #### Building your first circuit
 
 You can build a Grove circuit using the Grove Modules in 3 simple steps:
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-concept-3.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-concept-3.jpg)
 
 **Follow these steps in order to build a Grove circuit using the Grove Modules:**
 
-STEP 1 - Connect the Power Module to a power source First of all, connect a reliable power source to the power module. You can use a 9V battery that connects to the \[Grove - DC Jack Power\]\(/Grove-DC\_Jack\_Power "Grove - DC Jack Power"\) module using the 9V battery connector cable that comes with the pack. Alternatively, you can use a common wall power adapter such as a 5V/1A adapter used for charging cell phones. Once you have connected the Grove power module to a power source, turn the ON/OFF switch on the module to ON position. A green LED on the board of the power module should light up. If this does not happen, double check your connections and power source. If the green LED lights up, this means you have a reliable working power source. Turn the switch back to OFF position now and proceed to the next step.STEP 2 - Connect the Input Module to the Power Module Using a 4-Pin Grove cable, connect the input module you wish to choose for your circuit to the power module. Place the power module in front of you and place the input module to the left of the power module. Then using a 4-Pin Grove Cable, plug one end of it into the input module and the other end into the left-side Grove connector of the power module. For example, to use a momentary switch to turn on and off an LED, connect the \[Grove - Button\]\(/Grove-Button "Grove - Button"\) module to the left-side of the power module using a 4-Pin Grove Cable. The input module could either be directly connected to the power module or via a Logic Gate module.STEP 3 - Connect the Output Module to the Power ModuleUsing a 4-Pin Grove cable, connect the output module you wish to choose for your circuit to the power module. Place the power module in front of you with the input module already connected to the left-side of the power module. Then using a 4-Pin Grove Cable, plug one end of it into the output module and the other end into the right-side Grove connector of the power module. For example, to build a circuit that lights up an LED, connect the \[Grove - Red LED\]\(/Grove-Red\_LED "Grove - Red LED"\) module to the right-side of the power module using a Grove Cable. Output module always connect directly to the power module in this way.
+STEP 1 - Connect the Power Module to a power source First of all, connect a reliable power source to the power module. You can use a 9V battery that connects to the \[Grove - DC Jack Power]\(/Grove-DC\_Jack\_Power "Grove - DC Jack Power") module using the 9V battery connector cable that comes with the pack. Alternatively, you can use a common wall power adapter such as a 5V/1A adapter used for charging cell phones. Once you have connected the Grove power module to a power source, turn the ON/OFF switch on the module to ON position. A green LED on the board of the power module should light up. If this does not happen, double check your connections and power source. If the green LED lights up, this means you have a reliable working power source. Turn the switch back to OFF position now and proceed to the next step.STEP 2 - Connect the Input Module to the Power Module Using a 4-Pin Grove cable, connect the input module you wish to choose for your circuit to the power module. Place the power module in front of you and place the input module to the left of the power module. Then using a 4-Pin Grove Cable, plug one end of it into the input module and the other end into the left-side Grove connector of the power module. For example, to use a momentary switch to turn on and off an LED, connect the \[Grove - Button]\(/Grove-Button "Grove - Button") module to the left-side of the power module using a 4-Pin Grove Cable. The input module could either be directly connected to the power module or via a Logic Gate module.STEP 3 - Connect the Output Module to the Power ModuleUsing a 4-Pin Grove cable, connect the output module you wish to choose for your circuit to the power module. Place the power module in front of you with the input module already connected to the left-side of the power module. Then using a 4-Pin Grove Cable, plug one end of it into the output module and the other end into the right-side Grove connector of the power module. For example, to build a circuit that lights up an LED, connect the \[Grove - Red LED]\(/Grove-Red\_LED "Grove - Red LED") module to the right-side of the power module using a Grove Cable. Output module always connect directly to the power module in this way.
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-step1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-step1.jpg)
 
 * STEP 1
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-step2.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-step2.jpg)
 
 * STEP 2
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-step3.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-step3.jpg)
 
 * STEP 3
 
-You now have completed building your Grove circuit. Turn back ON the ON/OFF switch on the [Grove - DC Jack Power](/Grove-DC_Jack_Power) module now and watch your circuit come alive!
+You now have completed building your Grove circuit. Turn back ON the ON/OFF switch on the [Grove - DC Jack Power](https://app.gitbook.com/Grove-DC\_Jack\_Power) module now and watch your circuit come alive!
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-momentarySwitch-RedLED.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-momentarySwitch-RedLED.jpg)
 
 Press on the momentary switch to light up the LED
 
@@ -99,163 +99,163 @@ There are three types of Logic Gate Modules:
 
 This is the simplest of all logic gate modules and connects to one input module. It simply takes the signal generated by an input module and inverts it. A HIGH signal from an input module is converted to a LOW signal. A LOW signal from the input module is converted to a HIGH signal going towards the output module.
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-LightSensorNOT-RedLED-ON.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-LightSensorNOT-RedLED-ON.jpg)
 
-Using [Grove - NOT](/Grove-NOT) logic gate
+Using [Grove - NOT](https://app.gitbook.com/Grove-NOT) logic gate
 
-Typical Usage:\_ An [LDR](http://en.wikipedia.org/wiki/Photoresistor) based light sensor module like the [Grove - Light Sensor](/Grove-Light_Sensor) generates a HIGH signal in bright light and a LOW signal in the dark. Therefore, it can be used to turn ON an LED in bright light and turn it OFF in the dark. However, you may want a circuit where the LED lights turn ON in the dark and remain OFF in bright light. This can be done by adding a [Grove - NOT](/Grove-NOT) module between the [Grove - Light Sensor](/Grove-Light_Sensor) input module and the [Grove - DC Jack Power](/Grove-DC_Jack_Power) module. With the NOT gate in use, you will observe that in bright light, when the LDR exhibits a low resistance and the signal generated by the light sensor module is HIGH, the NOT gate inverts it into a LOW signal and the LED lights **do not** turn ON in bright light any more. Alternatively, when it is dark and the LDR exhibits a high resistance and the signal generates by the light sensor module is LOW, the NOT gate converts the LOW signal into a HIGH signal resulting in the LED lights getting turned ON in the dark.
+Typical Usage:\_ An [LDR](http://en.wikipedia.org/wiki/Photoresistor) based light sensor module like the [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor) generates a HIGH signal in bright light and a LOW signal in the dark. Therefore, it can be used to turn ON an LED in bright light and turn it OFF in the dark. However, you may want a circuit where the LED lights turn ON in the dark and remain OFF in bright light. This can be done by adding a [Grove - NOT](https://app.gitbook.com/Grove-NOT) module between the [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor) input module and the [Grove - DC Jack Power](https://app.gitbook.com/Grove-DC\_Jack\_Power) module. With the NOT gate in use, you will observe that in bright light, when the LDR exhibits a low resistance and the signal generated by the light sensor module is HIGH, the NOT gate inverts it into a LOW signal and the LED lights **do not** turn ON in bright light any more. Alternatively, when it is dark and the LDR exhibits a high resistance and the signal generates by the light sensor module is LOW, the NOT gate converts the LOW signal into a HIGH signal resulting in the LED lights getting turned ON in the dark.
 
-&lt;/dd&gt;&lt;/dl&gt;
+\</dd>\</dl>
 
 **Grove - OR module**
 
 This module can connect to two input modules. Its purpose is to generate a HIGH signal when at least one of the two input modules connected to it supplies a HIGH signal. If the signal received from both the input modules is LOW, the OR gate supplies a LOW signal towards the output module.
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-or-usage.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-or-usage.jpg)
 
-Using [Grove - OR](/Grove-OR) logic gate
+Using [Grove - OR](https://app.gitbook.com/Grove-OR) logic gate
 
-Typical Usage:\_ Use this when you need one of two sensory inputs to trigger an output. For example, lets say you want to build a circuit that lights up some LED lights either on music OR when you manually switch them on. To build such a circuit, you will need two input modules - the [Grove - Sound Sensor](/Grove-Sound_Sensor) and the [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer). These two input modules can then be connected to the left-side of the [Grove - OR](/Grove-OR) gate module. The output from this logic gate module will connect to the left-side of the power module, while the right-side will be connected to the LED lights module \([Grove - Red LED](/Grove-Red_LED) or [Grove - LED String Light](/Grove-LED_String_Light)\). Now, when you switch ON the circuit, observe what happens. You will see that the LED lights turn ON either when there is some sound or music that is detected by the sound sensor OR when you manually move the slider on the [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer) from minimum voltage \(GND\) to maximum \(VCC\). This also implies that if the [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer) is supplying a HIGH signal to the LED lights, then no matter what the input from the sound sensor is, the LED lights will always stay ON. Alternatively, if the [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer) is supplying a LOW signal to the LED lights, then the LED lights will flash based on whether the output from the sound sensor is HIGH or LOW.
+Typical Usage:\_ Use this when you need one of two sensory inputs to trigger an output. For example, lets say you want to build a circuit that lights up some LED lights either on music OR when you manually switch them on. To build such a circuit, you will need two input modules - the [Grove - Sound Sensor](https://app.gitbook.com/Grove-Sound\_Sensor) and the [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer). These two input modules can then be connected to the left-side of the [Grove - OR](https://app.gitbook.com/Grove-OR) gate module. The output from this logic gate module will connect to the left-side of the power module, while the right-side will be connected to the LED lights module ([Grove - Red LED](https://app.gitbook.com/Grove-Red\_LED) or [Grove - LED String Light](https://app.gitbook.com/Grove-LED\_String\_Light)). Now, when you switch ON the circuit, observe what happens. You will see that the LED lights turn ON either when there is some sound or music that is detected by the sound sensor OR when you manually move the slider on the [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer) from minimum voltage (GND) to maximum (VCC). This also implies that if the [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer) is supplying a HIGH signal to the LED lights, then no matter what the input from the sound sensor is, the LED lights will always stay ON. Alternatively, if the [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer) is supplying a LOW signal to the LED lights, then the LED lights will flash based on whether the output from the sound sensor is HIGH or LOW.
 
-&lt;/dd&gt;&lt;/dl&gt;
+\</dd>\</dl>
 
 **Grove - AND module**
 
 This module can connect to two input modules. Its purpose is to generate a HIGH signal only when both of the two input modules connected to it supply a HIGH signal. If the signal received from any of the two input modules is LOW, the AND gate supplies a LOW signal towards the output module.
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-and-usage.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-and-usage.jpg)
 
-Using [Grove - AND](/Grove-AND) logic gate
+Using [Grove - AND](https://app.gitbook.com/Grove-AND) logic gate
 
-Typical Usage:\_ Use this when you need two sensory inputs to trigger an output. For example, lets say you want to build a circuit that lights up some LED lights either on music but only in the dark. To build such a circuit, you will need two input modules - the [Grove - Sound Sensor](/Grove-Sound_Sensor) and the [Grove - Light Sensor](/Grove-Light_Sensor) \(The [Grove - Light Sensor](/Grove-Light_Sensor) module will be used in conjunction with the [Grove - NOT](/Grove-NOT) logic gate so that lights switch ON only in the dark\). These input side modules can then be connected to the left-side of the [Grove - AND](/Grove-AND) gate module. The output from this logic gate module will connect to the left-side of the power module, while the right-side will be connected to the LED lights module \([Grove - Red LED](/Grove-Red_LED) or [Grove - LED String Light](/Grove-LED_String_Light)\). Now, when you switch ON the circuit, observe what happens. You will see that the LED lights turn ON when it is both dark AND there is some sound or music playing. This also implies that even if the [Grove - Sound Sensor](/Grove-Sound_Sensor) is supplying a HIGH signal to the LED lights when it detects sound or music, then unless the [Grove - Light Sensor](/Grove-Light_Sensor) detects darkness, the LED lights will always stay OFF. Only when it is dark AND there is sound or music detected by the sound sensor will the LED lights will flash. &lt;/dd&gt;&lt;/dl&gt;
+Typical Usage:\_ Use this when you need two sensory inputs to trigger an output. For example, lets say you want to build a circuit that lights up some LED lights either on music but only in the dark. To build such a circuit, you will need two input modules - the [Grove - Sound Sensor](https://app.gitbook.com/Grove-Sound\_Sensor) and the [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor) (The [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor) module will be used in conjunction with the [Grove - NOT](https://app.gitbook.com/Grove-NOT) logic gate so that lights switch ON only in the dark). These input side modules can then be connected to the left-side of the [Grove - AND](https://app.gitbook.com/Grove-AND) gate module. The output from this logic gate module will connect to the left-side of the power module, while the right-side will be connected to the LED lights module ([Grove - Red LED](https://app.gitbook.com/Grove-Red\_LED) or [Grove - LED String Light](https://app.gitbook.com/Grove-LED\_String\_Light)). Now, when you switch ON the circuit, observe what happens. You will see that the LED lights turn ON when it is both dark AND there is some sound or music playing. This also implies that even if the [Grove - Sound Sensor](https://app.gitbook.com/Grove-Sound\_Sensor) is supplying a HIGH signal to the LED lights when it detects sound or music, then unless the [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor) detects darkness, the LED lights will always stay OFF. Only when it is dark AND there is sound or music detected by the sound sensor will the LED lights will flash. \</dd>\</dl>
 
 ### Grove Module Details
 
 #### Grove - DC Jack Power
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Power_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Power\_photo1.jpg)
 
-The [Grove - DC Jack Power](/Grove-DC_Jack_Power) module powers all other modules from the Mixer Pack. A power source can be connected to it via a standard cylindrical DC plug. The power source can either be a 9V battery or any 5.5-20V wall adapter. The module can achieve a 2A continuous output current over a wide input supply range with excellent load and line regulation.
+The [Grove - DC Jack Power](https://app.gitbook.com/Grove-DC\_Jack\_Power) module powers all other modules from the Mixer Pack. A power source can be connected to it via a standard cylindrical DC plug. The power source can either be a 9V battery or any 5.5-20V wall adapter. The module can achieve a 2A continuous output current over a wide input supply range with excellent load and line regulation.
 
 #### Grove - Recorder
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Recoder_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Recoder\_photo1.jpg)
 
-The [Grove - Recorder](/Grove-Recorder) module can record 8-20 secs of audio and play it back. The default recording time is 10 secs. The module uses non-volatile storage, which means that the recorded sound or audio is not lost when the module is switched off. It remains stored in the memory and when the module is switched back on, the same sound or audio can be played again. The module is very easy to control - just press the on-board push button to record and attach the speaker included in the pack to hear the playback.
+The [Grove - Recorder](https://app.gitbook.com/Grove-Recorder) module can record 8-20 secs of audio and play it back. The default recording time is 10 secs. The module uses non-volatile storage, which means that the recorded sound or audio is not lost when the module is switched off. It remains stored in the memory and when the module is switched back on, the same sound or audio can be played again. The module is very easy to control - just press the on-board push button to record and attach the speaker included in the pack to hear the playback.
 
 #### Grove - LED String Light
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/RGB_String_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/RGB\_String\_photo1.jpg)
 
-The [Grove - LED String Light](/Grove-LED_String_Light) module is essentially an LED driver for the LED string lights included in your mixer pack. Working voltage of the module is 3.3V/5V, but the string light requires an input of 12V. This module therefore uses a step up DC-DC Converter to provide the requisite voltage to light up the LED string lights. The accompanying LED string light is a 5 meters long RGB LED String light that you can use to light up a Christmas tree, or decorate a part of your home.
+The [Grove - LED String Light](https://app.gitbook.com/Grove-LED\_String\_Light) module is essentially an LED driver for the LED string lights included in your mixer pack. Working voltage of the module is 3.3V/5V, but the string light requires an input of 12V. This module therefore uses a step up DC-DC Converter to provide the requisite voltage to light up the LED string lights. The accompanying LED string light is a 5 meters long RGB LED String light that you can use to light up a Christmas tree, or decorate a part of your home.
 
 #### Grove - Mini Fan
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mini_Fan_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mini\_Fan\_photo1.jpg)
 
-The [Grove - Mini Fan](/Grove-Mini_Fan) module is a DC motor driver based on the AVR Atmega168 microcontroller. It can be used to run the DC motor that is included in your mixer pack. The soft-leaved fan also included in the pack can be attached to the motor make a fun project with kids. Being soft-leaved, the fan is completely safe and there is no chance of any injury. For advanced projects, the microcontroller on this module can also be re-programmed to run a servo motor as well.
+The [Grove - Mini Fan](https://app.gitbook.com/Grove-Mini\_Fan) module is a DC motor driver based on the AVR Atmega168 microcontroller. It can be used to run the DC motor that is included in your mixer pack. The soft-leaved fan also included in the pack can be attached to the motor make a fun project with kids. Being soft-leaved, the fan is completely safe and there is no chance of any injury. For advanced projects, the microcontroller on this module can also be re-programmed to run a servo motor as well.
 
 #### Grove - NOT
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/NOT_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/NOT\_photo1.jpg)
 
-The [Grove - NOT](/Grove-NOT) module provides the function of a logical NOT gate. The NOT module has one input on the left and one output on the right. When the input signal to the module is HIGH, output is LOW. When the input signal to the module is LOW, output is HIGH.
+The [Grove - NOT](https://app.gitbook.com/Grove-NOT) module provides the function of a logical NOT gate. The NOT module has one input on the left and one output on the right. When the input signal to the module is HIGH, output is LOW. When the input signal to the module is LOW, output is HIGH.
 
 #### Grove - OR
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_OR.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_OR.jpg)
 
-The [Grove - OR](/Grove-OR) module provides the function of a logical OR gate. It has two inputs on the left and one output on the right. The output of this logical OR gate module turns to HIGH when it gets a HIGH signal on any of the two inputs.
+The [Grove - OR](https://app.gitbook.com/Grove-OR) module provides the function of a logical OR gate. It has two inputs on the left and one output on the right. The output of this logical OR gate module turns to HIGH when it gets a HIGH signal on any of the two inputs.
 
 #### Grove - AND
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/AND_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/AND\_photo1.jpg)
 
-The [Grove - AND](/Grove-AND) module provides the function of a logical AND gate. It has two inputs on the left and one output on the right. The output of this logical AND gate module turns to HIGH only when it gets a HIGH signal from both of the two inputs.
+The [Grove - AND](https://app.gitbook.com/Grove-AND) module provides the function of a logical AND gate. It has two inputs on the left and one output on the right. The output of this logical AND gate module turns to HIGH only when it gets a HIGH signal from both of the two inputs.
 
 #### Grove - Buzzer
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Buzzer1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Buzzer1.jpg)
 
-The [Grove - Buzzer](/Grove-Buzzer) module has a piezo buzzer as the main component. The piezo can be connected to digital outputs, and will emit a tone when the output is HIGH. Alternatively, it can be connected to an analog pulse-width modulation output to generate various tones and effects.
+The [Grove - Buzzer](https://app.gitbook.com/Grove-Buzzer) module has a piezo buzzer as the main component. The piezo can be connected to digital outputs, and will emit a tone when the output is HIGH. Alternatively, it can be connected to an analog pulse-width modulation output to generate various tones and effects.
 
 #### Grove - Light Sensor
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-Light_Sensor_photo.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-Light\_Sensor\_photo.jpg)
 
-The [Grove - Light Sensor](/Grove-Light_Sensor) module incorporates a Light Dependent Resistor \(LDR\). Typically, the resistance of the light sensor will decrease when the ambient light intensity increases.
+The [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor) module incorporates a Light Dependent Resistor (LDR). Typically, the resistance of the light sensor will decrease when the ambient light intensity increases.
 
 #### Grove - Red LED
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-LED_Photo.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-LED\_Photo.jpg)
 
-The [Grove - Red LED](/Grove-Red_LED) module is similar to the Grove - LED module in that it houses an LED light source. In addition, it also has a potentiometer on-board to manage the input voltage to the LED and to adjust its brightness. The module also has mounting holes for the LED and the LED is not soldered onto the PCB. This means you can remove the Red LED that comes with the mixer pack and use any other LED of any other color or size as well. You can also use this module to add a pilot lamp for indicating power or signal presence for [Arduino](/w/index.php?title=Arduino&amp;action=edit&amp;redlink=1) or [Seeeduino](/Seeeduino) based projects.
+The [Grove - Red LED](https://app.gitbook.com/Grove-Red\_LED) module is similar to the Grove - LED module in that it houses an LED light source. In addition, it also has a potentiometer on-board to manage the input voltage to the LED and to adjust its brightness. The module also has mounting holes for the LED and the LED is not soldered onto the PCB. This means you can remove the Red LED that comes with the mixer pack and use any other LED of any other color or size as well. You can also use this module to add a pilot lamp for indicating power or signal presence for [Arduino](https://app.gitbook.com/w/index.php?title=Arduino\&amp;action=edit\&amp;redlink=1) or [Seeeduino](https://app.gitbook.com/Seeeduino) based projects.
 
 #### Grove - Sound Sensor
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Grove-Sound_Sensor_photo1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Grove-Sound\_Sensor\_photo1.jpg)
 
-The [Grove - Sound Sensor](/Grove-Sound_Sensor) module is based on using a simple [electret microphone](http://en.wikipedia.org/wiki/Electret_microphone) microphone as a sound sensor. It can be used to detect the sound strength of the environment.
+The [Grove - Sound Sensor](https://app.gitbook.com/Grove-Sound\_Sensor) module is based on using a simple [electret microphone](http://en.wikipedia.org/wiki/Electret\_microphone) microphone as a sound sensor. It can be used to detect the sound strength of the environment.
 
 #### Grove - Slide Potentiometer
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Sliding1.JPG)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Sliding1.JPG)
 
-The [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer) module incorporates a linear variable resistor with a total resistance of 10KΩ. When you move the lever from one side to the other, its output voltage will range from 0 V to the Vcc you apply. It connects to the other Grove modules through a standard 4-Pin [Grove Cable](/GROVE_System#Grove_Cables). Three of the pins are connected to OUT \(Pin 1\), Vcc \(Pin 3\) and GND \(Pin 4\), while the fourth pin \(Pin 2\) is connected to a green indicator LED. The LED is used to visually represent the resistance change on the potentiometer.
+The [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer) module incorporates a linear variable resistor with a total resistance of 10KΩ. When you move the lever from one side to the other, its output voltage will range from 0 V to the Vcc you apply. It connects to the other Grove modules through a standard 4-Pin [Grove Cable](https://app.gitbook.com/GROVE\_System#Grove\_Cables). Three of the pins are connected to OUT (Pin 1), Vcc (Pin 3) and GND (Pin 4), while the fourth pin (Pin 2) is connected to a green indicator LED. The LED is used to visually represent the resistance change on the potentiometer.
 
 #### Grove - Button
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Button1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Button1.jpg)
 
-The [Grove - Button](/Grove-Button) module included in this mixer pack is a newer version of the Grove - Button module from [Seeed Studio](http://www.seeedstudio.com). It contains one independent "momentary on/off" button. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released. The button signals the SIG Pin of the Grove Interface while NC is not used at all.
+The [Grove - Button](https://app.gitbook.com/Grove-Button) module included in this mixer pack is a newer version of the Grove - Button module from [Seeed Studio](http://www.seeedstudio.com). It contains one independent "momentary on/off" button. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released. The button signals the SIG Pin of the Grove Interface while NC is not used at all.
 
 ### Sample projects
 
-The Grove Mixer Pack modules and accessories can be used to build many fun projects. Some examples of the projects that you can do are also provided in the [Mixer Handbook](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/res/Mixer_Handbook.pdf) that you received along with the pack. Some projects are listed below as well.
+The Grove Mixer Pack modules and accessories can be used to build many fun projects. Some examples of the projects that you can do are also provided in the [Mixer Handbook](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/res/Mixer\_Handbook.pdf) that you received along with the pack. Some projects are listed below as well.
 
 ### Photosensitive LED
 
 * Part list:
-  * 1x [Grove - DC Jack Power](/Grove-DC_Jack_Power)
-  * 1x [Grove - Light Sensor](/Grove-Light_Sensor)
-  * 1x [Grove - Red LED](/Grove-Red_LED)
+  * 1x [Grove - DC Jack Power](https://app.gitbook.com/Grove-DC\_Jack\_Power)
+  * 1x [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor)
+  * 1x [Grove - Red LED](https://app.gitbook.com/Grove-Red\_LED)
 
 **Follow these step by step graphical instructions to build your project:**
 
 1.Line up the modules you will need for the circuit
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_usage1.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_usage1.jpg)
 
 2.Connect the modules using the 4-Pin Grove cables
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_usage2.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_usage2.jpg)
 
 3.Test the circuit
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_usage3.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_usage3.jpg)
 
 ### Glow in the Dark String Lights
 
 **Part List:**
 
-* 1x [Grove - DC Jack Power](/Grove-DC_Jack_Power)
-* 1x [Grove - Light Sensor](/Grove-Light_Sensor)
-* 1x [Grove - NOT](/Grove-NOT)
-* 1x [Grove - LED String Light](/Grove-LED_String_Light) module along with the LED String lights
+* 1x [Grove - DC Jack Power](https://app.gitbook.com/Grove-DC\_Jack\_Power)
+* 1x [Grove - Light Sensor](https://app.gitbook.com/Grove-Light\_Sensor)
+* 1x [Grove - NOT](https://app.gitbook.com/Grove-NOT)
+* 1x [Grove - LED String Light](https://app.gitbook.com/Grove-LED\_String\_Light) module along with the LED String lights
 
 **Follow these step by step graphical instructions to build your project:**
 
 1.Line up the modules you will need for the circuit
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_usage4.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_usage4.jpg)
 
 2.Connect the modules using the 4-Pin Grove cables and power it up
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_usage5.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_usage5.jpg)
 
 3.Test the circuit
 
-![](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/img/Mixer_v2.0_usage6.jpg)
+![](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/img/Mixer\_v2.0\_usage6.jpg)
 
 ### Other Project Ideas
 
@@ -263,12 +263,12 @@ Here are some other projects that you can try out:
 
 1. **Lights that flash to music** _Hint:_ Use a combination of the sound sensor and LED string lights. Can you make the lights flash and blink in synch with the music? If you play a musical instrument such as a piano, see how the lights respond when you play.
 2. **Lights that flash to music but only when its dark** _Hint:_ Use a combination of the sound and light sensors along with an LED string lights. Can you guess which logic gate modules you will need to use along with the 2 sensors? You will need two!
-3. **Add an LED light to your Bike Helmet** _Hint:_ The circuit for this is the same as the [Photosensitive Lights](/GROVE_MIXER_PACK_V2#Photosensitive_Lights) project shown above. Use a 9V battery to make your project portable!
-4. **Use a piezo buzzer as a Bike Horn** _Hint:_ Press on a button to sound a squeaky horn! Use a 9V battery to make your project portable. Explore what happens when you replace the [Grove - Button](/Grove-Button) with a [Grove - Slide Potentiometer](/Grove-Slide_Potentiometer).
+3. **Add an LED light to your Bike Helmet** _Hint:_ The circuit for this is the same as the [Photosensitive Lights](https://app.gitbook.com/GROVE\_MIXER\_PACK\_V2#Photosensitive\_Lights) project shown above. Use a 9V battery to make your project portable!
+4. **Use a piezo buzzer as a Bike Horn** _Hint:_ Press on a button to sound a squeaky horn! Use a 9V battery to make your project portable. Explore what happens when you replace the [Grove - Button](https://app.gitbook.com/Grove-Button) with a [Grove - Slide Potentiometer](https://app.gitbook.com/Grove-Slide\_Potentiometer).
 5. **Become a spy!** _Hint:_ Use the sound recorder and secretly record someone's voice and play it back to them.
-6. **Leave a loving message for your mom before you go off to school** _Hint:_ Use the sound recorder as you did in the above project. This time, record your favorite message for a loved one \(mom, dad, sibling...anyone\) in your own voice and let them know they can play it for themselves when you are away!!
-7. **Revive an old broken toy motor car** _Hint:_ Do you have an old motorized toy car that stopped working? Chances are that its motor runs just fine and something else went wrong. See if you can open up toy and extract the motor attached to the wheels and power it up using a [Grove - Mini Fan](/Grove-Mini_Fan) module. Try using a 9V battery for power and the slide potentiometer to vary the speed.
-8. **Personal fan with variable speed** _Hint:_ This is pretty easy and should not require a hint ;\) Save yourself from the heat with this one!
+6. **Leave a loving message for your mom before you go off to school** _Hint:_ Use the sound recorder as you did in the above project. This time, record your favorite message for a loved one (mom, dad, sibling...anyone) in your own voice and let them know they can play it for themselves when you are away!!
+7. **Revive an old broken toy motor car** _Hint:_ Do you have an old motorized toy car that stopped working? Chances are that its motor runs just fine and something else went wrong. See if you can open up toy and extract the motor attached to the wheels and power it up using a [Grove - Mini Fan](https://app.gitbook.com/Grove-Mini\_Fan) module. Try using a 9V battery for power and the slide potentiometer to vary the speed.
+8. **Personal fan with variable speed** _Hint:_ This is pretty easy and should not require a hint ;) Save yourself from the heat with this one!
 
 ### Availability
 
@@ -278,6 +278,5 @@ Available at the [SeeedStudio Bazaar](http://www.seeedstudio.com/depot/):
 
 ## Resources
 
-* [Grove Mixer Pack V2 Grove - Modules Schematics \(pdfs zip\)](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/res/Mixer_Pack_v2_sch_pdf.zip)
-* [Grove Mixer Pack V2 Grove - Modules Schematics \(Eagle files zip\)](https://github.com/SeeedDocument/Grove-Mixer_Pack_V2/raw/master/res/Mixer_Pack_v2_Eagle.zip)
-
+* [Grove Mixer Pack V2 Grove - Modules Schematics (pdfs zip)](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/res/Mixer\_Pack\_v2\_sch\_pdf.zip)
+* [Grove Mixer Pack V2 Grove - Modules Schematics (Eagle files zip)](https://github.com/SeeedDocument/Grove-Mixer\_Pack\_V2/raw/master/res/Mixer\_Pack\_v2\_Eagle.zip)

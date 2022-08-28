@@ -1,25 +1,25 @@
 ---
 title: Grove - Buzzer
 category: Actuator
-bzurl: 'https://www.seeedstudio.com/Grove-Buzzer-p-768.html'
+bzurl: https://www.seeedstudio.com/Grove-Buzzer-p-768.html
 oldwikiname: Grove - Buzzer
 prodimagename: Grove%20Buzzer.jpg
-surveyurl: 'https://www.surveymonkey.com/r/grove-buzzer'
+surveyurl: https://www.surveymonkey.com/r/grove-buzzer
 sku: 107020000
 ---
 
 # Grove Buzzer
 
-![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Grove%20Buzzer.jpg) The Grove - Buzzer module has a [piezo buzzer](https://en.wikipedia.org/wiki/Buzzer#Piezoelectric) as the main component. The piezo can be connected to digital outputs, and will emit a tone when the output is HIGH. Alternatively, it can be connected to an analog pulse-width modulation output to generate various tones and effects.
+![](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/images/Grove%20Buzzer.jpg) The Grove - Buzzer module has a [piezo buzzer](https://en.wikipedia.org/wiki/Buzzer#Piezoelectric) as the main component. The piezo can be connected to digital outputs, and will emit a tone when the output is HIGH. Alternatively, it can be connected to an analog pulse-width modulation output to generate various tones and effects.
 
-[![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
+[![](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/images/300px-Get\_One\_Now\_Banner.png)](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
 
 ## Features
 
 * Easy to use piezoelectric buzzer
-* Uses Standard 4-pin Grove Cables to connect to other Grove modules such as - [Grove Power Modules](/Grove/Grove_System/) and Grove - Base Shield
+* Uses Standard 4-pin Grove Cables to connect to other Grove modules such as - [Grove Power Modules](https://app.gitbook.com/Grove/Grove\_System/) and Grove - Base Shield
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Specifications
 
@@ -33,7 +33,7 @@ sku: 107020000
 
 Follow these steps to build a sample circuit using this module but without using any microcontroller:
 
-1. Connect the buzzer module to the output side of your circuit \(to the right of the power module\). On the input side of the circuit, you may use a range of sensor based input modules \(**Grove - Light Sensor**, **Grove - Button** or **Grove - Slide Potentiometer**\).
+1. Connect the buzzer module to the output side of your circuit (to the right of the power module). On the input side of the circuit, you may use a range of sensor based input modules (**Grove - Light Sensor**, **Grove - Button** or **Grove - Slide Potentiometer**).
 2. Power up the circuit.
 3. The buzzer will start to "buzz" when the input module supplies a trigger:
    * If using with a momentary switch like the one on the **Grove - Button module**, simply press the button to turn ON the buzzer.
@@ -46,7 +46,7 @@ You can use either the **Grove - USB Power** module or the **Grove - DC Jack Pow
 
 Follow these simple steps to build a Grove circuit using the buzzer: 1. When using the module in conjunction with an Arduino or a **Seeeduino**, use the **Grove - Base Shield** and connect the Grove - Buzzer module to the shield using a designated Grove Interface as shown below:
 
-![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Conn-four.jpg)
+![](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/images/Conn-four.jpg)
 
 1. Upload the following sample sketch to make the Buzzer make a beeping noise:
 
@@ -70,11 +70,11 @@ void loop()
 
 **With TI LaunchPad**
 
-Playing Music \(Buzzer\)
+Playing Music (Buzzer)
 
 * This example shows how to use the Grove buzzer module to play melodies. It sends a square wave of the appropriate frequency to the buzzer, generating the corresponding tone.
 
-![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Buzzer.jpg)
+![](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/images/Buzzer.jpg)
 
 ```c
 /*
@@ -148,7 +148,7 @@ void playNote(char note, int duration) {
 
 **With Raspberry Pi** The following is a simple example to show how to use the Grove - Buzzer module on Raspberry Pi. The buzzer makes noise and delays one second. Then quiet for a second.It repeats the above action.
 
-![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/GrovePi%2B_Grove_buzzer.jpg)
+![](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/images/GrovePi%2B\_Grove\_buzzer.jpg)
 
 ```python
 # GrovePi + Grove Buzzer
@@ -182,16 +182,16 @@ while True:
 
 **Run the program**
 
-Find the path to the file\(According to your own path\) \`\`\`cd GrovePi/Software/Python/
+Find the path to the file(According to your own path) \`\`\`cd GrovePi/Software/Python/
 
-```text
+````
 Run Program
 ```sudo python grove_buzzer.py
-```
+````
 
 ## Project
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus/master/img/gun.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino\_Lotus/master/img/gun.jpg)
 
 Inspired by OVERWATCH, we have made a very cool Wooden Laser Gun toy for fun these day!
 
@@ -201,8 +201,7 @@ The Wooden Laser Gun and the Gun Target are all based on an Arduino board called
 
 ## Resources
 
-* [Grove - Buzzer Source Files v1.1](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/resources/Grove-Buzzer_V1.1_eagle.zip)
-* [Grove - Buzzer Source Files v1.0 \(Eagle and pdf\)](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/resources/Grove_-_Buzzer_v1.0_Source_File.zip)
-* [S9013datasheet](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/resources/S9013.pdf)
-* [Schematic at Easyeda](https://easyeda.com/Seeed/Grove_Buzzer_v1_2-c713baf3c1774da39ce0c995544ce5da)
-
+* [Grove - Buzzer Source Files v1.1](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/resources/Grove-Buzzer\_V1.1\_eagle.zip)
+* [Grove - Buzzer Source Files v1.0 (Eagle and pdf)](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/resources/Grove\_-\_Buzzer\_v1.0\_Source\_File.zip)
+* [S9013datasheet](https://github.com/SeeedDocument/Grove\_Buzzer/raw/master/resources/S9013.pdf)
+* [Schematic at Easyeda](https://easyeda.com/Seeed/Grove\_Buzzer\_v1\_2-c713baf3c1774da39ce0c995544ce5da)

@@ -1,22 +1,22 @@
 ---
 oldwikiname: Grove_-_Electricity_Sensor
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/P2130726.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/P2130726.jpg
 prodimagename: Twig-Electricity-Sensor.jpg
-surveyurl: 'https://www.research.net/r/Grove-Electricity_Sensor'
-bzurl: 'https://seeedstudio.com/Grove-Electricity-Sensor-p-777.html'
+surveyurl: https://www.research.net/r/Grove-Electricity_Sensor
+bzurl: https://seeedstudio.com/Grove-Electricity-Sensor-p-777.html
 title: Grove - Electricity Sensor
-tags: 'grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg'
+tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 sku: 101020027
 category: Sensor
 ---
 
 # Grove Electricity Sensor
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/img/Twig-Electricity-Sensor.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity\_Sensor/master/img/Twig-Electricity-Sensor.jpg)
 
 The Electricity sensor module is a member of Grove. It is based on the TA12-200 current transformer which can transform the large AC into small amplitude. You can use it to test large alternating current up to 5A.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Electricity-Sensor-p-777.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-Electricity-Sensor-p-777.html)
 
 ## Features
 
@@ -25,7 +25,7 @@ The Electricity sensor module is a member of Grove. It is based on the TA12-200 
 * High accuracy
 * Small size
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Application Ideas
 
@@ -36,44 +36,44 @@ The Electricity sensor module is a member of Grove. It is based on the TA12-200 
 
 ### Key Specification
 
-| **Items** | **Min** |
-| :--- | :--- |
-| PCB Size | 2.0cm\*4.0cm |
-| Interface | 2.0mm pitch pin header |
-| IO Structure | SIG,NC,NC,GND |
-| RoHS | YES |
+| **Items**    | **Min**                |
+| ------------ | ---------------------- |
+| PCB Size     | 2.0cm\*4.0cm           |
+| Interface    | 2.0mm pitch pin header |
+| IO Structure | SIG,NC,NC,GND          |
+| RoHS         | YES                    |
 
 ### Electronic Characteristics
 
-| **Items** | **Min** | **Norm** | **Max** | **Unit** |
-| :--- | :--- | :--- | :--- | :--- |
-| Transformation ratio | - | 2000:1 | - | - |
-| Input Current | 0 | - | 5 | A |
-| Output Current | 0 | - | 2.5 | mA |
-| Sampling Resistance | - | 800 | - | Ω |
-| Sampling Voltage | 0 | - | 2 | V |
-| Working Frequency | 20 | - | 20K | HZ |
-| Nonlinear scale | - | - | 0.2% | - |
-| Phase Shift | - | - | 5' | - |
-| Operating Temperature | -55 | - | 85 | ℃ |
-| Dielectric strength | - | 6 | - | KVAC/1min |
+| **Items**             | **Min** | **Norm** | **Max** | **Unit**  |
+| --------------------- | ------- | -------- | ------- | --------- |
+| Transformation ratio  | -       | 2000:1   | -       | -         |
+| Input Current         | 0       | -        | 5       | A         |
+| Output Current        | 0       | -        | 2.5     | mA        |
+| Sampling Resistance   | -       | 800      | -       | Ω         |
+| Sampling Voltage      | 0       | -        | 2       | V         |
+| Working Frequency     | 20      | -        | 20K     | HZ        |
+| Nonlinear scale       | -       | -        | 0.2%    | -         |
+| Phase Shift           | -       | -        | 5'      | -         |
+| Operating Temperature | -55     | -        | 85      | ℃         |
+| Dielectric strength   | -       | 6        | -       | KVAC/1min |
 
 ## Platforms Supported
 
 ## Usage
 
-### With [Arduino](/Arduino)
+### With [Arduino](https://app.gitbook.com/Arduino)
 
 The following sketch demonstrates a simple application of measuring the amplitude of the alternating voltage. The SIG pin will output a alternating voltage based on the alternating current being measured. You can measure the value using ADC.
 
-* Connect the module to the analog A0 of [Grove - Base board](http://www.seeedstudio.com/depot/grove-base-shield-p-754.html?cPath=132_134).
+* Connect the module to the analog A0 of [Grove - Base board](http://www.seeedstudio.com/depot/grove-base-shield-p-754.html?cPath=132\_134).
 * Put the alternating current wire through the hole of the current transformer.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/img/Grove-Electricity_Sensor_hardware.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity\_Sensor/master/img/Grove-Electricity\_Sensor\_hardware.jpg)
 
 * Copy and paste code below to a new Arduino sketch.
 
-```text
+```
     /****************************************************************************/  
     //  Function: Measure the amplitude current of the alternating current and 
     //            the effective current of the sinusoidal alternating current.
@@ -130,17 +130,17 @@ The following sketch demonstrates a simple application of measuring the amplitud
 
 * Upload the code.
 
-Note The minimum effective current that can be sensed by the code can be calculated using the equation below. minimum\_current=1/1024\*5/800\*2000000/1.414=8.6\(mA\).
+Note The minimum effective current that can be sensed by the code can be calculated using the equation below. minimum\_current=1/1024\*5/800\*2000000/1.414=8.6(mA).
 
 * Open the serial monitor, The results is as follows：
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/img/Elecricity_Sensor.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity\_Sensor/master/img/Elecricity\_Sensor.jpg)
 
 ### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+2.You should have completed configuring the development enviroment, otherwise follow [here](https://app.gitbook.com/GrovePiPlus).
 
 3.Connection
 
@@ -148,17 +148,17 @@ Note The minimum effective current that can be sensed by the code can be calcula
 
 4.Navigate to the demos' directory:
 
-```text
+```
    cd yourpath/GrovePi/Software/Python/
 ```
 
 * To see the code
 
-```text
+```
     nano grove_electricity_sensor.py   # "Ctrl+x" to exit #
 ```
 
-```text
+```
     import time
     import grovepi
 
@@ -196,12 +196,11 @@ Note The minimum effective current that can be sensed by the code can be calcula
 
 5.Run the demo.
 
-```text
+```
     sudo python grove_electricity_sensor.py
 ```
 
 ## Resources
 
-* [Grove -Electricity Sensor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/res/Electricity_sensor_v1.0_eagle_files.zip)
-* [Schematic in PDF](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/res/Electricity_sensor_sch.pdf)
-
+* [Grove -Electricity Sensor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity\_Sensor/master/res/Electricity\_sensor\_v1.0\_eagle\_files.zip)
+* [Schematic in PDF](https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity\_Sensor/master/res/Electricity\_sensor\_sch.pdf)

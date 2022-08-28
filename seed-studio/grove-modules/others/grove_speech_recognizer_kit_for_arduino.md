@@ -5,26 +5,26 @@ bzurl: >-
   https://www.seeedstudio.com/Grove-Speech-Recognizer-kit-for-Arduino-p-2726.html
 oldwikiname: Grove Speech Recognizer Kit for Arduino
 prodimagename: LFUUlWtcc3wNmrxDp3yjPy7I.jpg
-surveyurl: 'https://www.research.net/r/Grove_Speech_Recognizer_Kit_for_Arduino'
+surveyurl: https://www.research.net/r/Grove_Speech_Recognizer_Kit_for_Arduino
 sku: 110020108
 ---
 
 # Grove Speech Recognizer Kit for Arduino
 
-![](https://github.com/SeeedDocument/Grove_Speech_Recognizer_Kit_for_Arduino/raw/master/img/LFUUlWtcc3wNmrxDp3yjPy7I.jpg)
+![](https://github.com/SeeedDocument/Grove\_Speech\_Recognizer\_Kit\_for\_Arduino/raw/master/img/LFUUlWtcc3wNmrxDp3yjPy7I.jpg)
 
 The Grove Speech Recognizer Kit for Arduino is designed for prototype of Smart Home which includes some basic home elements such as Speech Recognizer, Infrared Emitter. You can learn the functions and applications of Speech Recognizer quickly via this kit, the guideline shows some common demos, let's say you can play music via your speak command 'Play music', or turn on the light according to the corresponding command.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Speech-Recognizer-kit-for-Arduino-p-2726.html)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get\_One\_Now\_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Speech-Recognizer-kit-for-Arduino-p-2726.html)
 
 ### Part List
 
 1. Grove - Speech Recognizer SKU:101020232
-2. [Grove - MP3 v2.0](/Grove-MP3_v2.0)
-3. [Grove – RTC](//grove-rtc/)
-4. [Base Shield](/Base_Shield_V2/)
-5. [Grove - Infrared Receiver](/Grove-Infrared_Receiver/)
-6. [Grove - Infrared\_Emitter](/Grove-Infrared_Emitter/)
+2. [Grove - MP3 v2.0](https://app.gitbook.com/Grove-MP3\_v2.0)
+3. [Grove – RTC](https://grove-rtc/)
+4. [Base Shield](https://app.gitbook.com/Base\_Shield\_V2/)
+5. [Grove - Infrared Receiver](https://app.gitbook.com/Grove-Infrared\_Receiver/)
+6. [Grove - Infrared\_Emitter](https://app.gitbook.com/Grove-Infrared\_Emitter/)
 
 ### Application
 
@@ -45,25 +45,25 @@ Before create this demo you should prepare some necessary components:
 
 Download necessary libraries from github : [IRSendRev](https://github.com/Seeed-Studio/IRSendRev) ,pay attention to the path of your libraries: .../arduino/libraries
 
-* Now open the example file of "recv" : File --&gt; Sketchbook --&gt; libraries --&gt; IRSendRev --&gt; recv.
+* Now open the example file of "recv" : File --> Sketchbook --> libraries --> IRSendRev --> recv.
 * Upload the program to your Arduino UNO.
 * Plug Base Shield onto the Arduino UNO,and plug the Grove - Receiver onto the D2 port of Base Shield.
 
-```text
+```
 const int pinRecv = 2;
 ```
 
-Also you can change another port while modifying the definement of pin. &lt;/dd&gt;&lt;/dl&gt;
+Also you can change another port while modifying the definement of pin. \</dd>\</dl>
 
 * Open the monitor of Arduino UNO.
 
 Press a button of any Infrared Remote Controller, you'll get the detailed information code of the button, see following:
 
-![](https://github.com/SeeedDocument/Grove_Speech_Recognizer_Kit_for_Arduino/raw/master/img/IR_Receiver_IR_controller.png)
+![](https://github.com/SeeedDocument/Grove\_Speech\_Recognizer\_Kit\_for\_Arduino/raw/master/img/IR\_Receiver\_IR\_controller.png)
 
 Write down the detailed information of the button you want to press. Following are the information of a button:
 
-```text
+```
 +------------------------------------------------------+
 LEN = 9
 START_H: 179    START_L: 88
@@ -79,13 +79,13 @@ DATA: 128    126    16    239
 
 Now we can use the previous information code of a button.
 
-* Open the example file of "send" : File --&gt; Sketchbook --&gt; libraries --&gt; IRSendRev --&gt; send.
+* Open the example file of "send" : File --> Sketchbook --> libraries --> IRSendRev --> send.
 * Upload the program to your Arduino UNO.
 * Plug Base Shield onto the Arduino UNO,and plug the Grove - Receiver onto the D3 port of Base Shield.
 
 First we need modify the default information of the button:
 
-```text
+```
 unsigned char dtaSend[20];
 
 void dtaInit()
@@ -96,7 +96,7 @@ void dtaInit()
 
 Modify those information according to the previous one you wrote:
 
-```text
+```
 unsigned char dtaSend[20];
 
 void dtaInit()
@@ -120,20 +120,20 @@ void dtaInit()
 
 You can observe that:
 
-```text
+```
 DATA_LEN = 4
 ```
 
 So you can note or delete those two lines.
 
-```text
+```
    //dtaSend[BIT_DATA+4]     = 192;
     //dtaSend[BIT_DATA+5]     = 63;
 ```
 
 Of course you can also define many buttons:
 
-```text
+```
 #include <IRSendRev.h>
 
 #define BIT_LEN         0
@@ -205,42 +205,42 @@ void loop()
 
 * It's very simple to use Speech Recognizer alone, please see the wiki of it first.
 
-We can choose what buttons we need according to the table&lt;ref&gt;Table of return value, [Grove - Speech Recognizer](/Seeed_BLE_Shield_v1)&lt;/ref&gt; of return value of Speech Recognizer. Following is the table of return value:
+We can choose what buttons we need according to the table\<ref>Table of return value, [Grove - Speech Recognizer](https://app.gitbook.com/Seeed\_BLE\_Shield\_v1)\</ref> of return value of Speech Recognizer. Following is the table of return value:
 
-|  Command |  Return Value |
-| :--- | :--- |
-|  Turn on the light |  1 |
-|  Turn off the light |  2 |
-|  Play music |  3 |
-|  Pause |  4 |
-|  Next |  5 |
-|  Previous |  6 |
-|  Up |  7 |
-|  Down |  8 |
-|  Turn on the TV |  9 |
-|  Turn off the TV |  10 |
-|  Increase temperature |  11 |
-|  Decrease temperature |  12 |
-|  What's the time |  13 |
-|  Open the door |  14 |
-|  Close the door |  15 |
-|  Left |  16 |
-|  Right |  17 |
-|  Stop |  18 |
-|  Start |  19 |
-|  Mode 1 |  20 |
-|  Mode 2 |  21 |
-|  Go |  22 |
+|  Command              |  Return Value |
+| --------------------- | ------------- |
+|  Turn on the light    |  1            |
+|  Turn off the light   |  2            |
+|  Play music           |  3            |
+|  Pause                |  4            |
+|  Next                 |  5            |
+|  Previous             |  6            |
+|  Up                   |  7            |
+|  Down                 |  8            |
+|  Turn on the TV       |  9            |
+|  Turn off the TV      |  10           |
+|  Increase temperature |  11           |
+|  Decrease temperature |  12           |
+|  What's the time      |  13           |
+|  Open the door        |  14           |
+|  Close the door       |  15           |
+|  Left                 |  16           |
+|  Right                |  17           |
+|  Stop                 |  18           |
+|  Start                |  19           |
+|  Mode 1               |  20           |
+|  Mode 2               |  21           |
+|  Go                   |  22           |
 
 The following example uses two commands: "Turn of the TV" and "Turn off the TV"
 
-* After reading, we can embed the program of Speech Recognizer in the IRSend program. See the following completed program:
+*   After reading, we can embed the program of Speech Recognizer in the IRSend program. See the following completed program:
 
-  \`\`\`
+    \`\`\`
 
-  **include**
+    **include**
 
-  **include**
+    **include**
 
 /_======== IR type ========_/
 
@@ -262,7 +262,7 @@ const int ir\_freq = 38; // 38k
 
 / _======== How many IR buttons you wanna send ========_/
 
-unsigned char OpenTV\[20\]; unsigned char CloseTV\[20\];
+unsigned char OpenTV\[20]; unsigned char CloseTV\[20];
 
 /_========= Choose the pins of Speech Recognizer ==========_/
 
@@ -270,13 +270,13 @@ unsigned char OpenTV\[20\]; unsigned char CloseTV\[20\];
 
 ## define SOFTSERIAL\_TX\_PIN  6
 
-SoftwareSerial speech\(SOFTSERIAL\_RX\_PIN,SOFTSERIAL\_TX\_PIN\);
+SoftwareSerial speech(SOFTSERIAL\_RX\_PIN,SOFTSERIAL\_TX\_PIN);
 
 / _======= How to write the IR data ========_/ / _==== You can get those data via IR Recevier ====_ /
 
-void OpenTVInit\(\) { OpenTV\[BIT\_LEN\] = 9; // all data that needs to be sent OpenTV\[BIT\_START\_H\] = 180; // the logic high duration of "OpenTV" OpenTV\[BIT\_START\_L\] = 88; // the logic low duration of "OpenTV" OpenTV\[BIT\_DATA\_H\] = 11; // the logic "long" duration in the communication OpenTV\[BIT\_DATA\_L\] = 33; // the logic "short" duration in the communication
+void OpenTVInit() { OpenTV\[BIT\_LEN] = 9; // all data that needs to be sent OpenTV\[BIT\_START\_H] = 180; // the logic high duration of "OpenTV" OpenTV\[BIT\_START\_L] = 88; // the logic low duration of "OpenTV" OpenTV\[BIT\_DATA\_H] = 11; // the logic "long" duration in the communication OpenTV\[BIT\_DATA\_L] = 33; // the logic "short" duration in the communication
 
-```text
+```
 OpenTV[BIT_DATA_LEN]   = 4;            // Number of data which will sent. If the number is other, you should increase or reduce dtaSend[BIT_DATA+x].
 
 OpenTV[BIT_DATA+0]     = 50;            // data that will sent
@@ -287,9 +287,9 @@ OpenTV[BIT_DATA+3]     = 175;
 
 }
 
-void CloseTVInit\(\) { CloseTV\[BIT\_LEN\] = 9; // all data that needs to be sent CloseTV\[BIT\_START\_H\] = 178; // the logic high duration of "CloseTV" CloseTV\[BIT\_START\_L\] = 89; // the logic low duration of "CloseTV" CloseTV\[BIT\_DATA\_H\] = 10; // the logic "long" duration in the communication CloseTV\[BIT\_DATA\_L\] = 33; // the logic "short" duration in the communication
+void CloseTVInit() { CloseTV\[BIT\_LEN] = 9; // all data that needs to be sent CloseTV\[BIT\_START\_H] = 178; // the logic high duration of "CloseTV" CloseTV\[BIT\_START\_L] = 89; // the logic low duration of "CloseTV" CloseTV\[BIT\_DATA\_H] = 10; // the logic "long" duration in the communication CloseTV\[BIT\_DATA\_L] = 33; // the logic "short" duration in the communication
 
-```text
+```
 CloseTV[BIT_DATA_LEN]   = 4;            // Number of data which will sent. If the number is other, you should increase or reduce dtaSend[BIT_DATA+x].
 
 CloseTV[BIT_DATA+0]     = 50;            // data that will sent
@@ -300,11 +300,11 @@ CloseTV[BIT_DATA+3]     = 87;
 
 }
 
-void setup\(\) { OpenTVInit\(\) CloseTVInit\(\) Serial.begin\(9600\); speech.begin\(9600\); speech.listen\(\); }
+void setup() { OpenTVInit() CloseTVInit() Serial.begin(9600); speech.begin(9600); speech.listen(); }
 
-void loop\(\) { int a=0;
+void loop() { int a=0;
 
-```text
+```
 if(speech.available())
 {
     a = speech.read();    // Read the return value from the Speech Recognizer
@@ -326,7 +326,7 @@ if(speech.available())
 
 }
 
-```text
+```
 ###  How to control music
 
 Watch the commands of Speech Recognizer, there're many commands which are related to music, such as "Play music", "Pause", "Stop", "Previous", "Next". So let's do this Speech Music Box!
@@ -338,17 +338,17 @@ Download necessary libraries from github: [Grove_Serial_MP3_Player_V2.0](https:/
 There're some useful basic functions of Grove - MP3:
 ```
 
-PlayPause\(\); // pause music PlayResume\(\); // restart a music PlayNext\(\); // next song PlayPrevious\(\); // previous song PlayLoop\(\); // loop all songs SetVolume\(uint8\_t volume\); // set volume. default value is "0x0E", the range is 0x00 to 0x1E. IncreaseVolume\(\); // increase volume DecreaseVolume\(\); // decrease volume
+PlayPause(); // pause music PlayResume(); // restart a music PlayNext(); // next song PlayPrevious(); // previous song PlayLoop(); // loop all songs SetVolume(uint8\_t volume); // set volume. default value is "0x0E", the range is 0x00 to 0x1E. IncreaseVolume(); // increase volume DecreaseVolume(); // decrease volume
 
-```text
+```
 But there're some special functions you need to pay attention:
 
 *   SelectPlayerDevice(uint8_t device). _The default device value is 0x02, Select SD card as the player device._
 ```
 
-SelectPlayerDevice\(0x02\);
+SelectPlayerDevice(0x02);
 
-```text
+```
 *   SpecifyMusicPlay(uint16_t index). _play a song by name._
 <dl><dd>Pay attention to the name of songs, you can set a name like following type:
 </dd></dl>
@@ -359,9 +359,9 @@ SelectPlayerDevice\(0x02\);
 </dd></dl>
 ```
 
-SpecifyMusicPlay\(5\);
+SpecifyMusicPlay(5);
 
-```text
+```
 *   SpecifyfolderPlay(uint8_t folder, uint8_t index);   // play a song by name in a appointed folder
 <dl><dd>Furthermore, sometimes we may play music in a new folder, the previous function comes in handy.
 </dd></dl>
@@ -374,26 +374,26 @@ SpecifyMusicPlay\(5\);
 So if we want to play the "005" in the folder "01", we can do this:
 ```
 
-SpecifyfolderPlay\(1,5\);
+SpecifyfolderPlay(1,5);
 
-```text
+```
 *   Other attention:
 <dl><dd>Each song has its length of time, so if you want to appoint songs one by one, there've two ways you can choose:
 </dd></dl>
 ```
 
-delay\(length of time\); // delay the length of time until the song is played out
+delay(length of time); // delay the length of time until the song is played out
 
-while\(QueryPlayStatus\(\) != 0\); // Return: 0: played out; 1: not play out
+while(QueryPlayStatus() != 0); // Return: 0: played out; 1: not play out
 
-```text
+```
 <dl><dd>Normally, we can use the latter. For example:
 </dd></dl>
 ```
 
-SpecifyMusicPlay\(1\); while\(QueryPlayStatus\(\) != 0\); SpecifyMusicPlay\(2\); while\(QueryPlayStatus\(\) != 0\); SpecifyMusicPlay\(3\); while\(QueryPlayStatus\(\) != 0\);
+SpecifyMusicPlay(1); while(QueryPlayStatus() != 0); SpecifyMusicPlay(2); while(QueryPlayStatus() != 0); SpecifyMusicPlay(3); while(QueryPlayStatus() != 0);
 
-```text
+```
 **Integrated Program**
 
 OK, let's embed Speech Recognizer and Grove - MP3 together. The following demo can control some MP3 functions: play music, pause music, continue music, next song, previous song.
@@ -407,7 +407,7 @@ OK, let's embed Speech Recognizer and Grove - MP3 together. The following demo c
 
 ## include
 
-/**\*\*** Define the pins of MP3 **\*\***/ SoftwareSerial mp3\(2, 3\);
+/**\*\*** Define the pins of MP3 **\*\***/ SoftwareSerial mp3(2, 3);
 
 /**\*\*** Define the pins of Speech Recognizer **\*\***/
 
@@ -415,27 +415,27 @@ OK, let's embed Speech Recognizer and Grove - MP3 together. The following demo c
 
 ## define SOFTSERIAL\_TX\_PIN  6
 
-SoftwareSerial speech\(SOFTSERIAL\_RX\_PIN,SOFTSERIAL\_TX\_PIN\);
+SoftwareSerial speech(SOFTSERIAL\_RX\_PIN,SOFTSERIAL\_TX\_PIN);
 
-void setup\(\) { mp3.begin\(9600\); speech.begin\(9600\); Serial.begin\(9600\); delay\(100\);
+void setup() { mp3.begin(9600); speech.begin(9600); Serial.begin(9600); delay(100);
 
-```text
+```
 SelectPlayerDevice(0x02);       // Select SD card as the player device.
 SetVolume(0x15);                // Set the volume, the range is 0x00 to 0x1E.
 ```
 
 }
 
-void loop\(\) { int a=0; if\(speech.available\(\)\) { a = speech.read\(\); // Read the return value from the Speech Recognizer switch \(a\) { case 3: // speech command : Play music SpecifyMusicPlay\(1\); // MP3: play the name of "001" break; case 4: // speech command : Pause PlayPause\(\); // MP3: pause music break; case 19: // speech command : Start PlayResume\(\); // MP3: continue music break; case 5: // speech command : Next PlayNext\(\); // MP3: play next song break; case 6: // speech command : Previous PlayPrevious\(\); // MP3: play previous song break; default: break; }
+void loop() { int a=0; if(speech.available()) { a = speech.read(); // Read the return value from the Speech Recognizer switch (a) { case 3: // speech command : Play music SpecifyMusicPlay(1); // MP3: play the name of "001" break; case 4: // speech command : Pause PlayPause(); // MP3: pause music break; case 19: // speech command : Start PlayResume(); // MP3: continue music break; case 5: // speech command : Next PlayNext(); // MP3: play next song break; case 6: // speech command : Previous PlayPrevious(); // MP3: play previous song break; default: break; }
 
-```text
+```
     delay(1000);
 }
 ```
 
 }
 
-```text
+```
 ###  How to broadcast real-time
 
 Did you use Grove - MP3 to broadcast real-time? Let's have a try via Speech Recognizer, Grove - MP3, and Grove - RTC.
@@ -451,9 +451,9 @@ Download necessary libraries from github: <font color="Red">[RTC_DS1307](https:/
 *   Set the right time of RTC.
 ```
 
-clock.fillByYMD\(2016,1,19\);//May 23,2016 clock.fillByHMS\(15,28,30\);//15:28 30" clock.fillDayOfWeek\(Mon\);//Saturday
+clock.fillByYMD(2016,1,19);//May 23,2016 clock.fillByHMS(15,28,30);//15:28 30" clock.fillDayOfWeek(Mon);//Saturday
 
-```text
+```
 *   Upload the modified program to your Arduino UNO.
 
 **Text-to-speech**
@@ -520,7 +520,7 @@ By the way, we have ranked 61 sound files in a folder, you can [download it](htt
 
 ## include
 
-/_**\***_ Define the pins of MP3 **\*\***/ SoftwareSerial mp3\(2, 3\);
+/_**\***_ Define the pins of MP3 **\*\***/ SoftwareSerial mp3(2, 3);
 
 /_**\***_ Define the pins of Speech Recognizer **\*\***/
 
@@ -528,17 +528,17 @@ By the way, we have ranked 61 sound files in a folder, you can [download it](htt
 
 ## define SOFTSERIAL\_TX\_PIN  6
 
-SoftwareSerial speech\(SOFTSERIAL\_RX\_PIN,SOFTSERIAL\_TX\_PIN\);
+SoftwareSerial speech(SOFTSERIAL\_RX\_PIN,SOFTSERIAL\_TX\_PIN);
 
 /_**\***_ Define a object of DS1307 class **\*\***/ DS1307 clock;//define a object of DS1307 class
 
-void setup \(\) { mp3.begin\(9600\); speech.begin\(9600\); clock.begin\(\); Serial.begin\(9600\); delay\(100\);
+void setup () { mp3.begin(9600); speech.begin(9600); clock.begin(); Serial.begin(9600); delay(100);
 
-SelectPlayerDevice\(0x02\); // Select SD card as the player device. SetVolume\(0x15\); // Set the volume, the range is 0x00 to 0x1E. }
+SelectPlayerDevice(0x02); // Select SD card as the player device. SetVolume(0x15); // Set the volume, the range is 0x00 to 0x1E. }
 
-void loop \(\) { int a=0; speech.listen\(\); // start to receiver data from the software port of Speech Recognizer if\(speech.available\(\)\) { a = speech.read\(\); // Read the return value from the Speech Recognizer if\(a==13\) { clock.getTime\(\); // get the real-time from Grove - RTC int b=1+clock.hour; // get hour data; because the 1th name of song is the voice "0" , so in order to get the voice "60" \(it's\) , the number of the name should be added 1. int c=1+clock.minute; // get hour data; because the 1th name of song is the voice "0" , so in order to get the voice "60" \(it's\) , the number of the name should be added 1.
+void loop () { int a=0; speech.listen(); // start to receiver data from the software port of Speech Recognizer if(speech.available()) { a = speech.read(); // Read the return value from the Speech Recognizer if(a==13) { clock.getTime(); // get the real-time from Grove - RTC int b=1+clock.hour; // get hour data; because the 1th name of song is the voice "0" , so in order to get the voice "60" (it's) , the number of the name should be added 1. int c=1+clock.minute; // get hour data; because the 1th name of song is the voice "0" , so in order to get the voice "60" (it's) , the number of the name should be added 1.
 
-```text
+```
   mp3.listen();   // start to receiver data from the software port of Grove - MP3
   SpecifyMusicPlay(61);   // The voice "It's" is the name of "61" song in the folder of SD card
   while(QueryPlayStatus() != 0);  // play next song before the previous song is played out
@@ -549,14 +549,13 @@ void loop \(\) { int a=0; speech.listen\(\); // start to receiver data from the 
 }
 ```
 
-} delay\(1000\); }
+} delay(1000); }
 
 \`\`\`
 
 ### Resource
 
 * [Github: IRSendRev](https://github.com/Seeed-Studio/IRSendRev)
-* [Github: MP3](https://github.com/Seeed-Studio/Grove_Serial_MP3_Player_V2.0)
-* [Github: RTC](https://github.com/Seeed-Studio/RTC_DS1307)
-* [Sound files of broadcast](https://github.com/SeeedDocument/Grove_Speech_Recognizer_Kit_for_Arduino/raw/master/res/Sound_file.zip)
-
+* [Github: MP3](https://github.com/Seeed-Studio/Grove\_Serial\_MP3\_Player\_V2.0)
+* [Github: RTC](https://github.com/Seeed-Studio/RTC\_DS1307)
+* [Sound files of broadcast](https://github.com/SeeedDocument/Grove\_Speech\_Recognizer\_Kit\_for\_Arduino/raw/master/res/Sound\_file.zip)

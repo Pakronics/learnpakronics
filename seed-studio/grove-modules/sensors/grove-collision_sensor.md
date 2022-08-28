@@ -1,36 +1,36 @@
 ---
 oldwikiname: Grove_-_Collision_Sensor
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/101020005 1.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/101020005 1.jpg
 prodimagename: Grove_–_Collision_Sensor_photo.jpg
-surveyurl: 'https://www.research.net/r/Grove-Collision_Sensor'
-bzurl: 'https://seeedstudio.com/Grove-Collision-Sensor-p-1132.html'
+surveyurl: https://www.research.net/r/Grove-Collision_Sensor
+bzurl: https://seeedstudio.com/Grove-Collision-Sensor-p-1132.html
 title: Grove - Collision Sensor
-tags: 'grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg'
+tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 sku: 101020005
 category: Sensor
 ---
 
 # Grove Collision Sensor
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Collision_Sensor/master/img/Grove_–_Collision_Sensor_photo.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Collision\_Sensor/master/img/Grove\_%E2%80%93\_Collision\_Sensor\_photo.jpg)
 
 Grove - Collision Sensor can detect whether any collision movement or vibration happens. It will output a low pulse signal when vibration is detected. To make the output signal more reliable and neat, we added a necessary exterior circuit to reduce the noise impact. So, normal shaking will not cause any output. The sensor has a high sensitivity. You can use it to apply to your project, such as automatic wake-up and power-down for battery management.
 
 Its working voltage is 5V which makes it compatible with standard Arduino/Seeeduino 5V system.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Collision-Sensor-p-1132.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-Collision-Sensor-p-1132.html)
 
 ## Specifications
 
 * Voltage: 3.3/5V
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Platforms Supported
 
 ## Demonstration
 
-### With [Arduino](/Arduino)
+### With [Arduino](https://app.gitbook.com/Arduino)
 
 Based on the output signal will change when a collision happens, we design this demo: each time the sensor detects collision, the LED will light up. Here the LED is as a managed device, and you can refer to the demo to control your device, such as bicycle light.
 
@@ -95,7 +95,7 @@ void turnOffLED()
 
 5.Now you can check the status of LED. The LED should light up every time you drum fingers on the table.
 
-You can adjust the sensor sensitivity by changing the function delay\(50\) in code.
+You can adjust the sensor sensitivity by changing the function delay(50) in code.
 
 ```c
 if(!digitalRead(COLLISION_SENSOR))
@@ -109,7 +109,7 @@ return false;
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+2.You should have completed configuring the development enviroment, otherwise follow [here](https://app.gitbook.com/GrovePiPlus).
 
 3.Connection
 
@@ -117,17 +117,17 @@ return false;
 
 4.Navigate to the demos' directory:
 
-```text
+```
 cd yourpath/GrovePi/Software/Python/
 ```
 
 * To see the code
 
-```text
+```
 nano grove_collision_sensor.py   # "Ctrl+x" to exit #
 ```
 
-```text
+```
 import time
 import grovepi
 
@@ -148,12 +148,11 @@ while True:
 
 5.Run the demo.
 
-```text
+```
 sudo python grove_collision_sensor.py
 ```
 
 ## Resources
 
-* [Grove - Collision Sensor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Collision_Sensor/master/res/Grove-Collision_Sensor_eagle_file.zip)
-* [MVS0608.02 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Collision_Sensor/master/res/DataSheet-MVS0608_02-v2_1.pdf)
-
+* [Grove - Collision Sensor Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Collision\_Sensor/master/res/Grove-Collision\_Sensor\_eagle\_file.zip)
+* [MVS0608.02 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Collision\_Sensor/master/res/DataSheet-MVS0608\_02-v2\_1.pdf)

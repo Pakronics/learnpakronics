@@ -1,66 +1,66 @@
 # Builder Kit
 
-![](../../../.gitbook/assets/screenshot_1%20%284%29.png)
+![](<../../../.gitbook/assets/Screenshot\_1 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_2%20%284%29.png)
+![](<../../../.gitbook/assets/Screenshot\_2 (4).png>)
 
-![](../../../.gitbook/assets/screenshot_3.png)
+![](<../../../.gitbook/assets/Screenshot\_3 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_4%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_4 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_5%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_5 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_6%20%281%29.png)
+![](../../../.gitbook/assets/Screenshot\_6.png)
 
-![](../../../.gitbook/assets/screenshot_7%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_7 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_8.png)
+![](<../../../.gitbook/assets/Screenshot\_8 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_9%20%281%29.png)
+![](../../../.gitbook/assets/Screenshot\_9.png)
 
-![](../../../.gitbook/assets/screenshot_10%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_10 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_11.png)
+![](<../../../.gitbook/assets/Screenshot\_11 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_12.png)
+![](<../../../.gitbook/assets/Screenshot\_12 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_13.png)
+![](<../../../.gitbook/assets/Screenshot\_13 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_14%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_14 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_15.png)
+![](<../../../.gitbook/assets/Screenshot\_15 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_16%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_16 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_17%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_17 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_18.png)
+![](<../../../.gitbook/assets/Screenshot\_18 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_19%20%282%29.png)
+![](<../../../.gitbook/assets/Screenshot\_19 (1).png>)
 
-![](../../../.gitbook/assets/screenshot_20.png)
+![](../../../.gitbook/assets/Screenshot\_20.png)
 
-![](../../../.gitbook/assets/screenshot_21%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_21 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_22%20%283%29.png)
+![](../../../.gitbook/assets/Screenshot\_22.png)
 
-![](../../../.gitbook/assets/screenshot_23.png)
+![](../../../.gitbook/assets/Screenshot\_23.png)
 
-![](../../../.gitbook/assets/screenshot_24%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_24 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_25%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_25 (3).png>)
 
-![](../../../.gitbook/assets/screenshot_26%20%281%29.png)
+![](<../../../.gitbook/assets/Screenshot\_26 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_27%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_27 (2).png>)
 
-![](../../../.gitbook/assets/screenshot_28%20%283%29.png)
+![](<../../../.gitbook/assets/Screenshot\_28 (1).png>)
 
 The above instructions have been sourced from [OttoDIY.com](https://www.ottodiy.com/)
 
 You can find the printable assembly instructions here.
 
-{% file src="../../../.gitbook/assets/builder-kit.pdf" caption="Printable Assembly Instructions" %}
-
-
+{% file src="../../../.gitbook/assets/Builder Kit.pdf" %}
+Printable Assembly Instructions
+{% endfile %}
 

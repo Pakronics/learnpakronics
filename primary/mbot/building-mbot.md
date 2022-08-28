@@ -9,29 +9,28 @@
 
 **Parts list**
 
-![](../../.gitbook/assets/0%20%285%29.png)
+![](<../../.gitbook/assets/0 (25).png>)
 
 **Use of screwdriver**
 
-![](../../.gitbook/assets/1.png)
+![](<../../.gitbook/assets/1 (8).png>)
 
 **Main board**
 
-![](../../.gitbook/assets/2%20%2811%29.png)
+![](<../../.gitbook/assets/2 (5).png>)
 
 **Building instructions**
 
-![](../../.gitbook/assets/3%20%289%29.png)
+![](<../../.gitbook/assets/3 (13).png>)
 
-![](../../.gitbook/assets/4%20%287%29.png)
+![](<../../.gitbook/assets/4 (13).png>)
 
-![](../../.gitbook/assets/5%20%2818%29.png)
+![](<../../.gitbook/assets/5 (15).png>)
 
-![](../../.gitbook/assets/6%20%2811%29.png)
+![](<../../.gitbook/assets/6 (10).png>)
 
-![](../../.gitbook/assets/7.png)
+![](<../../.gitbook/assets/7 (5).png>)
 
-![](../../.gitbook/assets/8%20%285%29.png)
+![](<../../.gitbook/assets/8 (4).png>)
 
-![](../../.gitbook/assets/9%20%285%29.png)
-
+![](<../../.gitbook/assets/9 (7).png>)

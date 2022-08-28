@@ -1,24 +1,24 @@
 ---
 oldwikiname: Grove_-_Digital_Light_Sensor
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/101020030 1.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/101020030 1.jpg
 prodimagename: null
-surveyurl: 'https://www.research.net/r/Grove-Digital_Light_Sensor'
-bzurl: 'https://seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html'
+surveyurl: https://www.research.net/r/Grove-Digital_Light_Sensor
+bzurl: https://seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html
 title: Grove - Digital Light Sensor
-tags: 'grove_digital, io_3v3, io_5v, plat_duino, plat_pi'
+tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi
 sku: 101020030
 category: Sensor
 ---
 
 # Grove Digital Light Sensor
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Digital_Light_Sensor.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/img/Digital\_Light\_Sensor.jpg)
 
-This module is based on the I2C light-to-digital converter TSL2561 to transform light intensity to a digital signal. Different from traditional analog light sensor, as [Grove - Light Sensor](http://www.seeedstudio.com/depot/grove-light-sensorp-p-1253.html?cPath=144_148), this digital module features a selectable light spectrum range due to its dual light sensitive diodes: infrared and full spectrum.
+This module is based on the I2C light-to-digital converter TSL2561 to transform light intensity to a digital signal. Different from traditional analog light sensor, as [Grove - Light Sensor](http://www.seeedstudio.com/depot/grove-light-sensorp-p-1253.html?cPath=144\_148), this digital module features a selectable light spectrum range due to its dual light sensitive diodes: infrared and full spectrum.
 
 We can switch among three detection modes to take your readings. They are infrared mode, full spectrum and human visible mode. When running under the human visible mode, this sensor will give you readings just close to your eye feelings.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)
 
 ## Features
 
@@ -28,36 +28,36 @@ We can switch among three detection modes to take your readings. They are infrar
 * Wide operating temperature range: -40°C to 85°C
 * Programmable interrupt function with User-Defined Upper and lower threshold settings
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Specifications
 
-| Items | Min | Typical | Max | Unit |
-| :--- | :--- | :--- | :--- | :--- |
-| Supply voltage, VDD | 3.3 | 5 | 5.1 | V |
-| Operating temperature | -30 | \ | 70 | ℃ |
-| SCL,SDA input low voltage | -0.5 | \ | 0.8 | V |
-| SCL,SDA input high voltage | 2.3 | \ | 5.1 | V |
+| Items                      | Min  | Typical | Max | Unit |
+| -------------------------- | ---- | ------- | --- | ---- |
+| Supply voltage, VDD        | 3.3  | 5       | 5.1 | V    |
+| Operating temperature      | -30  | \\      | 70  | ℃    |
+| SCL,SDA input low voltage  | -0.5 | \\      | 0.8 | V    |
+| SCL,SDA input high voltage | 2.3  | \\      | 5.1 | V    |
 
 ## Platforms Supported
 
 ## Hardware Overview
 
-![](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/hardware%20overview.jpg)
+![](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/img/hardware%20overview.jpg)
 
-**U1:** TSL2561 IC, Light-To-Digital Converter. Here is the Functional Block Diagram. ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Functional_Block_Diagram_2.jpg)
+**U1:** TSL2561 IC, Light-To-Digital Converter. Here is the Functional Block Diagram. ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/img/Functional\_Block\_Diagram\_2.jpg)
 
-* **Register Map**
+*   **Register Map**
 
-  The TSL2561 is controlled and monitored by sixteen registers \(three are reserved\) and a command register accessed through the serial interface. These registers provide for a variety of control functions and can be read to determine results of the ADC conversions. The register set is summarised as shown below.
+    The TSL2561 is controlled and monitored by sixteen registers (three are reserved) and a command register accessed through the serial interface. These registers provide for a variety of control functions and can be read to determine results of the ADC conversions. The register set is summarised as shown below.
 
-  ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Register.jpg)
+    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/img/Register.jpg)
 
-  * **Spectrum Response Curve**
+    * **Spectrum Response Curve**
 
-  ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Spectral_responsivity.jpg)
+    ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/img/Spectral\_responsivity.jpg)
 
-  Two channels of the digital light sensor have different response characteristic. That's why you can choose its working mode by having both of them on or one of them off.
+    Two channels of the digital light sensor have different response characteristic. That's why you can choose its working mode by having both of them on or one of them off.
 
 **U3:** XC6206MR332 IC, Positive Voltage Regulators.
 
@@ -67,85 +67,84 @@ We can switch among three detection modes to take your readings. They are infrar
 
 ## Getting Started
 
-### With [Arduino](/Arduino)
+### With [Arduino](https://app.gitbook.com/Arduino)
 
 #### Connection
 
 Here we will show you how this Grove - Digital light sensor works via a simple demo. First of all, we need to prepare the below stuffs:
 
-| Seeeduino V4 | Grove - Digital light sensor | Base Shield |
-| :--- | :--- | :--- |
-| ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_1.jpg) | ![enter image description here](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/digital%20light%20sensor_s.jpg) | ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/gs_4.jpg) |
-| [Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html) | [Get ONE Now](https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html) | [Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html) |
+| Seeeduino V4                                                                                                                  | Grove - Digital light sensor                                                                                                                  | Base Shield                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove\_Light\_Sensor/master/images/gs\_1.jpg) | ![enter image description here](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/img/digital%20light%20sensor\_s.jpg) | ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove\_Light\_Sensor/master/images/gs\_4.jpg) |
+| [Get ONE Now](http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)                                                          | [Get ONE Now](https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)                                                             | [Get ONE Now](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)                                                         |
 
 * Connect Grove - Digital light Sensor to **I2C** port of base shield.
 * Plug the base Shield into Arduino.
 * Connect Arduino to PC by using a USB cable.
 
-![](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/arduino%20connection.jpg)
+![](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/img/arduino%20connection.jpg)
 
 #### Software
 
-* Download the library from here [Digital Light Sensor Library](https://github.com/Seeed-Studio/Grove_Digital_Light_Sensor/archive/master.zip);
-* Please follow [how to install an arduino library](http://wiki.seeed.cc/How_to_install_Arduino_Library/) procedures to install library.
-* Open the code directly by the path: **File -&gt; Example -&gt;Digital\_Light\_Sensor-&gt;Digital\_Light\_Sensor**.
+* Download the library from here [Digital Light Sensor Library](https://github.com/Seeed-Studio/Grove\_Digital\_Light\_Sensor/archive/master.zip);
+* Please follow [how to install an arduino library](http://wiki.seeed.cc/How\_to\_install\_Arduino\_Library/) procedures to install library.
+* Open the code directly by the path: **File -> Example ->Digital\_Light\_Sensor->Digital\_Light\_Sensor**.
 
-![](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/library%20example.jpg)
+![](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/img/library%20example.jpg)
 
-* Or copy below code to IDE and upload to Arduino.
+*   Or copy below code to IDE and upload to Arduino.
 
-  ```text
-    /*
-     * Digital_Light_Sensor.ino
-     * A library for TSL2561
-     *
-     * Copyright (c) 2012 seeed technology inc.
-     * Website    : www.seeed.cc
-     * Author     : zhangkun
-     * Create Time:
-     * Change Log :
-     *
-     * The MIT License (MIT)
-     *
-     * Permission is hereby granted, free of charge, to any person obtaining a copy
-     * of this software and associated documentation files (the "Software"), to deal
-     * in the Software without restriction, including without limitation the rights
-     * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-     * copies of the Software, and to permit persons to whom the Software is
-     * furnished to do so, subject to the following conditions:
-     *
-     * The above copyright notice and this permission notice shall be included in
-     * all copies or substantial portions of the Software.
-     *
-     * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-     * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-     * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-     * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-     * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-     * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-     * THE SOFTWARE.
-     */
+    ```
+      /*
+       * Digital_Light_Sensor.ino
+       * A library for TSL2561
+       *
+       * Copyright (c) 2012 seeed technology inc.
+       * Website    : www.seeed.cc
+       * Author     : zhangkun
+       * Create Time:
+       * Change Log :
+       *
+       * The MIT License (MIT)
+       *
+       * Permission is hereby granted, free of charge, to any person obtaining a copy
+       * of this software and associated documentation files (the "Software"), to deal
+       * in the Software without restriction, including without limitation the rights
+       * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+       * copies of the Software, and to permit persons to whom the Software is
+       * furnished to do so, subject to the following conditions:
+       *
+       * The above copyright notice and this permission notice shall be included in
+       * all copies or substantial portions of the Software.
+       *
+       * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+       * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+       * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+       * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+       * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+       * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+       * THE SOFTWARE.
+       */
 
-    #include <Wire.h>
-    #include <Digital_Light_TSL2561.h>
-    void setup()
-    {
-      Wire.begin();
-      Serial.begin(9600);
-      TSL2561.init();
-    }
+      #include <Wire.h>
+      #include <Digital_Light_TSL2561.h>
+      void setup()
+      {
+        Wire.begin();
+        Serial.begin(9600);
+        TSL2561.init();
+      }
 
-    void loop()
-    {
-      Serial.print("The Light value is: ");
-      Serial.println(TSL2561.readVisibleLux());
-      delay(1000);
-    }
-  ```
-
+      void loop()
+      {
+        Serial.print("The Light value is: ");
+        Serial.println(TSL2561.readVisibleLux());
+        delay(1000);
+      }
+    ```
 * Open the serial monitor to monitor the result.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Digital_Light_Sensor_Score_Picture.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/img/Digital\_Light\_Sensor\_Score\_Picture.jpg)
 
 ### With Raspberry Pi
 
@@ -153,31 +152,30 @@ Here we will show you how this Grove - Digital light sensor works via a simple d
 
 First of all, we need to prepare the below stuffs:
 
-| Raspberry pi | Grove - Digital light sensor | GrovePi\_Plus |
-| :--- | :--- | :--- |
-| ![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/pi.jpg) | ![enter image description here](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/digital%20light%20sensor_s.jpg) | ![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/grovepi%2B.jpg) |
-| [Get ONE Now](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html) | [Get ONE Now](https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html) | [Get ONE Now](https://www.seeedstudio.com/GrovePi%2B-p-2241.html) |
+| Raspberry pi                                                                                                                          | Grove - Digital light sensor                                                                                                                  | GrovePi\_Plus                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![enter image description here](https://github.com/SeeedDocument/Grove-Temperature\_and\_Humidity\_Sensor\_Pro/raw/master/img/pi.jpg) | ![enter image description here](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/img/digital%20light%20sensor\_s.jpg) | ![enter image description here](https://github.com/SeeedDocument/Grove-Temperature\_and\_Humidity\_Sensor\_Pro/raw/master/img/grovepi%2B.jpg) |
+| [Get ONE Now](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html)                                                         | [Get ONE Now](https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)                                                             | [Get ONE Now](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)                                                                             |
 
-* Follow [instruction](http://wiki.seeed.cc/GrovePi_Plus/) to configure the development environment.
+* Follow [instruction](http://wiki.seeed.cc/GrovePi\_Plus/) to configure the development environment.
 * Plug the sensor to grovepi+ socket **I2C** by using a grove cable.
 
-![](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/pi%20connection.jpg)
+![](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/img/pi%20connection.jpg)
 
 #### Software
 
-* Navigate to the demos' directory:
+*   Navigate to the demos' directory:
 
-  ```text
-    cd yourpath/GrovePi/Software/Python/grove_i2c_digital_light_sensor/
-  ```
-
+    ```
+      cd yourpath/GrovePi/Software/Python/grove_i2c_digital_light_sensor/
+    ```
 * To see the code
 
-```text
+```
     nano grove_i2c_digital_light_sensor.py  # "Ctrl+x" to exit #
 ```
 
-```text
+```
     import time
     import smbus
     from Adafruit_I2C import Adafruit_I2C
@@ -479,21 +477,19 @@ First of all, we need to prepare the below stuffs:
             main()
 ```
 
-* Run the demo.
+*   Run the demo.
 
-  ```text
-    sudo python grove_i2c_digital_light_sensor.py
-  ```
-
+    ```
+      sudo python grove_i2c_digital_light_sensor.py
+    ```
 * Here is the Result.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Grovepi_digital_light_sensor_00.png)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/img/Grovepi\_digital\_light\_sensor\_00.png)
 
 ## Resources
 
-* **\[Eagle\]** [Grove - Digital Light Sensor Eagle File](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/res/Grove-Digital%20%20light%20%20sensor%20v1.0%20eagle%20file.zip)
-* **\[PDF\]** [Grove - Digital Light Sensor Sch PDF File](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/res/Digital%20light%20sensor%20v1.0%20Sch.pdf)
-* **\[PDF\]** [Grove - Digital Light Sensor PCB PDF File](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/res/Digital%20light%20sensor%20v1.0%20PCB.pdf)
-* **\[Library\]** [Library Github Grove-Digital Light](https://github.com/Seeed-Studio/Grove_Digital_Light_Sensor/archive/master.zip)
-* **\[Datasheet\]** [TSL2561 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/res/TSL2561T.pdf)
-
+* **\[Eagle]** [Grove - Digital Light Sensor Eagle File](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/res/Grove-Digital%20%20light%20%20sensor%20v1.0%20eagle%20file.zip)
+* **\[PDF]** [Grove - Digital Light Sensor Sch PDF File](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/res/Digital%20light%20sensor%20v1.0%20Sch.pdf)
+* **\[PDF]** [Grove - Digital Light Sensor PCB PDF File](https://github.com/SeeedDocument/Grove-Digital\_Light\_Sensor/raw/master/res/Digital%20light%20sensor%20v1.0%20PCB.pdf)
+* **\[Library]** [Library Github Grove-Digital Light](https://github.com/Seeed-Studio/Grove\_Digital\_Light\_Sensor/archive/master.zip)
+* **\[Datasheet]** [TSL2561 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital\_Light\_Sensor/master/res/TSL2561T.pdf)

@@ -5,17 +5,17 @@ bzurl: >-
   https://www.seeedstudio.com/Particle-Photon-Base-Shield-p-2598.html?cPath=98_106_57
 oldwikiname: Grove Base Shield for Photon
 prodimagename: Grove_Base_Shield_for_Photon_product_view_1200_s.jpg
-surveyurl: 'https://www.research.net/r/Grove_Base_Shield_for_Photon'
+surveyurl: https://www.research.net/r/Grove_Base_Shield_for_Photon
 sku: 103020031
 ---
 
 # Grove Base Shield for Photon
 
-![](https://github.com/SeeedDocument/Grove_Base_Shield_for_Photon/raw/master/img/Grove_Base_Shield_for_Photon_product_view_1200_s.jpg)
+![](https://github.com/SeeedDocument/Grove\_Base\_Shield\_for\_Photon/raw/master/img/Grove\_Base\_Shield\_for\_Photon\_product\_view\_1200\_s.jpg)
 
-**Grove Base Shield for Photon** is an expansion shield board which incorporate [Grove](/Grove_System) port on which you can build more powerful and intelligent applications with much richer and cost-effective Grove functional modules. It gets three digital ports, two analog ports, two I2C ports and one UART port. It a kind of plug-and-play board which will accelerate your prototyping process dramatically.
+**Grove Base Shield for Photon** is an expansion shield board which incorporate [Grove](https://app.gitbook.com/Grove\_System) port on which you can build more powerful and intelligent applications with much richer and cost-effective Grove functional modules. It gets three digital ports, two analog ports, two I2C ports and one UART port. It a kind of plug-and-play board which will accelerate your prototyping process dramatically.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Particle-Photon-Base-Shield-p-2598.html?cPath=98_106_57)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get\_One\_Now\_Banner-ragular.png)](https://www.seeedstudio.com/Particle-Photon-Base-Shield-p-2598.html?cPath=98\_106\_57)
 
 ## Features
 
@@ -30,19 +30,19 @@ sku: 103020031
 ## Specification
 
 |  Grove ports |  3 digital ports 2 analog ports 2 I2C ports 1 UART port. |
-| :--- | :--- |
-|  Dimensions |  53 × 53 mm |
-|  Weight |  18g |
+| ------------ | -------------------------------------------------------- |
+|  Dimensions  |  53 × 53 mm                                              |
+|  Weight      |  18g                                                     |
 
 ## Hardware Overview
 
-![](https://github.com/SeeedDocument/Grove_Base_Shield_for_Photon/raw/master/img/Grove_Base_Shield_for_Photon_component_diagram_annotated_1200_s.jpg)
+![](https://github.com/SeeedDocument/Grove\_Base\_Shield\_for\_Photon/raw/master/img/Grove\_Base\_Shield\_for\_Photon\_component\_diagram\_annotated\_1200\_s.jpg)
 
 ### **Parts list**
 
-| Parts name |  Quantity |
-| :--- | :--- |
-|  Grove Base Shield for Photon |  1PC |
+| Parts name                    |  Quantity |
+| ----------------------------- | --------- |
+|  Grove Base Shield for Photon |  1PC      |
 
 ## Getting Started
 
@@ -51,30 +51,30 @@ sku: 103020031
 ### Material required
 
 * [Particle Photon](http://www.seeedstudio.com/depot/Particle-Photon-p-2527.html) × 1
-* USB cable \(type A to micro type-B\) × 1
+* USB cable (type A to micro type-B) × 1
 * A PC or Mac
 * Grove Base Shield for Photon × 1
 * [Grove - Buzzer](http://www.seeedstudio.com/depot/Grove-Buzzer-p-768.html?cPath=38) × 1
 
 ### Buzzing
 
- 1. Refer to \[here\]\(https://docs.particle.io/guide/getting-started/connect/core/\) to connect to a device \(PC or Mac\).
+&#x20;1\. Refer to \[here]\(https://docs.particle.io/guide/getting-started/connect/core/) to connect to a device (PC or Mac).
 
-!!!Note 1. We recommend that you choose **node.js v4.2.3 LTS** especially for Windows 10 user. 2. You may need to one more steps after run command **particle setup**, that is, connect you device \(PC or Mac\) to a wi-fi AP whose name contain **Photon**, especially on Windows 10.
+!!!Note 1. We recommend that you choose **node.js v4.2.3 LTS** especially for Windows 10 user. 2. You may need to one more steps after run command **particle setup**, that is, connect you device (PC or Mac) to a wi-fi AP whose name contain **Photon**, especially on Windows 10.
 
- 2. Use \[Web IDE\]\(https://build.particle.io/\) for your project. Login with your account and choose your device \(click the 2nd last icon on left column\).
+&#x20;2\. Use \[Web IDE]\(https://build.particle.io/) for your project. Login with your account and choose your device (click the 2nd last icon on left column).
 
 !!!Note We recommend you choose [Web IDE](https://build.particle.io/) to compile or flashing your code to Photon which is much quicker than using Particle Dev, if your internet connectivity is not so good.
 
- 3. Connect them like following:
+&#x20;3\. Connect them like following:
 
-![](https://github.com/SeeedDocument/Grove_Base_Shield_for_Photon/raw/master/img/Grove_Base_Shield_for_Photon_demo_conneciton_1200_S.jpg)
+![](https://github.com/SeeedDocument/Grove\_Base\_Shield\_for\_Photon/raw/master/img/Grove\_Base\_Shield\_for\_Photon\_demo\_conneciton\_1200\_S.jpg)
 
- 4. Now you can copy following code to Web IDE and flash them to Photo by clicking a lighting-like icon \(the 1st icon on left column\).
+&#x20;4\. Now you can copy following code to Web IDE and flash them to Photo by clicking a lighting-like icon (the 1st icon on left column).
 
 !!!Note Copy the code only to the tab named _**filename.ino**_.
 
-```text
+```
 /*
    Buzzing
    Use digital pin D4
@@ -106,6 +106,5 @@ void loop() {
 
 ## Resources
 
-* [Schematic files](https://github.com/SeeedDocument/Grove_Base_Shield_for_Photon/raw/master/res/Schematic_files_for_Grove_Base_Shield_for_Photon.zip)
-* [Grove\_System](/Grove_System)
-
+* [Schematic files](https://github.com/SeeedDocument/Grove\_Base\_Shield\_for\_Photon/raw/master/res/Schematic\_files\_for\_Grove\_Base\_Shield\_for\_Photon.zip)
+* [Grove\_System](https://app.gitbook.com/Grove\_System)

@@ -1,30 +1,30 @@
 ---
 oldwikiname: Grove_-_315MHz_RF_Kit
-bzprodimageurl: 'http://statics3.seeedstudio.com/images/product/315MHz Simple RF Link Kit.jpg'
+bzprodimageurl: http://statics3.seeedstudio.com/images/product/315MHz Simple RF Link Kit.jpg
 prodimagename: 315MHz-Simple-RF-Link-Kit.jpg
-surveyurl: 'https://www.research.net/r/Grove-315MHz_RF_Kit'
-bzurl: 'https://seeedstudio.com/Grove-315MHz-Simple-RF-Link-Kit-p-1061.html'
+surveyurl: https://www.research.net/r/Grove-315MHz_RF_Kit
+bzurl: https://seeedstudio.com/Grove-315MHz-Simple-RF-Link-Kit-p-1061.html
 title: Grove - 315MHz RF Kit
-tags: 'grove_uart, io_5v, plat_duino'
+tags: grove_uart, io_5v, plat_duino
 sku: 113020001
 category: Communication
 ---
 
 # Grove 315MHz RF Kit
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/img/315MHz-Simple-RF-Link-Kit.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz\_RF\_Kit/master/img/315MHz-Simple-RF-Link-Kit.jpg)
 
 This kit is used for one way wireless communication at a frequency of 315MHz and includes a transmitter module and a receiver module. The twig configuration of this kit allows for around 40 meters of transmitting distance indoors, or around 100 meters outside. The 315 MHz frequency is suitable for use without a license in the United States. For use in Europe, please see the 433 MHz version of this product.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove-315MHz-Simple-RF-Link-Kit-p-1061.html)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)](http://www.seeedstudio.com/Grove-315MHz-Simple-RF-Link-Kit-p-1061.html)
 
 ## Features
 
 * GROVE compatible interface.
-* Uses ASK \(Amplitude Shift Keying\) Modulation.
+* Uses ASK (Amplitude Shift Keying) Modulation.
 * One way communication.
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Application Ideas
 
@@ -47,15 +47,15 @@ Both the transmitter and receiver modules require three wires: Vcc, Ground, and 
 
 ### Hardware Installation
 
-Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](/Base_Shield_V2) on the arduino being used for transmission.
+Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](https://app.gitbook.com/Base\_Shield\_V2) on the arduino being used for transmission.
 
-Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](/Base_Shield_V2) on the receiving arduino.
+Connect the Transmitter module to Digital I/O 2 of the [Grove-Base Shield V2](https://app.gitbook.com/Base\_Shield\_V2) on the receiving arduino.
 
 ### Programming
 
 Sample code for Transmitter:
 
-```text
+```
 #include <VirtualWire.h>
 
 int RF_TX_PIN = 2;
@@ -77,7 +77,7 @@ void loop()
 
 Sample code for Receiver:
 
-```text
+```
 #include <VirtualWire.h>
 
 int RF_RX_PIN = 2;
@@ -112,8 +112,7 @@ void loop()
 
 ## Resources
 
-* Demo code: [433MHz demo.zip](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/res/433MHz_demo.zip)
+* Demo code: [433MHz demo.zip](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz\_RF\_Kit/master/res/433MHz\_demo.zip)
 * [VirtualWire 1.27](http://www.airspayce.com/mikem/arduino/VirtualWire/VirtualWire-1.27.zip)
 * [VirtualWire Documentation](http://www.open.com.au/mikem/arduino/VirtualWire.pdf)
-* [TI:LM358PSR](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz_RF_Kit/master/res/1110010P1.pdf)
-
+* [TI:LM358PSR](https://raw.githubusercontent.com/SeeedDocument/Grove-315MHz\_RF\_Kit/master/res/1110010P1.pdf)

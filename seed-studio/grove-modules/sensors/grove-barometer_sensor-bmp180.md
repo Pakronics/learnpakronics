@@ -4,34 +4,34 @@ bzprodimageurl: >-
   http://statics3.seeedstudio.com/images/product/Grove Barometer Sensor
   BMP180.jpg
 prodimagename: Barometer-BMP180-.jpg
-surveyurl: 'https://www.research.net/r/Grove-Barometer_Sensor-BMP180'
-bzurl: 'https://seeedstudio.com/Grove-Barometer-Sensor-(BMP180)-p-1840.html'
+surveyurl: https://www.research.net/r/Grove-Barometer_Sensor-BMP180
+bzurl: https://seeedstudio.com/Grove-Barometer-Sensor-(BMP180)-p-1840.html
 title: Grove - Barometer Sensor (BMP180)
-tags: 'grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi'
+tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi
 sku: 101020072
 category: Sensor
 ---
 
 # Grove Barometer Sensor BMP180
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/img/Barometer-BMP180-.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer\_Sensor-BMP180/master/img/Barometer-BMP180-.jpg)
 
 This is a Grove module for the Bosch BMP180 high-precision, low-power digital barometer. The BMP180 offers a pressure measuring range of 300 to 1100 hPa with an accuracy down to 0.02 hPa in advanced resolution mode. It’s based on piezo-resistive technology for high accuracy, ruggedness and long term stability. The chip only accepts 1.8V to 3.6V input voltage. However, with outer circuit added, this module becomes compatible with 3.3V and 5V. Therefore, it can be used on Arduino/Seeeduino or Seeeduino Stalker without modification.It is designed to be connected directly to a micro-controller via the I2C bus.
 
-\[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)\]\([http://www.seeedstudio.com/Grove-Barometer-Sensor-\(BMP180\)-p-1840.html](http://www.seeedstudio.com/Grove-Barometer-Sensor-%28BMP180%29-p-1840.html)\)
+\[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get\_One\_Now\_Banner.png)]\([http://www.seeedstudio.com/Grove-Barometer-Sensor-(BMP180)-p-1840.html](http://www.seeedstudio.com/Grove-Barometer-Sensor-\(BMP180\)-p-1840.html))
 
 ## Features
 
-* Digital two wire \(I2C\) interface
+* Digital two wire (I2C) interface
 * Wide barometric pressure range
 * Flexible supply voltage range
 * Ultra-low power consumption
 * Low noise measurement
 * Factory-calibrated
-* -40 to +85°C operational range, ±2°C temperature accuracy
+* \-40 to +85°C operational range, ±2°C temperature accuracy
 * I2C address: 0x77
 
-!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!Tip More details about Grove modules please refer to [Grove System](http://wiki.seeed.cc/Grove\_System/)
 
 ## Application Ideas
 
@@ -39,33 +39,33 @@ This is a Grove module for the Bosch BMP180 high-precision, low-power digital ba
 * Indoor and outdoor navigation
 * Leisure and sports
 * Weather forecast
-* Vertical velocity indication \(rise/sink speed\)
+* Vertical velocity indication (rise/sink speed)
 
 ## Specifications
 
-|  Item |  Min |  Typical |  Max |  Unit |
-| :--- | :--- | :--- | :--- | :--- |
-|  Voltage |  3 |  5 |  5.5 |  VDC |
-|  Current |  1.1 |  / |  20 |  uA |
-|  Pressure Range |  300 |  / |  1100 |  hPa |
-|  Faster I2C data transfer |  / |  / |  3.4 |  MHZ |
-|  Dimension |  40.1\*20.2\*9.7 |  mm |  |  |
+|  Item                     |  Min             |  Typical |  Max  |  Unit |
+| ------------------------- | ---------------- | -------- | ----- | ----- |
+|  Voltage                  |  3               |  5       |  5.5  |  VDC  |
+|  Current                  |  1.1             |  /       |  20   |  uA   |
+|  Pressure Range           |  300             |  /       |  1100 |  hPa  |
+|  Faster I2C data transfer |  /               |  /       |  3.4  |  MHZ  |
+|  Dimension                |  40.1\*20.2\*9.7 |  mm      |       |       |
 
 ## Platforms Supported
 
 ## Usage
 
-### With [Arduino](/Arduino)
+### With [Arduino](https://app.gitbook.com/Arduino)
 
-Barometric condition is one of the criteria used to predict coming change in weather and deduce altitude above sea level. Here is a demo to show you how to read the barometric data from this Grove - Barometer Sensor \(BMP180\).
+Barometric condition is one of the criteria used to predict coming change in weather and deduce altitude above sea level. Here is a demo to show you how to read the barometric data from this Grove - Barometer Sensor (BMP180).
 
 1.Connect it to IIC port of Seeeduino or Grove - Base Shield via a Grove cable. And connect Arduino to PC via a USB cable.
 
-2.Download [the library](https://github.com/Seeed-Studio/Grove_Barometer_Sensor)\(the barometer library is shared by Grove - Barometer Sensor \(BMP180\) and Grove - Barometer Sensor\(BMP085\)\);Unzip it into the libraries file of Arduino IDE by the path: ..\arduino-1.0.1\libraries.
+2.Download [the library](https://github.com/Seeed-Studio/Grove\_Barometer\_Sensor)(the barometer library is shared by Grove - Barometer Sensor (BMP180) and Grove - Barometer Sensor(BMP085));Unzip it into the libraries file of Arduino IDE by the path: ..\arduino-1.0.1\libraries.
 
-3.Create a new Arduino sketch and paste the codes below to it or open the code directly by the path:File -&gt; Example -&gt;Barometer\_Sensor-&gt;Barometer\_Sensor.
+3.Create a new Arduino sketch and paste the codes below to it or open the code directly by the path:File -> Example ->Barometer\_Sensor->Barometer\_Sensor.
 
-```text
+```
     /* Barometer demo V1.0
     * Based largely on code by  Jim Lindblom
     * Get pressure, altitude, and temperature from the BMP085.
@@ -116,35 +116,35 @@ Barometric condition is one of the criteria used to predict coming change in wea
 
 4.Open the serial monitor to receive the sensor's data including temperature, barometric pressure value, relative atmosphere pressure and altitude.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/img/Barometer_Sensor.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer\_Sensor-BMP180/master/img/Barometer\_Sensor.jpg)
 
 The following is a reference graph plotting out the relationship between altitude above sea level and barometric pressure.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/img/Pressure_and_Altitude.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer\_Sensor-BMP180/master/img/Pressure\_and\_Altitude.jpg)
 
 ### With Raspberry Pi
 
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here](/GrovePiPlus).
+2.You should have completed configuring the development enviroment, otherwise follow [here](https://app.gitbook.com/GrovePiPlus).
 
 3.Connection
 
-* Plug the sensor to grovepi socket i2c-x\(1~3\) by using a grove cable.
+* Plug the sensor to grovepi socket i2c-x(1\~3) by using a grove cable.
 
 4.Navigate to the demos' directory:
 
-```text
+```
    cd yourpath/GrovePi/Software/Python/grove_barometer/adafruit
 ```
 
 * To see the code
 
-```text
+```
     nano grove_i2c_barometic_sensor_example.py   # "Ctrl+x" to exit #
 ```
 
-```text
+```
     #!/usr/bin/python
 
     import smbus
@@ -193,17 +193,16 @@ The following is a reference graph plotting out the relationship between altitud
 
 5.Run the demo.
 
-```text
+```
     sudo python grove_i2c_barometic_sensor_example.py
 ```
 
 6.Result
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/img/Grovepi_barometer_sensor_00.png)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer\_Sensor-BMP180/master/img/Grovepi\_barometer\_sensor\_00.png)
 
 ## Resources
 
-* [Grove - Barometer Sensor\(BMP180\) Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/res/Barometer_Sensor-BMP180-Eagle_File.zip)
-* [Barometer\_Sensor Library](https://github.com/Seeed-Studio/Grove_Barometer_Sensor)
-* [BMP180 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BMP180/master/res/BMP180.pdf)
-
+* [Grove - Barometer Sensor(BMP180) Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer\_Sensor-BMP180/master/res/Barometer\_Sensor-BMP180-Eagle\_File.zip)
+* [Barometer\_Sensor Library](https://github.com/Seeed-Studio/Grove\_Barometer\_Sensor)
+* [BMP180 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer\_Sensor-BMP180/master/res/BMP180.pdf)
