@@ -6,3 +6,10 @@ description: >-
 
 # Educational STEM Products
 
+For STEM solution for your school, please reach out at inquiry@pakronics.com.au
+
+New Courses added 2026 are;
+
+1. ## Micro:bit&#x20;
+2. ## Arduino Nano 33 IoT
+
